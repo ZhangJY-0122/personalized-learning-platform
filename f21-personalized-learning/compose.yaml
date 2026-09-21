@@ -1,0 +1,41 @@
+name: f21-preflight
+services:
+  mysql:
+    image: mysql:8.4.6
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-f21_prep}
+      MYSQL_USER: ${MYSQL_USER:-f21}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-f21_local_demo_only}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-f21_root_local_demo_only}
+    volumes:
+      - f21-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h localhost -u root -p$$MYSQL_ROOT_PASSWORD --silent"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+  server:
+    build:
+      context: .
+      dockerfile: server/Dockerfile
+    restart: unless-stopped
+    environment:
+      DB_URL: jdbc:mysql://mysql:3306/${MYSQL_DATABASE:-f21_prep}?useUnicode=true&characterEncoding=UTF-8
+      DB_USER: ${MYSQL_USER:-f21}
+      DB_PASSWORD: ${MYSQL_PASSWORD:-f21_local_demo_only}
+      JWT_SECRET: ${JWT_SECRET:?Run bash scripts/init-env.sh first}
+      WORKER_ENABLED: ${WORKER_ENABLED:-true}
+      FLYWAY_BASELINE_ON_MIGRATE: "true"
+      DASHBOARD_ROOT: /app/dashboard
+    depends_on:
+      mysql:
+        condition: service_healthy
+    ports: ["127.0.0.1:${SERVER_PORT:-18083}:8083"]
+  web:
+    build: ./web
+    restart: unless-stopped
+    depends_on: [server]
+    ports: ["127.0.0.1:${WEB_PORT:-15173}:80"]
+volumes:
+  f21-data:
