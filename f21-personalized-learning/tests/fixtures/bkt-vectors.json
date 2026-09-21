@@ -1,0 +1,80 @@
+[
+  {
+    "before": 0.2,
+    "correct": false,
+    "weight": 1.0,
+    "expected": 0.12727272727272726,
+    "exactNumerator": "7",
+    "exactDenominator": "55"
+  },
+  {
+    "before": 0.12727272727272726,
+    "correct": false,
+    "weight": 1.0,
+    "expected": 0.11611253196930946,
+    "exactNumerator": "227",
+    "exactDenominator": "1955"
+  },
+  {
+    "before": 0.11611253196930946,
+    "correct": false,
+    "weight": 1.0,
+    "expected": 0.11453989039925984,
+    "exactNumerator": "8047",
+    "exactDenominator": "70255"
+  },
+  {
+    "before": 0.11453989039925984,
+    "correct": true,
+    "weight": 1.0,
+    "expected": 0.4311371222166339,
+    "exactNumerator": "47147",
+    "exactDenominator": "109355"
+  },
+  {
+    "before": 0.4311371222166339,
+    "correct": true,
+    "weight": 1.0,
+    "expected": 0.795942333240393,
+    "exactNumerator": "242647",
+    "exactDenominator": "304855"
+  },
+  {
+    "before": 0.795942333240393,
+    "correct": true,
+    "weight": 1.0,
+    "expected": 0.9514892521961548,
+    "exactNumerator": "1220147",
+    "exactDenominator": "1282355"
+  },
+  {
+    "before": 0.9514892521961548,
+    "correct": true,
+    "weight": 1.0,
+    "expected": 0.9899174291778332,
+    "exactNumerator": "6107647",
+    "exactDenominator": "6169855"
+  },
+  {
+    "before": 0.9899174291778332,
+    "correct": true,
+    "weight": 1.0,
+    "expected": 0.9979675473427874,
+    "exactNumerator": "30545147",
+    "exactDenominator": "30607355"
+  },
+  {
+    "before": 0.9979675473427874,
+    "correct": true,
+    "weight": 1.0,
+    "expected": 0.9995928658723489,
+    "exactNumerator": "152732647",
+    "exactDenominator": "152794855"
+  },
+  {
+    "before": 0.2,
+    "correct": false,
+    "weight": 0.5,
+    "expected": 0.16363636363636364
+  }
+]
