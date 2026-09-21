@@ -1,0 +1,24 @@
+{
+  "verifiedAt": "2026-09-14T05:16:00Z",
+  "scenarios": [
+    {
+      "id": "G4-DB-02",
+      "passed": true,
+      "composeProject": "f21-g4-db02-7f4a",
+      "serverPort": 18102,
+      "volume": "f21-g4-db02-7f4a_f21-data",
+      "baseline": {"flyway": ["1", "2", "3", "4", "5"], "counts": {"local_user": 5, "course": 2, "chapter": 3, "knowledge_point": 8, "resource": 13, "question": 40, "course_enrollment": 1, "catalog_snapshot": 2, "learner_course_state": 0, "mastery_state": 0, "recommendation_batch": 0, "recommendation_item": 0, "recommendation_feedback": 0, "resource_activity": 0}},
+      "after": {"flyway": ["1", "2", "3", "4", "5", "6", "7"], "healthStage": "G4_PATHS", "countsPreserved": true}
+    },
+    {
+      "id": "G4-DB-03",
+      "passed": true,
+      "composeProject": "f21-g4-db03-d831",
+      "serverPort": 18104,
+      "volume": "f21-g4-db03-d831_f21-data",
+      "baseline": {"flyway": ["1", "2", "3", "4", "5", "6"], "counts": {"local_user": 5, "course": 2, "chapter_snapshot": 3, "catalog_snapshot": 2, "learning_path": 0, "rebuild_job": 0}},
+      "after": {"flyway": ["1", "2", "3", "4", "5", "6", "7"], "healthStage": "G4_PATHS", "countsPreserved": true},
+      "failureReproduced": "Historical 87339f3 V6 failed on chapter_snapshot course_id backfill; fixed baseline d71a364 was then verified before V6-to-V7 upgrade."
+    }
+  ]
+}
