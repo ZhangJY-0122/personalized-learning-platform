@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "desktopViewport": "1440x1000",
+  "baselineSubmissions": 0,
+  "finalSubmissions": 2,
+  "serverGrading": true,
+  "masteryAndHistory": true,
+  "lostResponseRetrySameKey": true,
+  "reloadRestoresPendingIntent": true,
+  "noDuplicateSubmission": true,
+  "pageErrors": [],
+  "externalRequests": []
+}
