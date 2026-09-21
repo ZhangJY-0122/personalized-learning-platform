@@ -1,0 +1,102 @@
+{
+  "purpose": "PIPELINE_SMOKE_ONLY",
+  "dataType": "SYNTHETIC_DEMO",
+  "students": 36,
+  "interactions": 2160,
+  "split": {
+    "train": [
+      0,
+      42
+    ],
+    "validation": [
+      42,
+      48
+    ],
+    "test": [
+      48,
+      60
+    ]
+  },
+  "seed": 20260909,
+  "datasetHash": "1a1bd4b2ad8050cd160f25fe8dfa990adf0671c0c82f67575e263fbb15ea312b",
+  "baselineParameters": "fixed demo parameters; fitted BKT deferred to final research",
+  "window": "60-step smoke sequence, next-step targets; final experiment window100",
+  "rules": {
+    "auc": 0.6372360565021115,
+    "accuracy": 0.6574074074074074,
+    "rmse": 0.4664048065188098,
+    "logLoss": 0.6238483327338059,
+    "samples": 432
+  },
+  "BKT": {
+    "auc": 0.6276103101791175,
+    "accuracy": 0.7361111111111112,
+    "rmse": 0.44257247318122034,
+    "logLoss": 0.5934398895207175,
+    "samples": 432
+  },
+  "runs": [
+    {
+      "seed": 11,
+      "validationLogLoss": 0.6519337892532349,
+      "DKT": {
+        "auc": 0.5370321829037425,
+        "accuracy": 0.6319444444444444,
+        "rmse": 0.4672277879133461,
+        "logLoss": 0.6283164548010751,
+        "samples": 432
+      },
+      "reloadEqual": true
+    },
+    {
+      "seed": 22,
+      "validationLogLoss": 0.6360964775085449,
+      "DKT": {
+        "auc": 0.5581767875345857,
+        "accuracy": 0.7569444444444444,
+        "rmse": 0.45360537777597887,
+        "logLoss": 0.6028350341265712,
+        "samples": 432
+      },
+      "reloadEqual": true
+    },
+    {
+      "seed": 33,
+      "validationLogLoss": 0.6461400389671326,
+      "DKT": {
+        "auc": 0.5594874035241006,
+        "accuracy": 0.6944444444444444,
+        "rmse": 0.4655924546790003,
+        "logLoss": 0.6252966663996724,
+        "samples": 432
+      },
+      "reloadEqual": true
+    }
+  ],
+  "limitations": [
+    "Synthetic data only",
+    "small hidden16 model for smoke; final architecture separate",
+    "not evidence of teaching benefit",
+    "not final tuned/fitted experiment"
+  ],
+  "torch": "2.8.0",
+  "python": "3.13.14 (v3.13.14:fd17997c386, Jun 10 2026, 08:55:00) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "DKT_mean_std": {
+    "auc": {
+      "mean": 0.5515654579874764,
+      "std": 0.012603233397132657
+    },
+    "accuracy": {
+      "mean": 0.6944444444444443,
+      "std": 0.0625
+    },
+    "rmse": {
+      "mean": 0.4621418734561084,
+      "std": 0.007437902766875349
+    },
+    "logLoss": {
+      "mean": 0.6188160517757729,
+      "std": 0.013922085846789741
+    }
+  }
+}
