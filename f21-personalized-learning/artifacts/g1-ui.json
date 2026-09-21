@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "roles": 3,
+  "unauthorizedAccounts": 2,
+  "resources": 12,
+  "questions": 40,
+  "sessionRefresh": true,
+  "mobileWidth": 390,
+  "pageErrors": [],
+  "externalRequests": []
+}
