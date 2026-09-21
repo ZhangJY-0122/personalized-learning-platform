@@ -1,0 +1,113 @@
+{
+  "passed": true,
+  "verifiedAt": "2026-09-16T17:00:58Z",
+  "gitCommit": "e3b02a544c9c7e1ffe9371f6e090bfd85ecbf863",
+  "generator": {
+    "script": "scripts/clean_split_assistments.py",
+    "schemaVersion": "g5-interaction-v1"
+  },
+  "reproduceCommand": "python3 -m scripts.clean_split_assistments --raw data/raw/assistments-2009-2010-skill-builder-corrected/assistments-2009-2010-skill-builder-corrected.csv --source-manifest data/manifests/assistments-2009-2010-corrected.json --clean-output data/processed/assistments-clean.jsonl --map-output data/processed/external_id_map.json --cleaning-report artifacts/g5-cleaning-report.json --split-output data/processed/g5-split-assignments.jsonl --split-report artifacts/g5-split-report.json --split-manifest data/manifests/g5-split-manifest.json",
+  "environment": {
+    "pythonVersion": "3.13.14 (v3.13.14:fd17997c386, Jun 10 2026, 08:55:00) [Clang 21.0.0 (clang-2100.1.1.101)]",
+    "pythonImplementation": "CPython",
+    "os": "Darwin",
+    "osRelease": "25.5.0",
+    "machine": "arm64"
+  },
+  "schemaVersion": "g5-interaction-v1",
+  "inputRawSha256": "162ef8d2d28bcbfea6591a282994062bd8d5eaa00636544292a0d268dca6e5da",
+  "cleanSha256": "751fa5917ba2bf2db35ab6bf4864689e1e0159e08eed4f33321628aa1b021552",
+  "mapSha256": "2efc183d0006cf1c47c7395a2798b5f4faeec2184f096343367057ecece9155b",
+  "splitSha256": "52168dc474895499359cab820f5da666990c6998ee459302cc76f055d2693098",
+  "partitionHashes": {
+    "SHORT_COVERAGE": "f5f80e24e5d46dd51acb260e54fa58cd6f52a38b42c4f4737e5c7955aacf8b90",
+    "test": "a4700cac1748cba73d0761dd5cfab050b701468360bdbc1dba745233d26416b9",
+    "train": "2e445bb1def97d6de54a49b1ffce9468e022775747dd432c1dc3c793837a086b",
+    "validation": "5e8dfde07c2db789789ad95a81095022cc72cb0fab652deadd1ca5c2ba6488e9"
+  },
+  "inputCleanSha256": "751fa5917ba2bf2db35ab6bf4864689e1e0159e08eed4f33321628aa1b021552",
+  "protocol": {
+    "groupBy": "studentExternalId",
+    "orderBy": [
+      "order_id",
+      "problem_id",
+      "sourceRow"
+    ],
+    "ratios": {
+      "train": 0.7,
+      "validation": 0.1,
+      "test": 0.2
+    },
+    "rounding": "floor with minimum 3/1/1 for sequences length >=5",
+    "minimumMainSequenceLength": 5,
+    "sequencePolicy": "ORDER_ID_SEQUENCE_NOT_REAL_TIME",
+    "seeds": [
+      11,
+      22,
+      33
+    ]
+  },
+  "students": 4217,
+  "eligibleStudents": 3744,
+  "shortStudents": 473,
+  "partitionRows": {
+    "SHORT_COVERAGE": 1108,
+    "test": 71937,
+    "train": 240353,
+    "validation": 33462
+  },
+  "partitionRowsHash": "52168dc474895499359cab820f5da666990c6998ee459302cc76f055d2693098",
+  "splitOutput": {
+    "path": "data/processed/g5-split-assignments.jsonl",
+    "sha256": "52168dc474895499359cab820f5da666990c6998ee459302cc76f055d2693098",
+    "bytes": 51128934,
+    "committed": false
+  },
+  "invariants": {
+    "assignedRows": 346860,
+    "retainedRows": 346860,
+    "assignedExactlyOnce": true,
+    "coverageComplete": true,
+    "noExtraOrMissingSourceRows": true,
+    "studentSequenceUnique": true,
+    "noDuplicateStudentSequence": true,
+    "partitionsDisjoint": true,
+    "sequenceIndexContiguous": true,
+    "partitionOrderValid": true,
+    "shortCoverageIsolated": true,
+    "sourceOrderPreserved": true,
+    "partitionRowsSumValid": true,
+    "assignedRowsEqualsRetained": true,
+    "partitionRows": {
+      "SHORT_COVERAGE": 1108,
+      "test": 71937,
+      "train": 240353,
+      "validation": 33462
+    },
+    "processedFilesIgnored": true,
+    "processedFileStatus": {
+      "gitIgnored": true,
+      "gitTracked": false,
+      "committed": false,
+      "files": {
+        "data/processed/assistments-clean.jsonl": {
+          "gitIgnored": true,
+          "gitTracked": false,
+          "committed": false
+        },
+        "data/processed/external_id_map.json": {
+          "gitIgnored": true,
+          "gitTracked": false,
+          "committed": false
+        },
+        "data/processed/g5-split-assignments.jsonl": {
+          "gitIgnored": true,
+          "gitTracked": false,
+          "committed": false
+        }
+      }
+    },
+    "passed": true
+  },
+  "errors": []
+}
