@@ -1,0 +1,578 @@
+{
+  "passed": true,
+  "verifiedAt": "2026-09-13T07:40:50Z",
+  "project": "f21-g3-check-c977217b",
+  "httpChecks": 139,
+  "migrations": 5,
+  "getReadOnly": true,
+  "emptyBatchStateAccurate": true,
+  "concurrentIdempotency": true,
+  "mixedConcurrencyWithoutRetries": true,
+  "concurrentFeedbackAndResourceIdempotency": true,
+  "resourceDoesNotUpdateBkt": true,
+  "trustedCompletionRollback": true,
+  "rebuildDoesNotDuplicateFeedback": true,
+  "generationRollback": true,
+  "staleAndExpiry": true,
+  "restartConsistency": true,
+  "desktopBrowser": false,
+  "volumeRetained": "f21-g3-check-c977217b_f21-data",
+  "checks": [
+    {
+      "path": "/health",
+      "status": 200
+    },
+    {
+      "path": "/auth/login",
+      "status": 200
+    },
+    {
+      "path": "/auth/login",
+      "status": 200
+    },
+    {
+      "path": "/auth/login",
+      "status": 200
+    },
+    {
+      "path": "/auth/login",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations?courseId=10000000-0000-4000-8000-000000000001",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations?courseId=10000000-0000-4000-8000-000000000001",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations?courseId=10000000-0000-4000-8000-000000000001",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations?courseId=10000000-0000-4000-8000-000000000001",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations?courseId=10000000-0000-4000-8000-000000000001",
+      "status": 403
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations/generate",
+      "status": 403
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations/generate",
+      "status": 400
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations/generate",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations/generate",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations/generate",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations/generate",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations/generate",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations/generate",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations/generate",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations/generate",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations?courseId=10000000-0000-4000-8000-000000000001",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations/generate",
+      "status": 409
+    },
+    {
+      "path": "/recommendations/5ce9f299-ff9f-460b-8881-09d037377de2/feedback",
+      "status": 403
+    },
+    {
+      "path": "/recommendations/5ce9f299-ff9f-460b-8881-09d037377de2/feedback",
+      "status": 400
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/mastery?courseId=10000000-0000-4000-8000-000000000001",
+      "status": 200
+    },
+    {
+      "path": "/resources/50000000-0000-4000-8000-000000000001/completions",
+      "status": 409
+    },
+    {
+      "path": "/recommendations/5ce9f299-ff9f-460b-8881-09d037377de2/feedback",
+      "status": 409
+    },
+    {
+      "path": "/recommendations/5ce9f299-ff9f-460b-8881-09d037377de2/feedback",
+      "status": 200
+    },
+    {
+      "path": "/recommendations/5ce9f299-ff9f-460b-8881-09d037377de2/feedback",
+      "status": 200
+    },
+    {
+      "path": "/recommendations/5ce9f299-ff9f-460b-8881-09d037377de2/feedback",
+      "status": 409
+    },
+    {
+      "path": "/recommendations/5ce9f299-ff9f-460b-8881-09d037377de2/feedback",
+      "status": 200
+    },
+    {
+      "path": "/recommendations/5ce9f299-ff9f-460b-8881-09d037377de2/feedback",
+      "status": 200
+    },
+    {
+      "path": "/recommendations/5ce9f299-ff9f-460b-8881-09d037377de2/feedback",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations?courseId=10000000-0000-4000-8000-000000000001",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/mastery?courseId=10000000-0000-4000-8000-000000000001",
+      "status": 200
+    },
+    {
+      "path": "/resources/50000000-0000-4000-8000-000000000001/views",
+      "status": 200
+    },
+    {
+      "path": "/resources/50000000-0000-4000-8000-000000000001/views",
+      "status": 200
+    },
+    {
+      "path": "/resources/50000000-0000-4000-8000-000000000001/completions",
+      "status": 409
+    },
+    {
+      "path": "/resources/50000000-0000-4000-8000-000000000001/completions",
+      "status": 200
+    },
+    {
+      "path": "/resources/50000000-0000-4000-8000-000000000001/completions",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/mastery?courseId=10000000-0000-4000-8000-000000000001",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations?courseId=10000000-0000-4000-8000-000000000001",
+      "status": 200
+    },
+    {
+      "path": "/recommendations/5ce9f299-ff9f-460b-8881-09d037377de2/feedback",
+      "status": 200
+    },
+    {
+      "path": "/recommendations/710cb0de-ae3a-4f8f-bc0b-89767b2724c6/feedback",
+      "status": 409
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/profile?courseId=10000000-0000-4000-8000-000000000001",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations/generate",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations/generate",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations?courseId=10000000-0000-4000-8000-000000000001",
+      "status": 200
+    },
+    {
+      "path": "/resources/50000000-0000-4000-8000-000000000001",
+      "status": 200
+    },
+    {
+      "path": "/resources/50000000-0000-4000-8000-000000000001",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations?courseId=10000000-0000-4000-8000-000000000001",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations?courseId=10000000-0000-4000-8000-000000000001",
+      "status": 200
+    },
+    {
+      "path": "/health",
+      "status": 200
+    },
+    {
+      "path": "/practice/submissions",
+      "status": 409
+    },
+    {
+      "path": "/practice/submissions",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations/generate",
+      "status": 409
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations?courseId=10000000-0000-4000-8000-000000000001",
+      "status": 200
+    },
+    {
+      "path": "/health",
+      "status": 200
+    },
+    {
+      "path": "/admin/events/9212489c-e4fc-4db5-baca-876e12aed22c/retry",
+      "status": 200
+    },
+    {
+      "path": "/practice/submissions/52b73bfa-238e-4953-9838-4de1e40630c5",
+      "status": 200
+    },
+    {
+      "path": "/practice/submissions/52b73bfa-238e-4953-9838-4de1e40630c5",
+      "status": 200
+    },
+    {
+      "path": "/recommendations/710cb0de-ae3a-4f8f-bc0b-89767b2724c6/feedback",
+      "status": 200
+    },
+    {
+      "path": "/admin/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/rebuild?courseId=10000000-0000-4000-8000-000000000001",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations/generate",
+      "status": 500
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations/generate",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations?courseId=10000000-0000-4000-8000-000000000001",
+      "status": 200
+    },
+    {
+      "path": "/recommendations/ee8dce38-c84b-483e-aeb4-a058a6e9aaa0/feedback",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations?courseId=10000000-0000-4000-8000-000000000001",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations?courseId=10000000-0000-4000-8000-000000000001",
+      "status": 200
+    },
+    {
+      "path": "/health",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations?courseId=10000000-0000-4000-8000-000000000001",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations?courseId=10000000-0000-4000-8000-000000000001",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations?courseId=10000000-0000-4000-8000-000000000001",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations/generate",
+      "status": 409
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations?courseId=10000000-0000-4000-8000-000000000001",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations?courseId=10000000-0000-4000-8000-000000000001",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations/generate",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations/generate",
+      "status": 200
+    },
+    {
+      "path": "/recommendations/710cb0de-ae3a-4f8f-bc0b-89767b2724c6/feedback",
+      "status": 200
+    },
+    {
+      "path": "/recommendations/710cb0de-ae3a-4f8f-bc0b-89767b2724c6/feedback",
+      "status": 200
+    },
+    {
+      "path": "/practice/submissions",
+      "status": 200
+    },
+    {
+      "path": "/practice/submissions",
+      "status": 200
+    },
+    {
+      "path": "/practice/submissions",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations?courseId=10000000-0000-4000-8000-000000000001",
+      "status": 200
+    },
+    {
+      "path": "/recommendations/710cb0de-ae3a-4f8f-bc0b-89767b2724c6/feedback",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations/generate",
+      "status": 409
+    },
+    {
+      "path": "/practice/submissions",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations?courseId=10000000-0000-4000-8000-000000000001",
+      "status": 200
+    },
+    {
+      "path": "/recommendations/710cb0de-ae3a-4f8f-bc0b-89767b2724c6/feedback",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations/generate",
+      "status": 409
+    },
+    {
+      "path": "/practice/submissions",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations?courseId=10000000-0000-4000-8000-000000000001",
+      "status": 200
+    },
+    {
+      "path": "/recommendations/710cb0de-ae3a-4f8f-bc0b-89767b2724c6/feedback",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations/generate",
+      "status": 409
+    },
+    {
+      "path": "/practice/submissions",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations?courseId=10000000-0000-4000-8000-000000000001",
+      "status": 200
+    },
+    {
+      "path": "/recommendations/710cb0de-ae3a-4f8f-bc0b-89767b2724c6/feedback",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations/generate",
+      "status": 409
+    },
+    {
+      "path": "/practice/submissions",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations?courseId=10000000-0000-4000-8000-000000000001",
+      "status": 200
+    },
+    {
+      "path": "/recommendations/710cb0de-ae3a-4f8f-bc0b-89767b2724c6/feedback",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations/generate",
+      "status": 409
+    },
+    {
+      "path": "/practice/submissions",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations?courseId=10000000-0000-4000-8000-000000000001",
+      "status": 200
+    },
+    {
+      "path": "/recommendations/710cb0de-ae3a-4f8f-bc0b-89767b2724c6/feedback",
+      "status": 200
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/recommendations/generate",
+      "status": 409
+    },
+    {
+      "path": "/practice/submissions/ffc3ada6-90e5-46e5-b960-53c8b35dc372",
+      "status": 200
+    },
+    {
+      "path": "/practice/submissions/ffc3ada6-90e5-46e5-b960-53c8b35dc372",
+      "status": 200
+    },
+    {
+      "path": "/practice/submissions/ffc3ada6-90e5-46e5-b960-53c8b35dc372",
+      "status": 200
+    },
+    {
+      "path": "/practice/submissions/ffc3ada6-90e5-46e5-b960-53c8b35dc372",
+      "status": 200
+    },
+    {
+      "path": "/practice/submissions/289d9c06-c60d-4b0d-b431-010bb5bf15ac",
+      "status": 200
+    },
+    {
+      "path": "/practice/submissions/289d9c06-c60d-4b0d-b431-010bb5bf15ac",
+      "status": 200
+    },
+    {
+      "path": "/practice/submissions/47282afa-d900-4da4-9127-b9a23e9206e3",
+      "status": 200
+    },
+    {
+      "path": "/practice/submissions/6a2f884d-1d72-46d1-a1b7-cb296fa5edba",
+      "status": 200
+    },
+    {
+      "path": "/practice/submissions/6a2f884d-1d72-46d1-a1b7-cb296fa5edba",
+      "status": 200
+    },
+    {
+      "path": "/practice/submissions/c762a06c-b946-46b4-bbed-887f5bbbf7ce",
+      "status": 200
+    },
+    {
+      "path": "/practice/submissions/c762a06c-b946-46b4-bbed-887f5bbbf7ce",
+      "status": 200
+    },
+    {
+      "path": "/practice/submissions/8c3d7e07-94b3-465a-b53d-b8e7f7c3572f",
+      "status": 200
+    },
+    {
+      "path": "/practice/submissions/8c3d7e07-94b3-465a-b53d-b8e7f7c3572f",
+      "status": 200
+    },
+    {
+      "path": "/practice/submissions/f9cbf9cc-6b47-42b2-a004-30ca4739fbf2",
+      "status": 200
+    },
+    {
+      "path": "/practice/submissions/f9cbf9cc-6b47-42b2-a004-30ca4739fbf2",
+      "status": 200
+    },
+    {
+      "path": "/practice/submissions/36c33cd1-1a8b-439d-9b5e-51ff00333190",
+      "status": 200
+    },
+    {
+      "path": "/practice/submissions/36c33cd1-1a8b-439d-9b5e-51ff00333190",
+      "status": 200
+    },
+    {
+      "path": "/recommendations/5ce9f299-ff9f-460b-8881-09d037377de2/feedback",
+      "status": 200
+    },
+    {
+      "path": "/recommendations/5ce9f299-ff9f-460b-8881-09d037377de2/feedback",
+      "status": 200
+    },
+    {
+      "path": "/recommendations/5ce9f299-ff9f-460b-8881-09d037377de2/feedback",
+      "status": 200
+    },
+    {
+      "path": "/recommendations/5ce9f299-ff9f-460b-8881-09d037377de2/feedback",
+      "status": 200
+    },
+    {
+      "path": "/recommendations/5ce9f299-ff9f-460b-8881-09d037377de2/feedback",
+      "status": 200
+    },
+    {
+      "path": "/recommendations/5ce9f299-ff9f-460b-8881-09d037377de2/feedback",
+      "status": 200
+    },
+    {
+      "path": "/recommendations/5ce9f299-ff9f-460b-8881-09d037377de2/feedback",
+      "status": 200
+    },
+    {
+      "path": "/recommendations/5ce9f299-ff9f-460b-8881-09d037377de2/feedback",
+      "status": 200
+    },
+    {
+      "path": "/resources/50000000-0000-4000-8000-000000000001/views",
+      "status": 200
+    },
+    {
+      "path": "/resources/50000000-0000-4000-8000-000000000001/views",
+      "status": 200
+    },
+    {
+      "path": "/resources/50000000-0000-4000-8000-000000000001/views",
+      "status": 200
+    },
+    {
+      "path": "/resources/50000000-0000-4000-8000-000000000001/views",
+      "status": 200
+    },
+    {
+      "path": "/resources/50000000-0000-4000-8000-000000000001/views",
+      "status": 200
+    },
+    {
+      "path": "/resources/50000000-0000-4000-8000-000000000001/views",
+      "status": 200
+    },
+    {
+      "path": "/resources/50000000-0000-4000-8000-000000000001/views",
+      "status": 200
+    },
+    {
+      "path": "/resources/50000000-0000-4000-8000-000000000001/views",
+      "status": 200
+    }
+  ]
+}
