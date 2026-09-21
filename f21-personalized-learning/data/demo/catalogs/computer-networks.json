@@ -1,0 +1,2469 @@
+{
+  "chapters": [
+    {
+      "chapterId": "229808f7-9cbc-57cf-a5f8-f4c67d80cc34",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "sortOrder": 0,
+      "title": "链路与网络层"
+    },
+    {
+      "chapterId": "6a3332eb-0c14-5236-8cfd-61ceb5bc3246",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "sortOrder": 1,
+      "title": "传输层"
+    },
+    {
+      "chapterId": "650ddc11-6b91-509b-80c3-f5aaf7ea8ebe",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "sortOrder": 2,
+      "title": "应用与安全"
+    }
+  ],
+  "course": {
+    "catalogVersion": "computer-networks-g5-v1",
+    "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+    "description": "G5 SYNTHETIC_DEMO 计算机网络课程目录。",
+    "title": "计算机网络"
+  },
+  "dataType": "SYNTHETIC_DEMO",
+  "knowledgePoints": [
+    {
+      "chapterId": "229808f7-9cbc-57cf-a5f8-f4c67d80cc34",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "description": "理解协议分层、封装和端到端通信。",
+      "difficulty": 0.2,
+      "knowledgeId": "adc3996e-2e4b-532d-b81e-994df4ea957d",
+      "name": "分层模型",
+      "sortOrder": 0
+    },
+    {
+      "chapterId": "229808f7-9cbc-57cf-a5f8-f4c67d80cc34",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "description": "理解带宽、时延、编码和信号传播。",
+      "difficulty": 0.24,
+      "knowledgeId": "83d732c8-8a56-5390-82b3-ca695c5341c9",
+      "name": "物理传输",
+      "sortOrder": 1
+    },
+    {
+      "chapterId": "229808f7-9cbc-57cf-a5f8-f4c67d80cc34",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "description": "理解成帧、差错检测和链路交付。",
+      "difficulty": 0.28,
+      "knowledgeId": "b16a77d3-b594-5f61-a334-e24678b67a42",
+      "name": "数据链路帧",
+      "sortOrder": 2
+    },
+    {
+      "chapterId": "229808f7-9cbc-57cf-a5f8-f4c67d80cc34",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "description": "理解 MAC 地址、交换和广播域。",
+      "difficulty": 0.32,
+      "knowledgeId": "92642908-8e0b-561e-9551-80a015bc0890",
+      "name": "以太网与 MAC",
+      "sortOrder": 3
+    },
+    {
+      "chapterId": "229808f7-9cbc-57cf-a5f8-f4c67d80cc34",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "description": "理解 IPv4 地址到链路层地址的解析。",
+      "difficulty": 0.36,
+      "knowledgeId": "a5e60331-b334-5b2b-81a8-727b79b63a8f",
+      "name": "ARP",
+      "sortOrder": 4
+    },
+    {
+      "chapterId": "6a3332eb-0c14-5236-8cfd-61ceb5bc3246",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "description": "理解数据报、TTL、分片和尽力而为交付。",
+      "difficulty": 0.4,
+      "knowledgeId": "6e31b6bf-f478-5500-9460-ad5d70425d88",
+      "name": "IPv4",
+      "sortOrder": 5
+    },
+    {
+      "chapterId": "6a3332eb-0c14-5236-8cfd-61ceb5bc3246",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "description": "使用前缀长度计算网络与主机范围。",
+      "difficulty": 0.44,
+      "knowledgeId": "489718e3-a66f-55c5-82f2-b38505670dc0",
+      "name": "子网划分",
+      "sortOrder": 6
+    },
+    {
+      "chapterId": "6a3332eb-0c14-5236-8cfd-61ceb5bc3246",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "description": "理解路由表、最长前缀匹配和下一跳。",
+      "difficulty": 0.48,
+      "knowledgeId": "8042d40e-2243-5dd6-8b66-694d751b499d",
+      "name": "路由转发",
+      "sortOrder": 7
+    },
+    {
+      "chapterId": "6a3332eb-0c14-5236-8cfd-61ceb5bc3246",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "description": "理解差错报告与网络诊断消息。",
+      "difficulty": 0.52,
+      "knowledgeId": "4f5fe11b-3501-5166-b15e-f770876c09a3",
+      "name": "ICMP",
+      "sortOrder": 8
+    },
+    {
+      "chapterId": "6a3332eb-0c14-5236-8cfd-61ceb5bc3246",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "description": "理解无连接数据报服务及适用场景。",
+      "difficulty": 0.56,
+      "knowledgeId": "fbf5f42f-91be-53f0-a808-78d3bdf9dff9",
+      "name": "UDP",
+      "sortOrder": 9
+    },
+    {
+      "chapterId": "650ddc11-6b91-509b-80c3-f5aaf7ea8ebe",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "description": "理解序号、确认、重传和滑动窗口。",
+      "difficulty": 0.6,
+      "knowledgeId": "3801f9f7-c88e-5c02-bbaf-3395ebe1b698",
+      "name": "TCP 可靠传输",
+      "sortOrder": 10
+    },
+    {
+      "chapterId": "650ddc11-6b91-509b-80c3-f5aaf7ea8ebe",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "description": "理解拥塞窗口、慢启动和拥塞避免。",
+      "difficulty": 0.64,
+      "knowledgeId": "423b033d-11af-58fb-bc67-3a2fc4474439",
+      "name": "TCP 拥塞控制",
+      "sortOrder": 11
+    },
+    {
+      "chapterId": "650ddc11-6b91-509b-80c3-f5aaf7ea8ebe",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "description": "理解域名层次、递归查询和缓存。",
+      "difficulty": 0.68,
+      "knowledgeId": "9d417d90-72f6-5a0b-aa3c-ae65a74ae87c",
+      "name": "DNS",
+      "sortOrder": 12
+    },
+    {
+      "chapterId": "650ddc11-6b91-509b-80c3-f5aaf7ea8ebe",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "description": "理解请求响应、方法、状态码和缓存。",
+      "difficulty": 0.72,
+      "knowledgeId": "830697f9-8198-5ecb-9a14-b936233ea12f",
+      "name": "HTTP",
+      "sortOrder": 13
+    },
+    {
+      "chapterId": "650ddc11-6b91-509b-80c3-f5aaf7ea8ebe",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "description": "理解安全信道、证书验证和应用接口。",
+      "difficulty": 0.76,
+      "knowledgeId": "bf9494be-3df2-5507-870a-9cd2e1070aa1",
+      "name": "TLS 与套接字",
+      "sortOrder": 14
+    }
+  ],
+  "prerequisites": [
+    {
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "sourceKnowledgeId": "adc3996e-2e4b-532d-b81e-994df4ea957d",
+      "targetKnowledgeId": "83d732c8-8a56-5390-82b3-ca695c5341c9"
+    },
+    {
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "sourceKnowledgeId": "83d732c8-8a56-5390-82b3-ca695c5341c9",
+      "targetKnowledgeId": "b16a77d3-b594-5f61-a334-e24678b67a42"
+    },
+    {
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "sourceKnowledgeId": "b16a77d3-b594-5f61-a334-e24678b67a42",
+      "targetKnowledgeId": "92642908-8e0b-561e-9551-80a015bc0890"
+    },
+    {
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "sourceKnowledgeId": "92642908-8e0b-561e-9551-80a015bc0890",
+      "targetKnowledgeId": "a5e60331-b334-5b2b-81a8-727b79b63a8f"
+    },
+    {
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "sourceKnowledgeId": "a5e60331-b334-5b2b-81a8-727b79b63a8f",
+      "targetKnowledgeId": "6e31b6bf-f478-5500-9460-ad5d70425d88"
+    },
+    {
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "sourceKnowledgeId": "6e31b6bf-f478-5500-9460-ad5d70425d88",
+      "targetKnowledgeId": "489718e3-a66f-55c5-82f2-b38505670dc0"
+    },
+    {
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "sourceKnowledgeId": "489718e3-a66f-55c5-82f2-b38505670dc0",
+      "targetKnowledgeId": "8042d40e-2243-5dd6-8b66-694d751b499d"
+    },
+    {
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "sourceKnowledgeId": "8042d40e-2243-5dd6-8b66-694d751b499d",
+      "targetKnowledgeId": "4f5fe11b-3501-5166-b15e-f770876c09a3"
+    },
+    {
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "sourceKnowledgeId": "4f5fe11b-3501-5166-b15e-f770876c09a3",
+      "targetKnowledgeId": "fbf5f42f-91be-53f0-a808-78d3bdf9dff9"
+    },
+    {
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "sourceKnowledgeId": "fbf5f42f-91be-53f0-a808-78d3bdf9dff9",
+      "targetKnowledgeId": "3801f9f7-c88e-5c02-bbaf-3395ebe1b698"
+    },
+    {
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "sourceKnowledgeId": "3801f9f7-c88e-5c02-bbaf-3395ebe1b698",
+      "targetKnowledgeId": "423b033d-11af-58fb-bc67-3a2fc4474439"
+    },
+    {
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "sourceKnowledgeId": "423b033d-11af-58fb-bc67-3a2fc4474439",
+      "targetKnowledgeId": "9d417d90-72f6-5a0b-aa3c-ae65a74ae87c"
+    },
+    {
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "sourceKnowledgeId": "9d417d90-72f6-5a0b-aa3c-ae65a74ae87c",
+      "targetKnowledgeId": "830697f9-8198-5ecb-9a14-b936233ea12f"
+    },
+    {
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "sourceKnowledgeId": "830697f9-8198-5ecb-9a14-b936233ea12f",
+      "targetKnowledgeId": "bf9494be-3df2-5507-870a-9cd2e1070aa1"
+    }
+  ],
+  "publishMode": "ACTIVATE",
+  "questions": [
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.25,
+      "knowledgeId": "adc3996e-2e4b-532d-b81e-994df4ea957d",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "每层向上提供服务并使用下层能力"
+        },
+        {
+          "key": "B",
+          "text": "只关注术语字面，不考虑行为约束"
+        },
+        {
+          "key": "C",
+          "text": "任何场景都可以忽略前置条件"
+        }
+      ],
+      "questionId": "592d5270-e3e4-5952-b869-90337442dc7a",
+      "questionType": "SINGLE",
+      "sortOrder": 0,
+      "stem": "关于分层模型，哪一项准确描述核心原则？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.4,
+      "knowledgeId": "adc3996e-2e4b-532d-b81e-994df4ea957d",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "先确认适用条件，再依据“每层向上提供服务并使用下层能力”执行"
+        },
+        {
+          "key": "B",
+          "text": "直接套用结论且不检查输入"
+        },
+        {
+          "key": "C",
+          "text": "只记答案而不验证过程"
+        }
+      ],
+      "questionId": "8fde894e-259a-5e8a-833f-fb22fe67f265",
+      "questionType": "SINGLE",
+      "sortOrder": 1,
+      "stem": "学习分层模型时，哪种做法最符合课程要求？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.65,
+      "knowledgeId": "adc3996e-2e4b-532d-b81e-994df4ea957d",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "检查是否违反“每层向上提供服务并使用下层能力”及其边界条件"
+        },
+        {
+          "key": "B",
+          "text": "先扩大数据规模掩盖异常"
+        },
+        {
+          "key": "C",
+          "text": "删除失败记录后宣告成功"
+        }
+      ],
+      "questionId": "24360f1a-1e3e-565a-8a48-557c2ed776d2",
+      "questionType": "SINGLE",
+      "sortOrder": 2,
+      "stem": "一个分层模型方案结果异常，优先检查什么？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.8,
+      "knowledgeId": "adc3996e-2e4b-532d-b81e-994df4ea957d",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "同时说明约束、代价、正确性和可复现证据"
+        },
+        {
+          "key": "B",
+          "text": "只比较一次运行的表面结果"
+        },
+        {
+          "key": "C",
+          "text": "只选择名称更熟悉的方案"
+        }
+      ],
+      "questionId": "9f54f02f-f409-5d55-bea7-bc1530755ec7",
+      "questionType": "SINGLE",
+      "sortOrder": 3,
+      "stem": "比较两个分层模型方案时，哪项论证最可靠？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.6,
+      "knowledgeId": "adc3996e-2e4b-532d-b81e-994df4ea957d",
+      "learningPhase": "RETEST",
+      "options": [
+        {
+          "key": "A",
+          "text": "每层向上提供服务并使用下层能力"
+        },
+        {
+          "key": "B",
+          "text": "结论可以脱离输入条件单独成立"
+        },
+        {
+          "key": "C",
+          "text": "出现反例时应修改数据而非结论"
+        }
+      ],
+      "questionId": "56d57d98-c44c-5b29-a8d8-3875db631043",
+      "questionType": "SINGLE",
+      "sortOrder": 4,
+      "stem": "再次验证分层模型掌握情况时，应选择哪项结论？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.25,
+      "knowledgeId": "83d732c8-8a56-5390-82b3-ca695c5341c9",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "传播时延取决于距离与传播速度"
+        },
+        {
+          "key": "B",
+          "text": "只关注术语字面，不考虑行为约束"
+        },
+        {
+          "key": "C",
+          "text": "任何场景都可以忽略前置条件"
+        }
+      ],
+      "questionId": "37039fe8-baae-5545-bbe5-8a0cc454507d",
+      "questionType": "SINGLE",
+      "sortOrder": 5,
+      "stem": "关于物理传输，哪一项准确描述核心原则？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.4,
+      "knowledgeId": "83d732c8-8a56-5390-82b3-ca695c5341c9",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "先确认适用条件，再依据“传播时延取决于距离与传播速度”执行"
+        },
+        {
+          "key": "B",
+          "text": "直接套用结论且不检查输入"
+        },
+        {
+          "key": "C",
+          "text": "只记答案而不验证过程"
+        }
+      ],
+      "questionId": "3fd28391-ae11-589a-aef9-67f5541d8d68",
+      "questionType": "SINGLE",
+      "sortOrder": 6,
+      "stem": "学习物理传输时，哪种做法最符合课程要求？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.65,
+      "knowledgeId": "83d732c8-8a56-5390-82b3-ca695c5341c9",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "检查是否违反“传播时延取决于距离与传播速度”及其边界条件"
+        },
+        {
+          "key": "B",
+          "text": "先扩大数据规模掩盖异常"
+        },
+        {
+          "key": "C",
+          "text": "删除失败记录后宣告成功"
+        }
+      ],
+      "questionId": "18f4f56b-e2fe-5f6e-97b4-f3da8a71496a",
+      "questionType": "SINGLE",
+      "sortOrder": 7,
+      "stem": "一个物理传输方案结果异常，优先检查什么？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.8,
+      "knowledgeId": "83d732c8-8a56-5390-82b3-ca695c5341c9",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "同时说明约束、代价、正确性和可复现证据"
+        },
+        {
+          "key": "B",
+          "text": "只比较一次运行的表面结果"
+        },
+        {
+          "key": "C",
+          "text": "只选择名称更熟悉的方案"
+        }
+      ],
+      "questionId": "65d37709-5968-5c14-a6b9-b30f41d322a4",
+      "questionType": "SINGLE",
+      "sortOrder": 8,
+      "stem": "比较两个物理传输方案时，哪项论证最可靠？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.6,
+      "knowledgeId": "83d732c8-8a56-5390-82b3-ca695c5341c9",
+      "learningPhase": "RETEST",
+      "options": [
+        {
+          "key": "A",
+          "text": "传播时延取决于距离与传播速度"
+        },
+        {
+          "key": "B",
+          "text": "结论可以脱离输入条件单独成立"
+        },
+        {
+          "key": "C",
+          "text": "出现反例时应修改数据而非结论"
+        }
+      ],
+      "questionId": "d09f84ce-3d29-5117-9d9f-4af034a51269",
+      "questionType": "SINGLE",
+      "sortOrder": 9,
+      "stem": "再次验证物理传输掌握情况时，应选择哪项结论？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.25,
+      "knowledgeId": "b16a77d3-b594-5f61-a334-e24678b67a42",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "帧在单段链路上传送网络层数据报"
+        },
+        {
+          "key": "B",
+          "text": "只关注术语字面，不考虑行为约束"
+        },
+        {
+          "key": "C",
+          "text": "任何场景都可以忽略前置条件"
+        }
+      ],
+      "questionId": "7bc002a1-58da-533e-a386-99221a6bd185",
+      "questionType": "SINGLE",
+      "sortOrder": 10,
+      "stem": "关于数据链路帧，哪一项准确描述核心原则？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.4,
+      "knowledgeId": "b16a77d3-b594-5f61-a334-e24678b67a42",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "先确认适用条件，再依据“帧在单段链路上传送网络层数据报”执行"
+        },
+        {
+          "key": "B",
+          "text": "直接套用结论且不检查输入"
+        },
+        {
+          "key": "C",
+          "text": "只记答案而不验证过程"
+        }
+      ],
+      "questionId": "ca7cef95-a0fb-5ca8-b94d-ba7a88be6221",
+      "questionType": "SINGLE",
+      "sortOrder": 11,
+      "stem": "学习数据链路帧时，哪种做法最符合课程要求？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.65,
+      "knowledgeId": "b16a77d3-b594-5f61-a334-e24678b67a42",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "检查是否违反“帧在单段链路上传送网络层数据报”及其边界条件"
+        },
+        {
+          "key": "B",
+          "text": "先扩大数据规模掩盖异常"
+        },
+        {
+          "key": "C",
+          "text": "删除失败记录后宣告成功"
+        }
+      ],
+      "questionId": "ea7c2ceb-a22f-52b8-866d-57dae4a341aa",
+      "questionType": "SINGLE",
+      "sortOrder": 12,
+      "stem": "一个数据链路帧方案结果异常，优先检查什么？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.8,
+      "knowledgeId": "b16a77d3-b594-5f61-a334-e24678b67a42",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "同时说明约束、代价、正确性和可复现证据"
+        },
+        {
+          "key": "B",
+          "text": "只比较一次运行的表面结果"
+        },
+        {
+          "key": "C",
+          "text": "只选择名称更熟悉的方案"
+        }
+      ],
+      "questionId": "779fafa2-f009-5f88-9543-998d8e5b7228",
+      "questionType": "SINGLE",
+      "sortOrder": 13,
+      "stem": "比较两个数据链路帧方案时，哪项论证最可靠？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.6,
+      "knowledgeId": "b16a77d3-b594-5f61-a334-e24678b67a42",
+      "learningPhase": "RETEST",
+      "options": [
+        {
+          "key": "A",
+          "text": "帧在单段链路上传送网络层数据报"
+        },
+        {
+          "key": "B",
+          "text": "结论可以脱离输入条件单独成立"
+        },
+        {
+          "key": "C",
+          "text": "出现反例时应修改数据而非结论"
+        }
+      ],
+      "questionId": "908b769d-5cec-5e08-a5ac-023b673f2897",
+      "questionType": "SINGLE",
+      "sortOrder": 14,
+      "stem": "再次验证数据链路帧掌握情况时，应选择哪项结论？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.25,
+      "knowledgeId": "92642908-8e0b-561e-9551-80a015bc0890",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "交换机依据 MAC 表转发以太网帧"
+        },
+        {
+          "key": "B",
+          "text": "只关注术语字面，不考虑行为约束"
+        },
+        {
+          "key": "C",
+          "text": "任何场景都可以忽略前置条件"
+        }
+      ],
+      "questionId": "92a31a84-4577-5d27-b9c0-ae8c9c2ae4ae",
+      "questionType": "SINGLE",
+      "sortOrder": 15,
+      "stem": "关于以太网与 MAC，哪一项准确描述核心原则？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.4,
+      "knowledgeId": "92642908-8e0b-561e-9551-80a015bc0890",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "先确认适用条件，再依据“交换机依据 MAC 表转发以太网帧”执行"
+        },
+        {
+          "key": "B",
+          "text": "直接套用结论且不检查输入"
+        },
+        {
+          "key": "C",
+          "text": "只记答案而不验证过程"
+        }
+      ],
+      "questionId": "32608eb1-f3be-5bc4-b4c8-d0da57de6e99",
+      "questionType": "SINGLE",
+      "sortOrder": 16,
+      "stem": "学习以太网与 MAC时，哪种做法最符合课程要求？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.65,
+      "knowledgeId": "92642908-8e0b-561e-9551-80a015bc0890",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "检查是否违反“交换机依据 MAC 表转发以太网帧”及其边界条件"
+        },
+        {
+          "key": "B",
+          "text": "先扩大数据规模掩盖异常"
+        },
+        {
+          "key": "C",
+          "text": "删除失败记录后宣告成功"
+        }
+      ],
+      "questionId": "3f58867a-0948-57d7-9601-0b302bbd6f9d",
+      "questionType": "SINGLE",
+      "sortOrder": 17,
+      "stem": "一个以太网与 MAC方案结果异常，优先检查什么？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.8,
+      "knowledgeId": "92642908-8e0b-561e-9551-80a015bc0890",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "同时说明约束、代价、正确性和可复现证据"
+        },
+        {
+          "key": "B",
+          "text": "只比较一次运行的表面结果"
+        },
+        {
+          "key": "C",
+          "text": "只选择名称更熟悉的方案"
+        }
+      ],
+      "questionId": "04e8f116-ea69-5f27-95c0-38a0f5fe0ee0",
+      "questionType": "SINGLE",
+      "sortOrder": 18,
+      "stem": "比较两个以太网与 MAC方案时，哪项论证最可靠？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.6,
+      "knowledgeId": "92642908-8e0b-561e-9551-80a015bc0890",
+      "learningPhase": "RETEST",
+      "options": [
+        {
+          "key": "A",
+          "text": "交换机依据 MAC 表转发以太网帧"
+        },
+        {
+          "key": "B",
+          "text": "结论可以脱离输入条件单独成立"
+        },
+        {
+          "key": "C",
+          "text": "出现反例时应修改数据而非结论"
+        }
+      ],
+      "questionId": "024a533f-12ae-53ff-bf05-cf7c297d79ee",
+      "questionType": "SINGLE",
+      "sortOrder": 19,
+      "stem": "再次验证以太网与 MAC掌握情况时，应选择哪项结论？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.25,
+      "knowledgeId": "a5e60331-b334-5b2b-81a8-727b79b63a8f",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "ARP 在本地链路解析下一跳 MAC 地址"
+        },
+        {
+          "key": "B",
+          "text": "只关注术语字面，不考虑行为约束"
+        },
+        {
+          "key": "C",
+          "text": "任何场景都可以忽略前置条件"
+        }
+      ],
+      "questionId": "467b7c3b-0581-54aa-927d-cc8f93957bbf",
+      "questionType": "SINGLE",
+      "sortOrder": 20,
+      "stem": "关于ARP，哪一项准确描述核心原则？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.4,
+      "knowledgeId": "a5e60331-b334-5b2b-81a8-727b79b63a8f",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "先确认适用条件，再依据“ARP 在本地链路解析下一跳 MAC 地址”执行"
+        },
+        {
+          "key": "B",
+          "text": "直接套用结论且不检查输入"
+        },
+        {
+          "key": "C",
+          "text": "只记答案而不验证过程"
+        }
+      ],
+      "questionId": "46a6de53-dda1-584c-9fa1-58569c842d5e",
+      "questionType": "SINGLE",
+      "sortOrder": 21,
+      "stem": "学习ARP时，哪种做法最符合课程要求？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.65,
+      "knowledgeId": "a5e60331-b334-5b2b-81a8-727b79b63a8f",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "检查是否违反“ARP 在本地链路解析下一跳 MAC 地址”及其边界条件"
+        },
+        {
+          "key": "B",
+          "text": "先扩大数据规模掩盖异常"
+        },
+        {
+          "key": "C",
+          "text": "删除失败记录后宣告成功"
+        }
+      ],
+      "questionId": "26497b32-974b-5150-b8c7-07fec6267f42",
+      "questionType": "SINGLE",
+      "sortOrder": 22,
+      "stem": "一个ARP方案结果异常，优先检查什么？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.8,
+      "knowledgeId": "a5e60331-b334-5b2b-81a8-727b79b63a8f",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "同时说明约束、代价、正确性和可复现证据"
+        },
+        {
+          "key": "B",
+          "text": "只比较一次运行的表面结果"
+        },
+        {
+          "key": "C",
+          "text": "只选择名称更熟悉的方案"
+        }
+      ],
+      "questionId": "0c8541fb-8425-50cb-9b86-888128263a7a",
+      "questionType": "SINGLE",
+      "sortOrder": 23,
+      "stem": "比较两个ARP方案时，哪项论证最可靠？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.6,
+      "knowledgeId": "a5e60331-b334-5b2b-81a8-727b79b63a8f",
+      "learningPhase": "RETEST",
+      "options": [
+        {
+          "key": "A",
+          "text": "ARP 在本地链路解析下一跳 MAC 地址"
+        },
+        {
+          "key": "B",
+          "text": "结论可以脱离输入条件单独成立"
+        },
+        {
+          "key": "C",
+          "text": "出现反例时应修改数据而非结论"
+        }
+      ],
+      "questionId": "3777e335-4793-52cb-90a7-fd311362eea3",
+      "questionType": "SINGLE",
+      "sortOrder": 24,
+      "stem": "再次验证ARP掌握情况时，应选择哪项结论？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.25,
+      "knowledgeId": "6e31b6bf-f478-5500-9460-ad5d70425d88",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "路由器转发时递减 TTL"
+        },
+        {
+          "key": "B",
+          "text": "只关注术语字面，不考虑行为约束"
+        },
+        {
+          "key": "C",
+          "text": "任何场景都可以忽略前置条件"
+        }
+      ],
+      "questionId": "1e3313b0-5ed2-5a86-b7ab-4de90ff3c0e2",
+      "questionType": "SINGLE",
+      "sortOrder": 25,
+      "stem": "关于IPv4，哪一项准确描述核心原则？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.4,
+      "knowledgeId": "6e31b6bf-f478-5500-9460-ad5d70425d88",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "先确认适用条件，再依据“路由器转发时递减 TTL”执行"
+        },
+        {
+          "key": "B",
+          "text": "直接套用结论且不检查输入"
+        },
+        {
+          "key": "C",
+          "text": "只记答案而不验证过程"
+        }
+      ],
+      "questionId": "15970905-7638-554f-ad76-3fa36355ae23",
+      "questionType": "SINGLE",
+      "sortOrder": 26,
+      "stem": "学习IPv4时，哪种做法最符合课程要求？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.65,
+      "knowledgeId": "6e31b6bf-f478-5500-9460-ad5d70425d88",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "检查是否违反“路由器转发时递减 TTL”及其边界条件"
+        },
+        {
+          "key": "B",
+          "text": "先扩大数据规模掩盖异常"
+        },
+        {
+          "key": "C",
+          "text": "删除失败记录后宣告成功"
+        }
+      ],
+      "questionId": "a89b14cf-1a87-5970-848f-1c9cfeb9c5d9",
+      "questionType": "SINGLE",
+      "sortOrder": 27,
+      "stem": "一个IPv4方案结果异常，优先检查什么？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.8,
+      "knowledgeId": "6e31b6bf-f478-5500-9460-ad5d70425d88",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "同时说明约束、代价、正确性和可复现证据"
+        },
+        {
+          "key": "B",
+          "text": "只比较一次运行的表面结果"
+        },
+        {
+          "key": "C",
+          "text": "只选择名称更熟悉的方案"
+        }
+      ],
+      "questionId": "a3ec2505-1142-5538-a008-dd057771bc17",
+      "questionType": "SINGLE",
+      "sortOrder": 28,
+      "stem": "比较两个IPv4方案时，哪项论证最可靠？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.6,
+      "knowledgeId": "6e31b6bf-f478-5500-9460-ad5d70425d88",
+      "learningPhase": "RETEST",
+      "options": [
+        {
+          "key": "A",
+          "text": "路由器转发时递减 TTL"
+        },
+        {
+          "key": "B",
+          "text": "结论可以脱离输入条件单独成立"
+        },
+        {
+          "key": "C",
+          "text": "出现反例时应修改数据而非结论"
+        }
+      ],
+      "questionId": "dc18a271-69aa-54f6-9f60-27784ee1b526",
+      "questionType": "SINGLE",
+      "sortOrder": 29,
+      "stem": "再次验证IPv4掌握情况时，应选择哪项结论？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.25,
+      "knowledgeId": "489718e3-a66f-55c5-82f2-b38505670dc0",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "同一前缀标识一个 IP 子网"
+        },
+        {
+          "key": "B",
+          "text": "只关注术语字面，不考虑行为约束"
+        },
+        {
+          "key": "C",
+          "text": "任何场景都可以忽略前置条件"
+        }
+      ],
+      "questionId": "e1344ede-4700-5221-9dd1-8b4e3dfb98c3",
+      "questionType": "SINGLE",
+      "sortOrder": 30,
+      "stem": "关于子网划分，哪一项准确描述核心原则？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.4,
+      "knowledgeId": "489718e3-a66f-55c5-82f2-b38505670dc0",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "先确认适用条件，再依据“同一前缀标识一个 IP 子网”执行"
+        },
+        {
+          "key": "B",
+          "text": "直接套用结论且不检查输入"
+        },
+        {
+          "key": "C",
+          "text": "只记答案而不验证过程"
+        }
+      ],
+      "questionId": "2671d801-a1a9-5d9f-a0d1-5ee7db96221f",
+      "questionType": "SINGLE",
+      "sortOrder": 31,
+      "stem": "学习子网划分时，哪种做法最符合课程要求？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.65,
+      "knowledgeId": "489718e3-a66f-55c5-82f2-b38505670dc0",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "检查是否违反“同一前缀标识一个 IP 子网”及其边界条件"
+        },
+        {
+          "key": "B",
+          "text": "先扩大数据规模掩盖异常"
+        },
+        {
+          "key": "C",
+          "text": "删除失败记录后宣告成功"
+        }
+      ],
+      "questionId": "601c7c75-5534-57ef-a789-041f07dd41a0",
+      "questionType": "SINGLE",
+      "sortOrder": 32,
+      "stem": "一个子网划分方案结果异常，优先检查什么？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.8,
+      "knowledgeId": "489718e3-a66f-55c5-82f2-b38505670dc0",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "同时说明约束、代价、正确性和可复现证据"
+        },
+        {
+          "key": "B",
+          "text": "只比较一次运行的表面结果"
+        },
+        {
+          "key": "C",
+          "text": "只选择名称更熟悉的方案"
+        }
+      ],
+      "questionId": "88a975ff-e6e4-5786-97b7-a7425e2b1bb0",
+      "questionType": "SINGLE",
+      "sortOrder": 33,
+      "stem": "比较两个子网划分方案时，哪项论证最可靠？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.6,
+      "knowledgeId": "489718e3-a66f-55c5-82f2-b38505670dc0",
+      "learningPhase": "RETEST",
+      "options": [
+        {
+          "key": "A",
+          "text": "同一前缀标识一个 IP 子网"
+        },
+        {
+          "key": "B",
+          "text": "结论可以脱离输入条件单独成立"
+        },
+        {
+          "key": "C",
+          "text": "出现反例时应修改数据而非结论"
+        }
+      ],
+      "questionId": "178be3be-1190-5cae-817d-4361042e2df4",
+      "questionType": "SINGLE",
+      "sortOrder": 34,
+      "stem": "再次验证子网划分掌握情况时，应选择哪项结论？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.25,
+      "knowledgeId": "8042d40e-2243-5dd6-8b66-694d751b499d",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "转发选择匹配位数最长的路由前缀"
+        },
+        {
+          "key": "B",
+          "text": "只关注术语字面，不考虑行为约束"
+        },
+        {
+          "key": "C",
+          "text": "任何场景都可以忽略前置条件"
+        }
+      ],
+      "questionId": "dfd05ae0-1caf-5f51-986f-3e1dde037b97",
+      "questionType": "SINGLE",
+      "sortOrder": 35,
+      "stem": "关于路由转发，哪一项准确描述核心原则？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.4,
+      "knowledgeId": "8042d40e-2243-5dd6-8b66-694d751b499d",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "先确认适用条件，再依据“转发选择匹配位数最长的路由前缀”执行"
+        },
+        {
+          "key": "B",
+          "text": "直接套用结论且不检查输入"
+        },
+        {
+          "key": "C",
+          "text": "只记答案而不验证过程"
+        }
+      ],
+      "questionId": "096fc98a-3fa4-5756-bf2b-589bdd731439",
+      "questionType": "SINGLE",
+      "sortOrder": 36,
+      "stem": "学习路由转发时，哪种做法最符合课程要求？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.65,
+      "knowledgeId": "8042d40e-2243-5dd6-8b66-694d751b499d",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "检查是否违反“转发选择匹配位数最长的路由前缀”及其边界条件"
+        },
+        {
+          "key": "B",
+          "text": "先扩大数据规模掩盖异常"
+        },
+        {
+          "key": "C",
+          "text": "删除失败记录后宣告成功"
+        }
+      ],
+      "questionId": "531bba5f-be88-56fb-a66a-2c0cbd47166d",
+      "questionType": "SINGLE",
+      "sortOrder": 37,
+      "stem": "一个路由转发方案结果异常，优先检查什么？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.8,
+      "knowledgeId": "8042d40e-2243-5dd6-8b66-694d751b499d",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "同时说明约束、代价、正确性和可复现证据"
+        },
+        {
+          "key": "B",
+          "text": "只比较一次运行的表面结果"
+        },
+        {
+          "key": "C",
+          "text": "只选择名称更熟悉的方案"
+        }
+      ],
+      "questionId": "df443ca0-3f17-5881-a372-a72868c19091",
+      "questionType": "SINGLE",
+      "sortOrder": 38,
+      "stem": "比较两个路由转发方案时，哪项论证最可靠？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.6,
+      "knowledgeId": "8042d40e-2243-5dd6-8b66-694d751b499d",
+      "learningPhase": "RETEST",
+      "options": [
+        {
+          "key": "A",
+          "text": "转发选择匹配位数最长的路由前缀"
+        },
+        {
+          "key": "B",
+          "text": "结论可以脱离输入条件单独成立"
+        },
+        {
+          "key": "C",
+          "text": "出现反例时应修改数据而非结论"
+        }
+      ],
+      "questionId": "bba0317b-a0cb-51be-b9ba-9da5f903c97d",
+      "questionType": "SINGLE",
+      "sortOrder": 39,
+      "stem": "再次验证路由转发掌握情况时，应选择哪项结论？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.25,
+      "knowledgeId": "4f5fe11b-3501-5166-b15e-f770876c09a3",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "ICMP 用于报告网络层控制与差错信息"
+        },
+        {
+          "key": "B",
+          "text": "只关注术语字面，不考虑行为约束"
+        },
+        {
+          "key": "C",
+          "text": "任何场景都可以忽略前置条件"
+        }
+      ],
+      "questionId": "897156f8-1785-5dac-acd7-5690d2b5cc37",
+      "questionType": "SINGLE",
+      "sortOrder": 40,
+      "stem": "关于ICMP，哪一项准确描述核心原则？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.4,
+      "knowledgeId": "4f5fe11b-3501-5166-b15e-f770876c09a3",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "先确认适用条件，再依据“ICMP 用于报告网络层控制与差错信息”执行"
+        },
+        {
+          "key": "B",
+          "text": "直接套用结论且不检查输入"
+        },
+        {
+          "key": "C",
+          "text": "只记答案而不验证过程"
+        }
+      ],
+      "questionId": "60d58a68-06c9-5a70-8d31-c72db99f67b6",
+      "questionType": "SINGLE",
+      "sortOrder": 41,
+      "stem": "学习ICMP时，哪种做法最符合课程要求？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.65,
+      "knowledgeId": "4f5fe11b-3501-5166-b15e-f770876c09a3",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "检查是否违反“ICMP 用于报告网络层控制与差错信息”及其边界条件"
+        },
+        {
+          "key": "B",
+          "text": "先扩大数据规模掩盖异常"
+        },
+        {
+          "key": "C",
+          "text": "删除失败记录后宣告成功"
+        }
+      ],
+      "questionId": "2a8b5a6d-39da-5812-bd05-1422cdaf30da",
+      "questionType": "SINGLE",
+      "sortOrder": 42,
+      "stem": "一个ICMP方案结果异常，优先检查什么？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.8,
+      "knowledgeId": "4f5fe11b-3501-5166-b15e-f770876c09a3",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "同时说明约束、代价、正确性和可复现证据"
+        },
+        {
+          "key": "B",
+          "text": "只比较一次运行的表面结果"
+        },
+        {
+          "key": "C",
+          "text": "只选择名称更熟悉的方案"
+        }
+      ],
+      "questionId": "b22e05c5-e278-5ff5-bcd8-3083a05a41e6",
+      "questionType": "SINGLE",
+      "sortOrder": 43,
+      "stem": "比较两个ICMP方案时，哪项论证最可靠？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.6,
+      "knowledgeId": "4f5fe11b-3501-5166-b15e-f770876c09a3",
+      "learningPhase": "RETEST",
+      "options": [
+        {
+          "key": "A",
+          "text": "ICMP 用于报告网络层控制与差错信息"
+        },
+        {
+          "key": "B",
+          "text": "结论可以脱离输入条件单独成立"
+        },
+        {
+          "key": "C",
+          "text": "出现反例时应修改数据而非结论"
+        }
+      ],
+      "questionId": "3030e45a-d647-5a0d-8418-93afb0098c91",
+      "questionType": "SINGLE",
+      "sortOrder": 44,
+      "stem": "再次验证ICMP掌握情况时，应选择哪项结论？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.25,
+      "knowledgeId": "fbf5f42f-91be-53f0-a808-78d3bdf9dff9",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "UDP 不提供可靠重传与有序交付"
+        },
+        {
+          "key": "B",
+          "text": "只关注术语字面，不考虑行为约束"
+        },
+        {
+          "key": "C",
+          "text": "任何场景都可以忽略前置条件"
+        }
+      ],
+      "questionId": "c2a992c3-cdf9-580c-b1c5-e34083aa0734",
+      "questionType": "SINGLE",
+      "sortOrder": 45,
+      "stem": "关于UDP，哪一项准确描述核心原则？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.4,
+      "knowledgeId": "fbf5f42f-91be-53f0-a808-78d3bdf9dff9",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "先确认适用条件，再依据“UDP 不提供可靠重传与有序交付”执行"
+        },
+        {
+          "key": "B",
+          "text": "直接套用结论且不检查输入"
+        },
+        {
+          "key": "C",
+          "text": "只记答案而不验证过程"
+        }
+      ],
+      "questionId": "e64d856c-accb-56f9-834d-cf296bc60612",
+      "questionType": "SINGLE",
+      "sortOrder": 46,
+      "stem": "学习UDP时，哪种做法最符合课程要求？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.65,
+      "knowledgeId": "fbf5f42f-91be-53f0-a808-78d3bdf9dff9",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "检查是否违反“UDP 不提供可靠重传与有序交付”及其边界条件"
+        },
+        {
+          "key": "B",
+          "text": "先扩大数据规模掩盖异常"
+        },
+        {
+          "key": "C",
+          "text": "删除失败记录后宣告成功"
+        }
+      ],
+      "questionId": "961703e3-de22-5f1c-a639-9958dcc1b76f",
+      "questionType": "SINGLE",
+      "sortOrder": 47,
+      "stem": "一个UDP方案结果异常，优先检查什么？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.8,
+      "knowledgeId": "fbf5f42f-91be-53f0-a808-78d3bdf9dff9",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "同时说明约束、代价、正确性和可复现证据"
+        },
+        {
+          "key": "B",
+          "text": "只比较一次运行的表面结果"
+        },
+        {
+          "key": "C",
+          "text": "只选择名称更熟悉的方案"
+        }
+      ],
+      "questionId": "5d5a8450-2236-59ab-8b0a-11c030d81f2a",
+      "questionType": "SINGLE",
+      "sortOrder": 48,
+      "stem": "比较两个UDP方案时，哪项论证最可靠？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.6,
+      "knowledgeId": "fbf5f42f-91be-53f0-a808-78d3bdf9dff9",
+      "learningPhase": "RETEST",
+      "options": [
+        {
+          "key": "A",
+          "text": "UDP 不提供可靠重传与有序交付"
+        },
+        {
+          "key": "B",
+          "text": "结论可以脱离输入条件单独成立"
+        },
+        {
+          "key": "C",
+          "text": "出现反例时应修改数据而非结论"
+        }
+      ],
+      "questionId": "2ddc67ec-df54-5df9-a345-7efa474c4478",
+      "questionType": "SINGLE",
+      "sortOrder": 49,
+      "stem": "再次验证UDP掌握情况时，应选择哪项结论？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.25,
+      "knowledgeId": "3801f9f7-c88e-5c02-bbaf-3395ebe1b698",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "TCP 通过序号与确认实现可靠字节流"
+        },
+        {
+          "key": "B",
+          "text": "只关注术语字面，不考虑行为约束"
+        },
+        {
+          "key": "C",
+          "text": "任何场景都可以忽略前置条件"
+        }
+      ],
+      "questionId": "adde29c6-cfc9-5a6f-ab23-ebf7a588af7b",
+      "questionType": "SINGLE",
+      "sortOrder": 50,
+      "stem": "关于TCP 可靠传输，哪一项准确描述核心原则？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.4,
+      "knowledgeId": "3801f9f7-c88e-5c02-bbaf-3395ebe1b698",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "先确认适用条件，再依据“TCP 通过序号与确认实现可靠字节流”执行"
+        },
+        {
+          "key": "B",
+          "text": "直接套用结论且不检查输入"
+        },
+        {
+          "key": "C",
+          "text": "只记答案而不验证过程"
+        }
+      ],
+      "questionId": "86a59d4b-e757-5094-98f0-8e3aa9a9c090",
+      "questionType": "SINGLE",
+      "sortOrder": 51,
+      "stem": "学习TCP 可靠传输时，哪种做法最符合课程要求？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.65,
+      "knowledgeId": "3801f9f7-c88e-5c02-bbaf-3395ebe1b698",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "检查是否违反“TCP 通过序号与确认实现可靠字节流”及其边界条件"
+        },
+        {
+          "key": "B",
+          "text": "先扩大数据规模掩盖异常"
+        },
+        {
+          "key": "C",
+          "text": "删除失败记录后宣告成功"
+        }
+      ],
+      "questionId": "c89dedd0-46de-5137-85cd-920ef58e6bda",
+      "questionType": "SINGLE",
+      "sortOrder": 52,
+      "stem": "一个TCP 可靠传输方案结果异常，优先检查什么？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.8,
+      "knowledgeId": "3801f9f7-c88e-5c02-bbaf-3395ebe1b698",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "同时说明约束、代价、正确性和可复现证据"
+        },
+        {
+          "key": "B",
+          "text": "只比较一次运行的表面结果"
+        },
+        {
+          "key": "C",
+          "text": "只选择名称更熟悉的方案"
+        }
+      ],
+      "questionId": "01868966-39c3-56de-86d0-5474a0f7c0e5",
+      "questionType": "SINGLE",
+      "sortOrder": 53,
+      "stem": "比较两个TCP 可靠传输方案时，哪项论证最可靠？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.6,
+      "knowledgeId": "3801f9f7-c88e-5c02-bbaf-3395ebe1b698",
+      "learningPhase": "RETEST",
+      "options": [
+        {
+          "key": "A",
+          "text": "TCP 通过序号与确认实现可靠字节流"
+        },
+        {
+          "key": "B",
+          "text": "结论可以脱离输入条件单独成立"
+        },
+        {
+          "key": "C",
+          "text": "出现反例时应修改数据而非结论"
+        }
+      ],
+      "questionId": "a90760d1-2c03-5e23-aa1b-21e91fc5e8e7",
+      "questionType": "SINGLE",
+      "sortOrder": 54,
+      "stem": "再次验证TCP 可靠传输掌握情况时，应选择哪项结论？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.25,
+      "knowledgeId": "423b033d-11af-58fb-bc67-3a2fc4474439",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "发送速率同时受接收窗口和拥塞窗口限制"
+        },
+        {
+          "key": "B",
+          "text": "只关注术语字面，不考虑行为约束"
+        },
+        {
+          "key": "C",
+          "text": "任何场景都可以忽略前置条件"
+        }
+      ],
+      "questionId": "ee42a150-e037-507b-bcb1-f630e8bc0a74",
+      "questionType": "SINGLE",
+      "sortOrder": 55,
+      "stem": "关于TCP 拥塞控制，哪一项准确描述核心原则？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.4,
+      "knowledgeId": "423b033d-11af-58fb-bc67-3a2fc4474439",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "先确认适用条件，再依据“发送速率同时受接收窗口和拥塞窗口限制”执行"
+        },
+        {
+          "key": "B",
+          "text": "直接套用结论且不检查输入"
+        },
+        {
+          "key": "C",
+          "text": "只记答案而不验证过程"
+        }
+      ],
+      "questionId": "2eb88b17-d7e3-587d-b2e5-b9804b17fe0c",
+      "questionType": "SINGLE",
+      "sortOrder": 56,
+      "stem": "学习TCP 拥塞控制时，哪种做法最符合课程要求？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.65,
+      "knowledgeId": "423b033d-11af-58fb-bc67-3a2fc4474439",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "检查是否违反“发送速率同时受接收窗口和拥塞窗口限制”及其边界条件"
+        },
+        {
+          "key": "B",
+          "text": "先扩大数据规模掩盖异常"
+        },
+        {
+          "key": "C",
+          "text": "删除失败记录后宣告成功"
+        }
+      ],
+      "questionId": "2d9b0b77-dbab-59d6-be45-58448288e7db",
+      "questionType": "SINGLE",
+      "sortOrder": 57,
+      "stem": "一个TCP 拥塞控制方案结果异常，优先检查什么？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.8,
+      "knowledgeId": "423b033d-11af-58fb-bc67-3a2fc4474439",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "同时说明约束、代价、正确性和可复现证据"
+        },
+        {
+          "key": "B",
+          "text": "只比较一次运行的表面结果"
+        },
+        {
+          "key": "C",
+          "text": "只选择名称更熟悉的方案"
+        }
+      ],
+      "questionId": "b510adb7-aa6c-5f50-ba92-d447b0cad1de",
+      "questionType": "SINGLE",
+      "sortOrder": 58,
+      "stem": "比较两个TCP 拥塞控制方案时，哪项论证最可靠？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.6,
+      "knowledgeId": "423b033d-11af-58fb-bc67-3a2fc4474439",
+      "learningPhase": "RETEST",
+      "options": [
+        {
+          "key": "A",
+          "text": "发送速率同时受接收窗口和拥塞窗口限制"
+        },
+        {
+          "key": "B",
+          "text": "结论可以脱离输入条件单独成立"
+        },
+        {
+          "key": "C",
+          "text": "出现反例时应修改数据而非结论"
+        }
+      ],
+      "questionId": "7a575e37-46b6-5a64-870a-a43267aab458",
+      "questionType": "SINGLE",
+      "sortOrder": 59,
+      "stem": "再次验证TCP 拥塞控制掌握情况时，应选择哪项结论？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.25,
+      "knowledgeId": "9d417d90-72f6-5a0b-aa3c-ae65a74ae87c",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "DNS 将域名解析为记录并通过 TTL 控制缓存"
+        },
+        {
+          "key": "B",
+          "text": "只关注术语字面，不考虑行为约束"
+        },
+        {
+          "key": "C",
+          "text": "任何场景都可以忽略前置条件"
+        }
+      ],
+      "questionId": "d8fb1331-0c84-50d3-ac18-49c49ce471a5",
+      "questionType": "SINGLE",
+      "sortOrder": 60,
+      "stem": "关于DNS，哪一项准确描述核心原则？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.4,
+      "knowledgeId": "9d417d90-72f6-5a0b-aa3c-ae65a74ae87c",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "先确认适用条件，再依据“DNS 将域名解析为记录并通过 TTL 控制缓存”执行"
+        },
+        {
+          "key": "B",
+          "text": "直接套用结论且不检查输入"
+        },
+        {
+          "key": "C",
+          "text": "只记答案而不验证过程"
+        }
+      ],
+      "questionId": "639ce6b0-aeb0-5e85-8473-8c7e537199b6",
+      "questionType": "SINGLE",
+      "sortOrder": 61,
+      "stem": "学习DNS时，哪种做法最符合课程要求？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.65,
+      "knowledgeId": "9d417d90-72f6-5a0b-aa3c-ae65a74ae87c",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "检查是否违反“DNS 将域名解析为记录并通过 TTL 控制缓存”及其边界条件"
+        },
+        {
+          "key": "B",
+          "text": "先扩大数据规模掩盖异常"
+        },
+        {
+          "key": "C",
+          "text": "删除失败记录后宣告成功"
+        }
+      ],
+      "questionId": "eab42413-53f5-57dc-87bd-5f80d94a3cce",
+      "questionType": "SINGLE",
+      "sortOrder": 62,
+      "stem": "一个DNS方案结果异常，优先检查什么？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.8,
+      "knowledgeId": "9d417d90-72f6-5a0b-aa3c-ae65a74ae87c",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "同时说明约束、代价、正确性和可复现证据"
+        },
+        {
+          "key": "B",
+          "text": "只比较一次运行的表面结果"
+        },
+        {
+          "key": "C",
+          "text": "只选择名称更熟悉的方案"
+        }
+      ],
+      "questionId": "c14aba1b-2721-5115-9c49-ebdd5e6a6118",
+      "questionType": "SINGLE",
+      "sortOrder": 63,
+      "stem": "比较两个DNS方案时，哪项论证最可靠？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.6,
+      "knowledgeId": "9d417d90-72f6-5a0b-aa3c-ae65a74ae87c",
+      "learningPhase": "RETEST",
+      "options": [
+        {
+          "key": "A",
+          "text": "DNS 将域名解析为记录并通过 TTL 控制缓存"
+        },
+        {
+          "key": "B",
+          "text": "结论可以脱离输入条件单独成立"
+        },
+        {
+          "key": "C",
+          "text": "出现反例时应修改数据而非结论"
+        }
+      ],
+      "questionId": "9799e9a1-f302-5713-89ca-28485e0e0051",
+      "questionType": "SINGLE",
+      "sortOrder": 64,
+      "stem": "再次验证DNS掌握情况时，应选择哪项结论？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.25,
+      "knowledgeId": "830697f9-8198-5ecb-9a14-b936233ea12f",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "HTTP 语义由方法、资源和响应状态共同表达"
+        },
+        {
+          "key": "B",
+          "text": "只关注术语字面，不考虑行为约束"
+        },
+        {
+          "key": "C",
+          "text": "任何场景都可以忽略前置条件"
+        }
+      ],
+      "questionId": "886cce75-175e-51c5-9040-ecda46bc24c3",
+      "questionType": "SINGLE",
+      "sortOrder": 65,
+      "stem": "关于HTTP，哪一项准确描述核心原则？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.4,
+      "knowledgeId": "830697f9-8198-5ecb-9a14-b936233ea12f",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "先确认适用条件，再依据“HTTP 语义由方法、资源和响应状态共同表达”执行"
+        },
+        {
+          "key": "B",
+          "text": "直接套用结论且不检查输入"
+        },
+        {
+          "key": "C",
+          "text": "只记答案而不验证过程"
+        }
+      ],
+      "questionId": "5de38682-447f-5533-9805-b4e1cb13f398",
+      "questionType": "SINGLE",
+      "sortOrder": 66,
+      "stem": "学习HTTP时，哪种做法最符合课程要求？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.65,
+      "knowledgeId": "830697f9-8198-5ecb-9a14-b936233ea12f",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "检查是否违反“HTTP 语义由方法、资源和响应状态共同表达”及其边界条件"
+        },
+        {
+          "key": "B",
+          "text": "先扩大数据规模掩盖异常"
+        },
+        {
+          "key": "C",
+          "text": "删除失败记录后宣告成功"
+        }
+      ],
+      "questionId": "ef74fdbe-327f-5c62-ab46-277fc547339e",
+      "questionType": "SINGLE",
+      "sortOrder": 67,
+      "stem": "一个HTTP方案结果异常，优先检查什么？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.8,
+      "knowledgeId": "830697f9-8198-5ecb-9a14-b936233ea12f",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "同时说明约束、代价、正确性和可复现证据"
+        },
+        {
+          "key": "B",
+          "text": "只比较一次运行的表面结果"
+        },
+        {
+          "key": "C",
+          "text": "只选择名称更熟悉的方案"
+        }
+      ],
+      "questionId": "3cbb0b90-972f-5fa4-a230-a3407e908377",
+      "questionType": "SINGLE",
+      "sortOrder": 68,
+      "stem": "比较两个HTTP方案时，哪项论证最可靠？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.6,
+      "knowledgeId": "830697f9-8198-5ecb-9a14-b936233ea12f",
+      "learningPhase": "RETEST",
+      "options": [
+        {
+          "key": "A",
+          "text": "HTTP 语义由方法、资源和响应状态共同表达"
+        },
+        {
+          "key": "B",
+          "text": "结论可以脱离输入条件单独成立"
+        },
+        {
+          "key": "C",
+          "text": "出现反例时应修改数据而非结论"
+        }
+      ],
+      "questionId": "46f95ef4-70a8-5af0-a55d-01d5b518686c",
+      "questionType": "SINGLE",
+      "sortOrder": 69,
+      "stem": "再次验证HTTP掌握情况时，应选择哪项结论？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.25,
+      "knowledgeId": "bf9494be-3df2-5507-870a-9cd2e1070aa1",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "TLS 在可靠传输之上提供机密性与完整性"
+        },
+        {
+          "key": "B",
+          "text": "只关注术语字面，不考虑行为约束"
+        },
+        {
+          "key": "C",
+          "text": "任何场景都可以忽略前置条件"
+        }
+      ],
+      "questionId": "f393e0be-6762-57a7-8531-565b05e4b7fa",
+      "questionType": "SINGLE",
+      "sortOrder": 70,
+      "stem": "关于TLS 与套接字，哪一项准确描述核心原则？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.4,
+      "knowledgeId": "bf9494be-3df2-5507-870a-9cd2e1070aa1",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "先确认适用条件，再依据“TLS 在可靠传输之上提供机密性与完整性”执行"
+        },
+        {
+          "key": "B",
+          "text": "直接套用结论且不检查输入"
+        },
+        {
+          "key": "C",
+          "text": "只记答案而不验证过程"
+        }
+      ],
+      "questionId": "22676483-a707-506c-82cd-b915c2f21ee1",
+      "questionType": "SINGLE",
+      "sortOrder": 71,
+      "stem": "学习TLS 与套接字时，哪种做法最符合课程要求？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.65,
+      "knowledgeId": "bf9494be-3df2-5507-870a-9cd2e1070aa1",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "检查是否违反“TLS 在可靠传输之上提供机密性与完整性”及其边界条件"
+        },
+        {
+          "key": "B",
+          "text": "先扩大数据规模掩盖异常"
+        },
+        {
+          "key": "C",
+          "text": "删除失败记录后宣告成功"
+        }
+      ],
+      "questionId": "48ddee7c-11ff-51c4-9dd1-6731a949876c",
+      "questionType": "SINGLE",
+      "sortOrder": 72,
+      "stem": "一个TLS 与套接字方案结果异常，优先检查什么？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.8,
+      "knowledgeId": "bf9494be-3df2-5507-870a-9cd2e1070aa1",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "同时说明约束、代价、正确性和可复现证据"
+        },
+        {
+          "key": "B",
+          "text": "只比较一次运行的表面结果"
+        },
+        {
+          "key": "C",
+          "text": "只选择名称更熟悉的方案"
+        }
+      ],
+      "questionId": "589b24b4-7dc6-5726-b614-6e386b76e520",
+      "questionType": "SINGLE",
+      "sortOrder": 73,
+      "stem": "比较两个TLS 与套接字方案时，哪项论证最可靠？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.6,
+      "knowledgeId": "bf9494be-3df2-5507-870a-9cd2e1070aa1",
+      "learningPhase": "RETEST",
+      "options": [
+        {
+          "key": "A",
+          "text": "TLS 在可靠传输之上提供机密性与完整性"
+        },
+        {
+          "key": "B",
+          "text": "结论可以脱离输入条件单独成立"
+        },
+        {
+          "key": "C",
+          "text": "出现反例时应修改数据而非结论"
+        }
+      ],
+      "questionId": "9d4e7d64-c63b-5eb7-8a9f-c6c874d625a2",
+      "questionType": "SINGLE",
+      "sortOrder": 74,
+      "stem": "再次验证TLS 与套接字掌握情况时，应选择哪项结论？"
+    }
+  ],
+  "resources": [
+    {
+      "content": "理解协议分层、封装和端到端通信。每层向上提供服务并使用下层能力。阅读后请用自己的话说明适用条件，并完成基础、进阶与复测练习。",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.2,
+      "knowledgeId": "adc3996e-2e4b-532d-b81e-994df4ea957d",
+      "resourceId": "65781ca8-c30d-5083-ac5a-eef39a970873",
+      "resourceType": "ARTICLE",
+      "sortOrder": 0,
+      "title": "分层模型核心讲解"
+    },
+    {
+      "content": "围绕“每层向上提供服务并使用下层能力”分析一个正例和一个反例，明确输入、关键步骤、输出及常见误区。",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.35,
+      "knowledgeId": "adc3996e-2e4b-532d-b81e-994df4ea957d",
+      "resourceId": "6ca24ccc-c5d3-5c7d-8dfc-d9fc1ed2afbf",
+      "resourceType": "EXAMPLE",
+      "sortOrder": 1,
+      "title": "分层模型例题拆解"
+    },
+    {
+      "content": "理解带宽、时延、编码和信号传播。传播时延取决于距离与传播速度。阅读后请用自己的话说明适用条件，并完成基础、进阶与复测练习。",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.23,
+      "knowledgeId": "83d732c8-8a56-5390-82b3-ca695c5341c9",
+      "resourceId": "f9dbba08-d6f1-5a7b-b5b4-2886e2c641a1",
+      "resourceType": "ARTICLE",
+      "sortOrder": 2,
+      "title": "物理传输核心讲解"
+    },
+    {
+      "content": "围绕“传播时延取决于距离与传播速度”分析一个正例和一个反例，明确输入、关键步骤、输出及常见误区。",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.39,
+      "knowledgeId": "83d732c8-8a56-5390-82b3-ca695c5341c9",
+      "resourceId": "7699eb27-973a-5ff4-943c-868890c4d64b",
+      "resourceType": "EXAMPLE",
+      "sortOrder": 3,
+      "title": "物理传输例题拆解"
+    },
+    {
+      "content": "理解成帧、差错检测和链路交付。帧在单段链路上传送网络层数据报。阅读后请用自己的话说明适用条件，并完成基础、进阶与复测练习。",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.26,
+      "knowledgeId": "b16a77d3-b594-5f61-a334-e24678b67a42",
+      "resourceId": "6f5c4f12-f4b5-53fb-96c4-d2e026bf0fbd",
+      "resourceType": "ARTICLE",
+      "sortOrder": 4,
+      "title": "数据链路帧核心讲解"
+    },
+    {
+      "content": "围绕“帧在单段链路上传送网络层数据报”分析一个正例和一个反例，明确输入、关键步骤、输出及常见误区。",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.43,
+      "knowledgeId": "b16a77d3-b594-5f61-a334-e24678b67a42",
+      "resourceId": "24bf0954-6b00-5917-b6aa-b7115d639bf8",
+      "resourceType": "EXAMPLE",
+      "sortOrder": 5,
+      "title": "数据链路帧例题拆解"
+    },
+    {
+      "content": "理解 MAC 地址、交换和广播域。交换机依据 MAC 表转发以太网帧。阅读后请用自己的话说明适用条件，并完成基础、进阶与复测练习。",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.29,
+      "knowledgeId": "92642908-8e0b-561e-9551-80a015bc0890",
+      "resourceId": "c89dfce9-5ba8-564c-966e-539d5c3d95a5",
+      "resourceType": "ARTICLE",
+      "sortOrder": 6,
+      "title": "以太网与 MAC核心讲解"
+    },
+    {
+      "content": "围绕“交换机依据 MAC 表转发以太网帧”分析一个正例和一个反例，明确输入、关键步骤、输出及常见误区。",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.47,
+      "knowledgeId": "92642908-8e0b-561e-9551-80a015bc0890",
+      "resourceId": "865de5b6-fae8-56ed-9217-716dc0a0cedd",
+      "resourceType": "EXAMPLE",
+      "sortOrder": 7,
+      "title": "以太网与 MAC例题拆解"
+    },
+    {
+      "content": "理解 IPv4 地址到链路层地址的解析。ARP 在本地链路解析下一跳 MAC 地址。阅读后请用自己的话说明适用条件，并完成基础、进阶与复测练习。",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.32,
+      "knowledgeId": "a5e60331-b334-5b2b-81a8-727b79b63a8f",
+      "resourceId": "e3c88b3b-d5f4-50d7-9a40-26b92a7ed2df",
+      "resourceType": "ARTICLE",
+      "sortOrder": 8,
+      "title": "ARP核心讲解"
+    },
+    {
+      "content": "围绕“ARP 在本地链路解析下一跳 MAC 地址”分析一个正例和一个反例，明确输入、关键步骤、输出及常见误区。",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.51,
+      "knowledgeId": "a5e60331-b334-5b2b-81a8-727b79b63a8f",
+      "resourceId": "719dff9c-8db1-5916-a8d5-195b2f0ac7c2",
+      "resourceType": "EXAMPLE",
+      "sortOrder": 9,
+      "title": "ARP例题拆解"
+    },
+    {
+      "content": "理解数据报、TTL、分片和尽力而为交付。路由器转发时递减 TTL。阅读后请用自己的话说明适用条件，并完成基础、进阶与复测练习。",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.35,
+      "knowledgeId": "6e31b6bf-f478-5500-9460-ad5d70425d88",
+      "resourceId": "f0836c68-4cfa-5a81-8584-a35d17cb2852",
+      "resourceType": "ARTICLE",
+      "sortOrder": 10,
+      "title": "IPv4核心讲解"
+    },
+    {
+      "content": "使用前缀长度计算网络与主机范围。同一前缀标识一个 IP 子网。阅读后请用自己的话说明适用条件，并完成基础、进阶与复测练习。",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.38,
+      "knowledgeId": "489718e3-a66f-55c5-82f2-b38505670dc0",
+      "resourceId": "7697581d-666c-510a-af79-67d7f56a1242",
+      "resourceType": "ARTICLE",
+      "sortOrder": 12,
+      "title": "子网划分核心讲解"
+    },
+    {
+      "content": "理解路由表、最长前缀匹配和下一跳。转发选择匹配位数最长的路由前缀。阅读后请用自己的话说明适用条件，并完成基础、进阶与复测练习。",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.41,
+      "knowledgeId": "8042d40e-2243-5dd6-8b66-694d751b499d",
+      "resourceId": "5048d492-3204-5a15-b131-e8ed2e5018e9",
+      "resourceType": "ARTICLE",
+      "sortOrder": 14,
+      "title": "路由转发核心讲解"
+    },
+    {
+      "content": "理解差错报告与网络诊断消息。ICMP 用于报告网络层控制与差错信息。阅读后请用自己的话说明适用条件，并完成基础、进阶与复测练习。",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.44,
+      "knowledgeId": "4f5fe11b-3501-5166-b15e-f770876c09a3",
+      "resourceId": "0a895e98-7803-50d5-8ebf-9f7600377653",
+      "resourceType": "ARTICLE",
+      "sortOrder": 16,
+      "title": "ICMP核心讲解"
+    },
+    {
+      "content": "理解无连接数据报服务及适用场景。UDP 不提供可靠重传与有序交付。阅读后请用自己的话说明适用条件，并完成基础、进阶与复测练习。",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.47,
+      "knowledgeId": "fbf5f42f-91be-53f0-a808-78d3bdf9dff9",
+      "resourceId": "f85d4331-c9e4-5ef5-8db4-edb4e768cf64",
+      "resourceType": "ARTICLE",
+      "sortOrder": 18,
+      "title": "UDP核心讲解"
+    },
+    {
+      "content": "理解序号、确认、重传和滑动窗口。TCP 通过序号与确认实现可靠字节流。阅读后请用自己的话说明适用条件，并完成基础、进阶与复测练习。",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.5,
+      "knowledgeId": "3801f9f7-c88e-5c02-bbaf-3395ebe1b698",
+      "resourceId": "e27b2809-2bd9-5e01-b85f-859e0c3bba28",
+      "resourceType": "ARTICLE",
+      "sortOrder": 20,
+      "title": "TCP 可靠传输核心讲解"
+    },
+    {
+      "content": "理解拥塞窗口、慢启动和拥塞避免。发送速率同时受接收窗口和拥塞窗口限制。阅读后请用自己的话说明适用条件，并完成基础、进阶与复测练习。",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.53,
+      "knowledgeId": "423b033d-11af-58fb-bc67-3a2fc4474439",
+      "resourceId": "e50e7c5f-9d0c-50ae-9849-812619ac5001",
+      "resourceType": "ARTICLE",
+      "sortOrder": 22,
+      "title": "TCP 拥塞控制核心讲解"
+    },
+    {
+      "content": "理解域名层次、递归查询和缓存。DNS 将域名解析为记录并通过 TTL 控制缓存。阅读后请用自己的话说明适用条件，并完成基础、进阶与复测练习。",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.56,
+      "knowledgeId": "9d417d90-72f6-5a0b-aa3c-ae65a74ae87c",
+      "resourceId": "4032534e-a0bc-54d3-a875-9061266b2181",
+      "resourceType": "ARTICLE",
+      "sortOrder": 24,
+      "title": "DNS核心讲解"
+    },
+    {
+      "content": "理解请求响应、方法、状态码和缓存。HTTP 语义由方法、资源和响应状态共同表达。阅读后请用自己的话说明适用条件，并完成基础、进阶与复测练习。",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.59,
+      "knowledgeId": "830697f9-8198-5ecb-9a14-b936233ea12f",
+      "resourceId": "6cedf6eb-1042-57c6-bb58-10038b581033",
+      "resourceType": "ARTICLE",
+      "sortOrder": 26,
+      "title": "HTTP核心讲解"
+    },
+    {
+      "content": "理解安全信道、证书验证和应用接口。TLS 在可靠传输之上提供机密性与完整性。阅读后请用自己的话说明适用条件，并完成基础、进阶与复测练习。",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "difficulty": 0.62,
+      "knowledgeId": "bf9494be-3df2-5507-870a-9cd2e1070aa1",
+      "resourceId": "8e7bdd0c-ca99-55ad-b92c-edc3c94e2c56",
+      "resourceType": "ARTICLE",
+      "sortOrder": 28,
+      "title": "TLS 与套接字核心讲解"
+    }
+  ],
+  "schemaVersion": 1
+}
