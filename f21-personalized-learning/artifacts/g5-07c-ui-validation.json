@@ -1,0 +1,37 @@
+{
+  "browser": {
+    "credentialsRecorded": false,
+    "observations": [
+      "教师登录后可见实验看板入口，模型与实验卡片显示真实 API 数据、样本量和产物短 hash。",
+      "教师进入授权 Java 课程后可见看板页；薄弱点空状态、推荐指标四项分母和可信完成说明正确显示。",
+      "学生登录后不显示实验看板入口，也不显示课程看板导航。",
+      "刷新课程统计可重复读取接口；控制台无 error/warning。"
+    ],
+    "studentAccount": "student01",
+    "surface": "Chrome local preview",
+    "teacherAccount": "teacher01",
+    "url": "http://127.0.0.1:15173/"
+  },
+  "checks": {
+    "browserAcceptance": true,
+    "dashboardModuleUsesFrozenGetApis": true,
+    "dashboardStylesPresent": true,
+    "documentedEmptyStates": true,
+    "productionBundlePresent": true,
+    "provenanceAndDenominatorsVisible": true,
+    "staffOnlyDashboardBindings": true
+  },
+  "implementationCommit": "42bf7a644e957dbb93a61afd095f570d5b4162fc",
+  "limitations": [
+    "浏览器检查覆盖本地 Chrome 交互与控制台；跨浏览器兼容性留待 G5-08。",
+    "本地开发数据库当前没有满足证据门槛的学习者和推荐产品事件，页面显示契约规定的空状态。"
+  ],
+  "passed": true,
+  "schemaVersion": "g5-07c-ui-validation-v1",
+  "security": {
+    "answersOrPasswordsDisplayed": false,
+    "rawStudentIdentifiersRecorded": false,
+    "tokensRecorded": false
+  },
+  "verifiedAt": "2026-09-18T01:41:48Z"
+}
