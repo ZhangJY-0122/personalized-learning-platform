@@ -1,0 +1,186 @@
+{
+  "passed": true,
+  "verifiedAt": "2026-09-16T17:47:24Z",
+  "gitCommit": "003cc2fb71512b4c3e2154106239f610f1941b3e",
+  "generator": {
+    "script": "scripts/fit_g5_bkt.py",
+    "schemaVersion": "g5-bkt-fit-v1"
+  },
+  "reproduceCommand": "mvn -B -ntp -Dtest=edu.f21.BktTest test -f server/pom.xml && PYTHONDONTWRITEBYTECODE=1 python3 -m scripts.fit_g5_bkt --clean data/processed/assistments-clean.jsonl --split data/processed/g5-split-assignments.jsonl --split-manifest data/manifests/g5-split-manifest.json --parameters-output data/processed/g5-bkt-parameters.json --report-output artifacts/g5-bkt-fit.json --java-parity-report server/target/surefire-reports/TEST-edu.f21.BktTest.xml",
+  "environment": {
+    "pythonVersion": "3.13.14 (v3.13.14:fd17997c386, Jun 10 2026, 08:55:00) [Clang 21.0.0 (clang-2100.1.1.101)]",
+    "pythonImplementation": "CPython",
+    "os": "Darwin",
+    "osRelease": "25.5.0",
+    "machine": "arm64"
+  },
+  "schemaVersion": "g5-bkt-fit-v1",
+  "modelVersion": "BKT_G5_FORMAL_V1",
+  "formulaVersion": "bkt-four-parameter-v1",
+  "input": {
+    "rawSha256": "162ef8d2d28bcbfea6591a282994062bd8d5eaa00636544292a0d268dca6e5da",
+    "cleanSha256": "751fa5917ba2bf2db35ab6bf4864689e1e0159e08eed4f33321628aa1b021552",
+    "splitSha256": "52168dc474895499359cab820f5da666990c6998ee459302cc76f055d2693098",
+    "partitionHashes": {
+      "SHORT_COVERAGE": "f5f80e24e5d46dd51acb260e54fa58cd6f52a38b42c4f4737e5c7955aacf8b90",
+      "test": "a4700cac1748cba73d0761dd5cfab050b701468360bdbc1dba745233d26416b9",
+      "train": "2e445bb1def97d6de54a49b1ffce9468e022775747dd432c1dc3c793837a086b",
+      "validation": "5e8dfde07c2db789789ad95a81095022cc72cb0fab652deadd1ca5c2ba6488e9"
+    }
+  },
+  "rows": {
+    "train": 240353,
+    "validation": 33462,
+    "test": 71937,
+    "SHORT_COVERAGE": 1108,
+    "trainTargets": 240353,
+    "validationTargets": 33462,
+    "testStatus": "DEFERRED_TO_G5_04"
+  },
+  "candidateSpace": {
+    "bounds": {
+      "L0": [
+        0.05,
+        0.95
+      ],
+      "T": [
+        0.001,
+        0.3
+      ],
+      "G": [
+        0.01,
+        0.4
+      ],
+      "S": [
+        0.01,
+        0.4
+      ],
+      "constraint": "G + S < 1"
+    },
+    "seed": 11,
+    "attempts": 100,
+    "acceptedCandidates": 100,
+    "rejectedCandidates": 0,
+    "maxCandidates": 100,
+    "maxAttempts": 2000,
+    "stopReason": "MAX_CANDIDATES_REACHED",
+    "candidateHash": "96d4f97179623cadfb9c64ec5112379e077d16571707f3a043e8ab89b7c78f4d",
+    "selectionTarget": "train LogLoss"
+  },
+  "courseShared": {
+    "trainLogLoss": 0.6035194636604613,
+    "parameterHash": "61a6e7c7b5d119a1edcea422fb837c5a3afc4863d3d423ac4a18d765a80697dd"
+  },
+  "skillSpecific": {
+    "eligibleSkills": 114,
+    "fallbackSkills": 36,
+    "parameterFile": {
+      "path": "data/processed/g5-bkt-parameters.json",
+      "sha256": "c1178ab67e8cc4aed117919871b570265b385efde296f565bb6ae863dd757e80",
+      "bytes": 26568,
+      "gitIgnored": true,
+      "gitTracked": false,
+      "committed": false
+    }
+  },
+  "validationStrategies": {
+    "COURSE_SHARED": {
+      "targets": 33462,
+      "positive": 21491,
+      "negative": 11971,
+      "unknownSkillTargets": 0,
+      "unknownSkillRate": 0.0,
+      "logLoss": 0.6100207395321326
+    },
+    "SKILL_SPECIFIC_FALLBACK": {
+      "targets": 33462,
+      "positive": 21491,
+      "negative": 11971,
+      "unknownSkillTargets": 0,
+      "unknownSkillRate": 0.0,
+      "logLoss": 0.5912776149051707
+    }
+  },
+  "selectedStrategyVersion": "SKILL_SPECIFIC_FALLBACK",
+  "leakageAssertions": {
+    "combinedCleanFileScanned": true,
+    "testRowsMaterializedForModeling": false,
+    "testLabelsUsedForFitting": false,
+    "testLabelsUsedForValidation": false,
+    "testLabelsUsedForStrategySelection": false,
+    "testMetricsComputed": false,
+    "testEvaluationStatus": "DEFERRED_TO_G5_04",
+    "fitPartitions": [
+      "train"
+    ],
+    "selectionPartitions": [
+      "validation"
+    ],
+    "fitEventCount": 240353,
+    "selectionEventCount": 33462,
+    "fitTestIntersectionCount": 0,
+    "selectionTestIntersectionCount": 0,
+    "fitShortCoverageIntersectionCount": 0,
+    "selectionShortCoverageIntersectionCount": 0,
+    "trainValidationTargetIntersectionCount": 0,
+    "validationStrategyTargetSetsMatch": true,
+    "testMetricsCount": 0,
+    "testPredictionCount": 0,
+    "shortCoverageModelEventCount": 0,
+    "fitParameterSourcePartitions": [
+      "train"
+    ],
+    "allFitParametersFromTrain": true,
+    "predictBeforeUpdate": true
+  },
+  "crossLanguageParity": {
+    "pythonVectors": "tests/fixtures/bkt-vectors.json",
+    "javaVectors": "server/src/test/resources/bkt-vectors.json",
+    "pythonSha256": "7e88ffdc32987d35c6b53d607236b58c6fe2043a33e117bd49e4c2000d2d909b",
+    "javaSha256": "7e88ffdc32987d35c6b53d607236b58c6fe2043a33e117bd49e4c2000d2d909b",
+    "hashesMatch": true,
+    "vectorCount": 10,
+    "g5WeightOneVectorCount": 9,
+    "tolerance": 1e-10,
+    "pythonMaxAbsoluteError": 1.1102230246251565e-16,
+    "pythonPassed": true,
+    "javaTestClass": "edu.f21.BktTest",
+    "javaTestMethod": "sameReferenceVectorsAsPython",
+    "javaTestCommand": "mvn -B -ntp -Dtest=edu.f21.BktTest test -f server/pom.xml",
+    "surefire": {
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "javaVectorTestPresent": true,
+      "javaPassed": true
+    },
+    "passed": true
+  },
+  "gates": {
+    "inputHashesMatch": true,
+    "g5_02Passed": true,
+    "parametersValid": true,
+    "processedFilesIgnored": true,
+    "leakageAssertions": true,
+    "crossLanguageParity": true
+  },
+  "processedFiles": {
+    "data/processed/assistments-clean.jsonl": {
+      "gitIgnored": true,
+      "gitTracked": false,
+      "committed": false
+    },
+    "data/processed/g5-split-assignments.jsonl": {
+      "gitIgnored": true,
+      "gitTracked": false,
+      "committed": false
+    },
+    "data/processed/g5-bkt-parameters.json": {
+      "gitIgnored": true,
+      "gitTracked": false,
+      "committed": false
+    }
+  },
+  "errors": []
+}
