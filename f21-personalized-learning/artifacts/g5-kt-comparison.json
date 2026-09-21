@@ -1,0 +1,521 @@
+{
+  "passed": true,
+  "schemaVersion": "g5-kt-comparison-v2",
+  "generator": "training/g5_04r_correction.py",
+  "verifiedAt": "2026-09-17T08:48:49Z",
+  "gates": {
+    "targetCount": true,
+    "targetSourceRowsUnique": true,
+    "predictionTargetsComplete": true,
+    "labelsConsistent": true,
+    "probabilitiesValid": true,
+    "targetHashesUnified": true,
+    "metricsRecomputed": true,
+    "ledgerCounts": true,
+    "candidateEpochGate": true,
+    "diskWithinBudget": true
+  },
+  "gitCommit": "15bf403beb7a7059fe2439c1bb0ebb84f8e192b5",
+  "protocolCommit": "5f745d7754606865548f522c80a7f5e02ddd6e6f",
+  "tuningCommit": "fd320220586cad0ead00b20bc0f5731b3ba3a457",
+  "trainingCommit": "5f745d7754606865548f522c80a7f5e02ddd6e6f",
+  "trainingEnvironment": {
+    "pythonVersion": "3.13.14 (v3.13.14:fd17997c386, Jun 10 2026, 08:55:00) [Clang 21.0.0 (clang-2100.1.1.101)]",
+    "pythonImplementation": "CPython",
+    "os": "Darwin",
+    "osRelease": "25.5.0",
+    "machine": "arm64",
+    "torch": "2.8.0",
+    "numpy": "2.2.6",
+    "device": "CPU",
+    "torchThreads": 1
+  },
+  "evaluationEnvironment": {
+    "status": "NOT_CAPTURED_AT_EVALUATION",
+    "historicalContext": null
+  },
+  "reportGenerationEnvironment": {
+    "pythonVersion": "3.13.14 (v3.13.14:fd17997c386, Jun 10 2026, 08:55:00) [Clang 21.0.0 (clang-2100.1.1.101)]",
+    "pythonImplementation": "CPython",
+    "os": "Darwin",
+    "osRelease": "25.5.0",
+    "machine": "arm64",
+    "torch": "2.8.0",
+    "numpy": "2.2.6",
+    "device": "CPU",
+    "torchThreads": 4
+  },
+  "input": {
+    "cleanSha256": "751fa5917ba2bf2db35ab6bf4864689e1e0159e08eed4f33321628aa1b021552",
+    "splitSha256": "52168dc474895499359cab820f5da666990c6998ee459302cc76f055d2693098",
+    "bktParameterSha256": "c1178ab67e8cc4aed117919871b570265b385efde296f565bb6ae863dd757e80",
+    "vocabularySha256": "af5827ef4f413c9e01758b3a610496a9b32a987c10a0c0f7053a323476019308",
+    "targetManifestSha256": "60967a2c041378790252363246b7cf122baa33c23268ee9a61b3a4d8a876915e",
+    "normalizedTargetSha256": "0106634fdcbd3883dd9493735b39d0f801a8c0455f96025ead04305f758601b0"
+  },
+  "tuning": {
+    "configs": [
+      {
+        "actualEpochs": 19,
+        "bestEpoch": 16,
+        "configId": "h32-lr0.001",
+        "earlyStopReason": "PATIENCE",
+        "hiddenSize": 32,
+        "learningRate": 0.001,
+        "status": "passed",
+        "trainLoss": 0.5309658496646408,
+        "validationLogLoss": 0.5596543383215163
+      },
+      {
+        "actualEpochs": 20,
+        "bestEpoch": 20,
+        "configId": "h32-lr0.0003",
+        "earlyStopReason": "MAX_EPOCHS",
+        "hiddenSize": 32,
+        "learningRate": 0.0003,
+        "status": "passed",
+        "trainLoss": 0.5473912132452734,
+        "validationLogLoss": 0.564812757241839
+      },
+      {
+        "actualEpochs": 11,
+        "bestEpoch": 8,
+        "configId": "h64-lr0.001",
+        "earlyStopReason": "PATIENCE",
+        "hiddenSize": 64,
+        "learningRate": 0.001,
+        "status": "passed",
+        "trainLoss": 0.5283405205107624,
+        "validationLogLoss": 0.556342250760824
+      },
+      {
+        "actualEpochs": 20,
+        "bestEpoch": 20,
+        "configId": "h64-lr0.0003",
+        "earlyStopReason": "MAX_EPOCHS",
+        "hiddenSize": 64,
+        "learningRate": 0.0003,
+        "status": "passed",
+        "trainLoss": 0.528341247428278,
+        "validationLogLoss": 0.5587395431243497
+      }
+    ],
+    "selectedConfig": {
+      "bestEpoch": 8,
+      "configId": "h64-lr0.001",
+      "hiddenSize": 64,
+      "learningRate": 0.001
+    }
+  },
+  "targetSet": {
+    "count": 71937,
+    "modelHashes": {
+      "RULE": "0106634fdcbd3883dd9493735b39d0f801a8c0455f96025ead04305f758601b0",
+      "BKT": "0106634fdcbd3883dd9493735b39d0f801a8c0455f96025ead04305f758601b0",
+      "DKT-11": "0106634fdcbd3883dd9493735b39d0f801a8c0455f96025ead04305f758601b0",
+      "DKT-22": "0106634fdcbd3883dd9493735b39d0f801a8c0455f96025ead04305f758601b0",
+      "DKT-33": "0106634fdcbd3883dd9493735b39d0f801a8c0455f96025ead04305f758601b0"
+    }
+  },
+  "models": {
+    "RULE_RECENT20_BETA11_V1": {
+      "samples": 71937,
+      "positives": 45587,
+      "negatives": 26350,
+      "unknownSkillTargets": 0,
+      "unknownSkillRate": 0.0,
+      "excludedTargets": 0,
+      "exclusionReasons": {},
+      "auc": 0.6936208910385042,
+      "aucReason": null,
+      "accuracy": 0.6763139969695706,
+      "rmse": 0.4617179889127511,
+      "logLoss": 0.615236024945614
+    },
+    "BKT_G5_FROZEN_SKILL_SPECIFIC_FALLBACK_V1": {
+      "samples": 71937,
+      "positives": 45587,
+      "negatives": 26350,
+      "unknownSkillTargets": 0,
+      "unknownSkillRate": 0.0,
+      "excludedTargets": 0,
+      "exclusionReasons": {},
+      "auc": 0.70127259265173,
+      "aucReason": null,
+      "accuracy": 0.6886581314205485,
+      "rmse": 0.45122117794872596,
+      "logLoss": 0.5935640019181342
+    },
+    "DKT_LSTM_V1": {
+      "seeds": [
+        {
+          "seed": 11,
+          "metrics": {
+            "samples": 71937,
+            "positives": 45587,
+            "negatives": 26350,
+            "unknownSkillTargets": 0,
+            "unknownSkillRate": 0.0,
+            "excludedTargets": 0,
+            "exclusionReasons": {},
+            "auc": 0.7447817328994013,
+            "aucReason": null,
+            "accuracy": 0.7124845350793055,
+            "rmse": 0.4369659241692594,
+            "logLoss": 0.5642217034073223
+          }
+        },
+        {
+          "seed": 22,
+          "metrics": {
+            "samples": 71937,
+            "positives": 45587,
+            "negatives": 26350,
+            "unknownSkillTargets": 0,
+            "unknownSkillRate": 0.0,
+            "excludedTargets": 0,
+            "exclusionReasons": {},
+            "auc": 0.7427224604504372,
+            "aucReason": null,
+            "accuracy": 0.7102186635528309,
+            "rmse": 0.43800051374373955,
+            "logLoss": 0.5660471716600305
+          }
+        },
+        {
+          "seed": 33,
+          "metrics": {
+            "samples": 71937,
+            "positives": 45587,
+            "negatives": 26350,
+            "unknownSkillTargets": 0,
+            "unknownSkillRate": 0.0,
+            "excludedTargets": 0,
+            "exclusionReasons": {},
+            "auc": 0.7427447191180914,
+            "aucReason": null,
+            "accuracy": 0.7128876655962857,
+            "rmse": 0.4375801795441651,
+            "logLoss": 0.5658313722008671
+          }
+        }
+      ],
+      "meanStd": {
+        "auc": {
+          "mean": 0.7434163041559767,
+          "std": 0.0011825483508504635,
+          "ddof": 1
+        },
+        "accuracy": {
+          "mean": 0.7118636214094739,
+          "std": 0.001438764510275792,
+          "ddof": 1
+        },
+        "rmse": {
+          "mean": 0.437515539152388,
+          "std": 0.0005203149835364942,
+          "ddof": 1
+        },
+        "logLoss": {
+          "mean": 0.5653667490894067,
+          "std": 0.000997491635147301,
+          "ddof": 1
+        }
+      }
+    }
+  },
+  "ruleParity": {
+    "hashesMatch": true,
+    "javaSha256": "4fa24b0468a05182ebd0258d5dc764805c8d0cbd1ce87f9659aca99c04e4a315",
+    "javaTestClass": "edu.f21.RuleBaselineTest",
+    "javaTestCommand": "mvn -B -ntp -Dtest=edu.f21.RuleBaselineTest test -f server/pom.xml",
+    "javaTestMethod": "sameReferenceVectorsAsPython",
+    "javaVectors": "server/src/test/resources/rule-vectors.json",
+    "passed": true,
+    "pythonSha256": "4fa24b0468a05182ebd0258d5dc764805c8d0cbd1ce87f9659aca99c04e4a315",
+    "pythonVectors": "tests/fixtures/rule-vectors.json",
+    "vectorCount": 5
+  },
+  "checkpoints": [
+    {
+      "seed": 11,
+      "path": "data/processed/g5-04r/archive/original-46256f8/checkpoints/dkt-seed-11.pt",
+      "sha256": "90046d93f1212c9e68caca9dc1c52f4e3f18957b398b3c8ff5f8a1f18085b0c1",
+      "bytes": 263953,
+      "stateSha256": "38453238e632a0b37655d39bb93b813f465bbc87d35ea2389df137227e858737"
+    },
+    {
+      "seed": 22,
+      "path": "data/processed/g5-04r/archive/original-46256f8/checkpoints/dkt-seed-22.pt",
+      "sha256": "2c756558965782ea8a24b2d2f1e6707d678fcd42af998a97f8b997db8856199f",
+      "bytes": 263953,
+      "stateSha256": "a386639f99856fc17304a1cb482737bae48392bf1792d7e543fb072d19327698"
+    },
+    {
+      "seed": 33,
+      "path": "data/processed/g5-04r/candidates/dkt-seed-33-epoch8.pt",
+      "sha256": "037f908e0d9d1aa9f89eaa26cb80101edd299cd9400af31852ad6ea8256f199f",
+      "bytes": 252881,
+      "stateSha256": "b8d526a70ebbc4a47d29a465373430edf5bd223632d5fe33c90a8c597896a90e",
+      "configuredEpochs": 8,
+      "trainedEpochs": 8,
+      "savedEpoch": 8,
+      "validationBestEpoch": 7,
+      "gitIgnored": true,
+      "gitTracked": false,
+      "testTouched": false
+    }
+  ],
+  "predictionFiles": [
+    {
+      "model": "RULE",
+      "path": "data/processed/g5-04r/archive/original-46256f8/predictions/rule.jsonl",
+      "sha256": "92172df9cdc0d4d066be11afee5fc0f196ba8fa99e5ec9b1d9215a6c169f55e5",
+      "targetSetSha256": "0106634fdcbd3883dd9493735b39d0f801a8c0455f96025ead04305f758601b0"
+    },
+    {
+      "model": "BKT",
+      "path": "data/processed/g5-04r/archive/original-46256f8/predictions/bkt.jsonl",
+      "sha256": "ad500d540e9ef5135456b8448dbcf8544896a21b31382d302b2efa2901f20dfe",
+      "targetSetSha256": "0106634fdcbd3883dd9493735b39d0f801a8c0455f96025ead04305f758601b0"
+    },
+    {
+      "model": "DKT-11",
+      "path": "data/processed/g5-04r/archive/original-46256f8/predictions/dkt-seed-11.jsonl",
+      "sha256": "a4adf72a92dacffcc51feb45ce3b6f2239f4a30aa01c6483c94c4a3987604e7f",
+      "targetSetSha256": "0106634fdcbd3883dd9493735b39d0f801a8c0455f96025ead04305f758601b0"
+    },
+    {
+      "model": "DKT-22",
+      "path": "data/processed/g5-04r/archive/original-46256f8/predictions/dkt-seed-22.jsonl",
+      "sha256": "8b776131763a944244091f514fc7b1e25e10954abc421aa7a7c95cb1e65cfb83",
+      "targetSetSha256": "0106634fdcbd3883dd9493735b39d0f801a8c0455f96025ead04305f758601b0"
+    },
+    {
+      "model": "DKT-33",
+      "path": "data/processed/g5-04r/predictions/dkt-seed-33-corrected.jsonl",
+      "sha256": "313c937f02b5f93c6e57e72723e694bc924fd682fa4943fe03187d66ae42ab27",
+      "targetSetSha256": "0106634fdcbd3883dd9493735b39d0f801a8c0455f96025ead04305f758601b0"
+    }
+  ],
+  "evaluationLedger": {
+    "path": "data/processed/g5-kt-evaluation-ledger.json",
+    "sha256": "383b1551b9a743fde110824f0310fdfb5f1c89b041aba263dfb95bc256c2f784"
+  },
+  "correctiveConsumption": {
+    "path": "data/processed/g5-04r/CORRECTIVE_ATTEMPT_CONSUMED",
+    "sha256": "45a9f4f581a2ec410b7f9dd00089f5e3429ba676a62a85bf543c58da68c5551d",
+    "attemptId": "CORRECTIVE_ATTEMPT_1_OF_1",
+    "ledgerSha256": "383b1551b9a743fde110824f0310fdfb5f1c89b041aba263dfb95bc256c2f784",
+    "seed33CheckpointSha256": "037f908e0d9d1aa9f89eaa26cb80101edd299cd9400af31852ad6ea8256f199f",
+    "seed33PredictionSha256": "313c937f02b5f93c6e57e72723e694bc924fd682fa4943fe03187d66ae42ab27",
+    "status": "CONSUMED"
+  },
+  "testEvaluationCount": {
+    "RULE": 1,
+    "BKT": 1,
+    "DKT": {
+      "11": 1,
+      "22": 1,
+      "33": 1
+    },
+    "invalidatedDKT33": 1
+  },
+  "protocolCorrection": {
+    "status": "INVALID_PROTOCOL",
+    "reason": "formal training saved validation-best epoch 7 for seed 33; frozen protocol requires seed 11 selected fixed epoch 8",
+    "originalHead": "46256f896522efc81826938edb80192f0055b932",
+    "originalEvidenceCommit": "46256f896522efc81826938edb80192f0055b932",
+    "originalSeed33Checkpoint": {
+      "seed": 33,
+      "path": "data/processed/g5-04r/archive/original-46256f8/checkpoints/dkt-seed-33.pt",
+      "sha256": "c7e07c0439a8427dac899893ab11dc0ab1a9ec68129fbee8406925a9a7c074d4",
+      "bytes": 263953,
+      "stateSha256": "69b22ff6c7ed329e8af56b8a5d3966384295f746061c1a24237bddd44d4aa158"
+    },
+    "originalSeed33PredictionSha256": "d095c5761d2f9c46c65d92322ef7c4d7b0a1dd2f9c7c6e5ae9f16e2e8b8cb75a",
+    "originalSeed33Metrics": {
+      "accuracy": 0.7129710719101436,
+      "auc": 0.7434831703452194,
+      "aucReason": null,
+      "excludedTargets": 0,
+      "exclusionReasons": {},
+      "logLoss": 0.5651422200000976,
+      "negatives": 26350,
+      "positives": 45587,
+      "rmse": 0.4373183126377118,
+      "samples": 71937,
+      "unknownSkillRate": 0.0,
+      "unknownSkillTargets": 0
+    },
+    "originalLedgerSha256": "fbf8392d9a66d261c72b1039c6c3ca3f73bed4a717a8da1f6793dc580206bcaf",
+    "originalTestTouched": true,
+    "correctiveRunLimit": 1,
+    "forbiddenReevaluations": [
+      "RULE",
+      "BKT",
+      "DKT seed 11",
+      "DKT seed 22"
+    ],
+    "firstTrainFailure": {
+      "stage": "train-final",
+      "testTouched": false,
+      "reason": "checkpoint directory missing",
+      "repairCommit": "3a1725d650fdb6ca5c6170cb34bf3152a8f205d6",
+      "rerun": "successful"
+    },
+    "candidateTraining": {
+      "passed": true,
+      "protocolCommit": "5f745d7754606865548f522c80a7f5e02ddd6e6f",
+      "trainingEnvironment": {
+        "pythonVersion": "3.13.14 (v3.13.14:fd17997c386, Jun 10 2026, 08:55:00) [Clang 21.0.0 (clang-2100.1.1.101)]",
+        "pythonImplementation": "CPython",
+        "os": "Darwin",
+        "osRelease": "25.5.0",
+        "machine": "arm64",
+        "torch": "2.8.0",
+        "numpy": "2.2.6",
+        "device": "CPU",
+        "torchThreads": 1
+      },
+      "cleanSha256": "751fa5917ba2bf2db35ab6bf4864689e1e0159e08eed4f33321628aa1b021552",
+      "splitSha256": "52168dc474895499359cab820f5da666990c6998ee459302cc76f055d2693098",
+      "vocabularyHash": "af5827ef4f413c9e01758b3a610496a9b32a987c10a0c0f7053a323476019308",
+      "candidates": [
+        {
+          "seed": 11,
+          "path": "data/processed/g5-04r/candidates/dkt-seed-11-epoch8.pt",
+          "sha256": "bb59fb97fabe178297bea38ee6509ccfa0459069a109dfd965071509c839b806",
+          "bytes": 252881,
+          "stateSha256": "38453238e632a0b37655d39bb93b813f465bbc87d35ea2389df137227e858737",
+          "configuredEpochs": 8,
+          "trainedEpochs": 8,
+          "savedEpoch": 8,
+          "validationBestEpoch": 8,
+          "gitIgnored": true,
+          "gitTracked": false,
+          "testTouched": false
+        },
+        {
+          "seed": 22,
+          "path": "data/processed/g5-04r/candidates/dkt-seed-22-epoch8.pt",
+          "sha256": "0d0ab863aa90b397f6a82e114b117b7157d489d725e3ea5cd9019fda78264ee3",
+          "bytes": 252881,
+          "stateSha256": "a386639f99856fc17304a1cb482737bae48392bf1792d7e543fb072d19327698",
+          "configuredEpochs": 8,
+          "trainedEpochs": 8,
+          "savedEpoch": 8,
+          "validationBestEpoch": 8,
+          "gitIgnored": true,
+          "gitTracked": false,
+          "testTouched": false
+        },
+        {
+          "seed": 33,
+          "path": "data/processed/g5-04r/candidates/dkt-seed-33-epoch8.pt",
+          "sha256": "037f908e0d9d1aa9f89eaa26cb80101edd299cd9400af31852ad6ea8256f199f",
+          "bytes": 252881,
+          "stateSha256": "b8d526a70ebbc4a47d29a465373430edf5bd223632d5fe33c90a8c597896a90e",
+          "configuredEpochs": 8,
+          "trainedEpochs": 8,
+          "savedEpoch": 8,
+          "validationBestEpoch": 7,
+          "gitIgnored": true,
+          "gitTracked": false,
+          "testTouched": false
+        }
+      ],
+      "oldCheckpoints": {
+        "11": {
+          "seed": 11,
+          "path": "data/processed/g5-04r/archive/original-46256f8/checkpoints/dkt-seed-11.pt",
+          "sha256": "90046d93f1212c9e68caca9dc1c52f4e3f18957b398b3c8ff5f8a1f18085b0c1",
+          "bytes": 263953,
+          "stateSha256": "38453238e632a0b37655d39bb93b813f465bbc87d35ea2389df137227e858737"
+        },
+        "22": {
+          "seed": 22,
+          "path": "data/processed/g5-04r/archive/original-46256f8/checkpoints/dkt-seed-22.pt",
+          "sha256": "2c756558965782ea8a24b2d2f1e6707d678fcd42af998a97f8b997db8856199f",
+          "bytes": 263953,
+          "stateSha256": "a386639f99856fc17304a1cb482737bae48392bf1792d7e543fb072d19327698"
+        },
+        "33": {
+          "seed": 33,
+          "path": "data/processed/g5-04r/archive/original-46256f8/checkpoints/dkt-seed-33.pt",
+          "sha256": "c7e07c0439a8427dac899893ab11dc0ab1a9ec68129fbee8406925a9a7c074d4",
+          "bytes": 263953,
+          "stateSha256": "69b22ff6c7ed329e8af56b8a5d3966384295f746061c1a24237bddd44d4aa158"
+        }
+      },
+      "comparisons": {
+        "11": {
+          "oldStateSha256": "38453238e632a0b37655d39bb93b813f465bbc87d35ea2389df137227e858737",
+          "newStateSha256": "38453238e632a0b37655d39bb93b813f465bbc87d35ea2389df137227e858737",
+          "same": true
+        },
+        "22": {
+          "oldStateSha256": "a386639f99856fc17304a1cb482737bae48392bf1792d7e543fb072d19327698",
+          "newStateSha256": "a386639f99856fc17304a1cb482737bae48392bf1792d7e543fb072d19327698",
+          "same": true
+        },
+        "33": {
+          "oldStateSha256": "69b22ff6c7ed329e8af56b8a5d3966384295f746061c1a24237bddd44d4aa158",
+          "newStateSha256": "b8d526a70ebbc4a47d29a465373430edf5bd223632d5fe33c90a8c597896a90e",
+          "same": false
+        }
+      },
+      "testTouched": false,
+      "failureHistory": [
+        {
+          "stage": "train-final",
+          "testTouched": false,
+          "reason": "checkpoint directory missing",
+          "repairCommit": "3a1725d650fdb6ca5c6170cb34bf3152a8f205d6",
+          "rerun": "successful"
+        }
+      ]
+    },
+    "correctiveEvaluation": {
+      "model": "DKT",
+      "seed": 33,
+      "checkpointSha256": "037f908e0d9d1aa9f89eaa26cb80101edd299cd9400af31852ad6ea8256f199f",
+      "stateSha256": "b8d526a70ebbc4a47d29a465373430edf5bd223632d5fe33c90a8c597896a90e",
+      "targetSetSha256": "60967a2c041378790252363246b7cf122baa33c23268ee9a61b3a4d8a876915e",
+      "attemptId": "CORRECTIVE_ATTEMPT_1_OF_1",
+      "attempt": 1,
+      "started": true,
+      "completed": true,
+      "status": "completed",
+      "corrective": true,
+      "targetCount": 71937,
+      "predictionPath": "data/processed/g5-04r/predictions/dkt-seed-33-corrected.jsonl",
+      "predictionSha256": "313c937f02b5f93c6e57e72723e694bc924fd682fa4943fe03187d66ae42ab27"
+    }
+  },
+  "failedRuns": {
+    "stage": "train-final",
+    "testTouched": false,
+    "reason": "checkpoint directory missing",
+    "repairCommit": "3a1725d650fdb6ca5c6170cb34bf3152a8f205d6",
+    "rerun": "successful"
+  },
+  "limitations": [
+    "正式 test 仅对 seed 33 执行一次纠正性评估；原 seed 33 结果保留但不计入最终 DKT 汇总"
+  ],
+  "limits": {
+    "cpuOnly": true,
+    "torchThreads": 1,
+    "window": 100,
+    "batch": 32,
+    "maxDiskBytes": 5368709120,
+    "testNotUsedForTuning": true,
+    "originalSeed33Invalidated": true,
+    "correctiveEvaluationConsumed": true,
+    "correctiveEvaluationReevaluation": "forbidden"
+  },
+  "reproduceCommands": {
+    "freshIsolatedReproduction": "python training/run_g5_kt_comparison.py prepare && python training/run_g5_kt_comparison.py tune && python training/run_g5_kt_comparison.py train-final && python training/run_g5_kt_comparison.py evaluate-once && python training/run_g5_kt_comparison.py freeze-report",
+    "validateFrozenEvidence": "python training/g5_04r_correction.py validate-frozen --report artifacts/g5-kt-comparison.json"
+  }
+}
