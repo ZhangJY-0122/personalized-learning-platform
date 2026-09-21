@@ -1,0 +1,306 @@
+{
+  "candidateCatalogSha256": "35163c1856a82251a66e37968f08d178304c008af1fa1e4fa05accb04354ca7f",
+  "candidateCount": 25005,
+  "evaluationBaseCommit": "781f731d03589da1d180dbc063bf2bae100fe192",
+  "gates": {
+    "candidateEligibility": true,
+    "comparisonHashes": true,
+    "ledger": true,
+    "marker": true,
+    "metricsRecomputed": true,
+    "protectedG5Hashes": true,
+    "rankingHashes": true,
+    "userSequence": true
+  },
+  "generator": {
+    "mode": "independent-ranking-recompute",
+    "schemaVersion": "g5-05-report-validation-v1",
+    "script": "training/run_g5_recommendation_comparison.py"
+  },
+  "input": {
+    "bktFitSha256": "315473b2dd4c2084d302a5d7cbbebe28ef1568473c729eab4534d482251604d6",
+    "bktParametersSha256": "c1178ab67e8cc4aed117919871b570265b385efde296f565bb6ae863dd757e80",
+    "cleanSha256": "751fa5917ba2bf2db35ab6bf4864689e1e0159e08eed4f33321628aa1b021552",
+    "manifestSha256": "4d6b0758122f65f163614e15d4513cf21ab62185622cc7c46b72152de8bfdb24",
+    "partitionHashes": {
+      "SHORT_COVERAGE": "f5f80e24e5d46dd51acb260e54fa58cd6f52a38b42c4f4737e5c7955aacf8b90",
+      "test": "a4700cac1748cba73d0761dd5cfab050b701468360bdbc1dba745233d26416b9",
+      "train": "2e445bb1def97d6de54a49b1ffce9468e022775747dd432c1dc3c793837a086b",
+      "validation": "5e8dfde07c2db789789ad95a81095022cc72cb0fab652deadd1ca5c2ba6488e9"
+    },
+    "splitSha256": "52168dc474895499359cab820f5da666990c6998ee459302cc76f055d2693098"
+  },
+  "metrics": {
+    "ABLATION_DROP_CF": {
+      "candidateDirectorySize": 25005,
+      "coverage": 0.009398120375924815,
+      "diversity": 0.0005341880341880342,
+      "diversityComputableUsers": 3744,
+      "fallbackComponents": {},
+      "fallbackRate": 0.0,
+      "fallbackUsers": 0,
+      "hitRateAt5": 0.026442307692307692,
+      "metricTolerance": 1e-12,
+      "ndcgAt5": 0.00978901703426268,
+      "noRelevantItemUsers": 18,
+      "precisionAt5": 0.009241452991452986,
+      "previouslySeenItemRate": 0.017974060636390173,
+      "previouslySeenItemRows": 1293,
+      "recallAt5": 0.002237087665900111,
+      "shortListCount": 0,
+      "shortListRate": 0.0,
+      "uniqueRecommendedItems": 235,
+      "unknownItemRate": 0.03074912770896757,
+      "unknownItemRows": 2212,
+      "validUsers": 3744
+    },
+    "ABLATION_DROP_CONTENT": {
+      "candidateDirectorySize": 25005,
+      "coverage": 0.23119376124775046,
+      "diversity": 0.3930288461538495,
+      "diversityComputableUsers": 3744,
+      "fallbackComponents": {
+        "cf": 2
+      },
+      "fallbackRate": 0.0005341880341880342,
+      "fallbackUsers": 2,
+      "hitRateAt5": 0.18162393162393162,
+      "metricTolerance": 1e-12,
+      "ndcgAt5": 0.09041219261002403,
+      "noRelevantItemUsers": 18,
+      "precisionAt5": 0.07905982905982856,
+      "previouslySeenItemRate": 0.017974060636390173,
+      "previouslySeenItemRows": 1293,
+      "recallAt5": 0.03557642236285808,
+      "shortListCount": 0,
+      "shortListRate": 0.0,
+      "uniqueRecommendedItems": 5781,
+      "unknownItemRate": 0.03074912770896757,
+      "unknownItemRows": 2212,
+      "validUsers": 3744
+    },
+    "ABLATION_DROP_KT": {
+      "candidateDirectorySize": 25005,
+      "coverage": 0.2326734653069386,
+      "diversity": 0.37035256410256756,
+      "diversityComputableUsers": 3744,
+      "fallbackComponents": {
+        "cf": 2
+      },
+      "fallbackRate": 0.0005341880341880342,
+      "fallbackUsers": 2,
+      "hitRateAt5": 0.17467948717948717,
+      "metricTolerance": 1e-12,
+      "ndcgAt5": 0.0875115183894167,
+      "noRelevantItemUsers": 18,
+      "precisionAt5": 0.07414529914529876,
+      "previouslySeenItemRate": 0.017974060636390173,
+      "previouslySeenItemRows": 1293,
+      "recallAt5": 0.038278637191705565,
+      "shortListCount": 0,
+      "shortListRate": 0.0,
+      "uniqueRecommendedItems": 5818,
+      "unknownItemRate": 0.03074912770896757,
+      "unknownItemRows": 2212,
+      "validUsers": 3744
+    },
+    "CONTENT": {
+      "candidateDirectorySize": 25005,
+      "coverage": 0.03235352929414117,
+      "diversity": 0.004727564102564101,
+      "diversityComputableUsers": 3744,
+      "fallbackComponents": {},
+      "fallbackRate": 0.0,
+      "fallbackUsers": 0,
+      "hitRateAt5": 0.056623931623931624,
+      "metricTolerance": 1e-12,
+      "ndcgAt5": 0.019474292278652622,
+      "noRelevantItemUsers": 18,
+      "precisionAt5": 0.01741452991452995,
+      "previouslySeenItemRate": 0.017974060636390173,
+      "previouslySeenItemRows": 1293,
+      "recallAt5": 0.010598923467692027,
+      "shortListCount": 0,
+      "shortListRate": 0.0,
+      "uniqueRecommendedItems": 809,
+      "unknownItemRate": 0.03074912770896757,
+      "unknownItemRows": 2212,
+      "validUsers": 3744
+    },
+    "HYBRID_KT": {
+      "candidateDirectorySize": 25005,
+      "coverage": 0.23119376124775046,
+      "diversity": 0.3930288461538495,
+      "diversityComputableUsers": 3744,
+      "fallbackComponents": {
+        "cf": 2
+      },
+      "fallbackRate": 0.0005341880341880342,
+      "fallbackUsers": 2,
+      "hitRateAt5": 0.18162393162393162,
+      "metricTolerance": 1e-12,
+      "ndcgAt5": 0.09041219261002403,
+      "noRelevantItemUsers": 18,
+      "precisionAt5": 0.07905982905982856,
+      "previouslySeenItemRate": 0.017974060636390173,
+      "previouslySeenItemRows": 1293,
+      "recallAt5": 0.03557642236285808,
+      "shortListCount": 0,
+      "shortListRate": 0.0,
+      "uniqueRecommendedItems": 5781,
+      "unknownItemRate": 0.03074912770896757,
+      "unknownItemRows": 2212,
+      "validUsers": 3744
+    },
+    "HYBRID_NO_KT": {
+      "candidateDirectorySize": 25005,
+      "coverage": 0.2326734653069386,
+      "diversity": 0.37035256410256756,
+      "diversityComputableUsers": 3744,
+      "fallbackComponents": {
+        "cf": 2
+      },
+      "fallbackRate": 0.0005341880341880342,
+      "fallbackUsers": 2,
+      "hitRateAt5": 0.17467948717948717,
+      "metricTolerance": 1e-12,
+      "ndcgAt5": 0.0875115183894167,
+      "noRelevantItemUsers": 18,
+      "precisionAt5": 0.07414529914529876,
+      "previouslySeenItemRate": 0.017974060636390173,
+      "previouslySeenItemRows": 1293,
+      "recallAt5": 0.038278637191705565,
+      "shortListCount": 0,
+      "shortListRate": 0.0,
+      "uniqueRecommendedItems": 5818,
+      "unknownItemRate": 0.03074912770896757,
+      "unknownItemRows": 2212,
+      "validUsers": 3744
+    },
+    "ITEM_CF": {
+      "candidateDirectorySize": 25005,
+      "coverage": 0.2326734653069386,
+      "diversity": 0.37035256410256756,
+      "diversityComputableUsers": 3744,
+      "fallbackComponents": {
+        "cf": 2
+      },
+      "fallbackRate": 0.0005341880341880342,
+      "fallbackUsers": 2,
+      "hitRateAt5": 0.17467948717948717,
+      "metricTolerance": 1e-12,
+      "ndcgAt5": 0.0875115183894167,
+      "noRelevantItemUsers": 18,
+      "precisionAt5": 0.07414529914529876,
+      "previouslySeenItemRate": 0.017974060636390173,
+      "previouslySeenItemRows": 1293,
+      "recallAt5": 0.038278637191705565,
+      "shortListCount": 0,
+      "shortListRate": 0.0,
+      "uniqueRecommendedItems": 5818,
+      "unknownItemRate": 0.03074912770896757,
+      "unknownItemRows": 2212,
+      "validUsers": 3744
+    },
+    "POPULAR": {
+      "candidateDirectorySize": 25005,
+      "coverage": 0.0005198960207958408,
+      "diversity": 0.6117254273503885,
+      "diversityComputableUsers": 3744,
+      "fallbackComponents": {},
+      "fallbackRate": 0.0,
+      "fallbackUsers": 0,
+      "hitRateAt5": 0.029914529914529916,
+      "metricTolerance": 1e-12,
+      "ndcgAt5": 0.006222333197478145,
+      "noRelevantItemUsers": 18,
+      "precisionAt5": 0.0065705128205128084,
+      "previouslySeenItemRate": 0.017974060636390173,
+      "previouslySeenItemRows": 1293,
+      "recallAt5": 0.0022085512222210523,
+      "shortListCount": 0,
+      "shortListRate": 0.0,
+      "uniqueRecommendedItems": 13,
+      "unknownItemRate": 0.03074912770896757,
+      "unknownItemRows": 2212,
+      "validUsers": 3744
+    }
+  },
+  "passed": true,
+  "protectedG5Hashes": {
+    "files": [
+      {
+        "path": "data/processed/g5-04r/archive/original-46256f8/checkpoints/dkt-seed-11.pt",
+        "sha256": "90046d93f1212c9e68caca9dc1c52f4e3f18957b398b3c8ff5f8a1f18085b0c1"
+      },
+      {
+        "path": "data/processed/g5-04r/archive/original-46256f8/checkpoints/dkt-seed-22.pt",
+        "sha256": "2c756558965782ea8a24b2d2f1e6707d678fcd42af998a97f8b997db8856199f"
+      },
+      {
+        "path": "data/processed/g5-04r/candidates/dkt-seed-33-epoch8.pt",
+        "sha256": "037f908e0d9d1aa9f89eaa26cb80101edd299cd9400af31852ad6ea8256f199f"
+      },
+      {
+        "path": "data/processed/g5-04r/archive/original-46256f8/predictions/rule.jsonl",
+        "sha256": "92172df9cdc0d4d066be11afee5fc0f196ba8fa99e5ec9b1d9215a6c169f55e5"
+      },
+      {
+        "path": "data/processed/g5-04r/archive/original-46256f8/predictions/bkt.jsonl",
+        "sha256": "ad500d540e9ef5135456b8448dbcf8544896a21b31382d302b2efa2901f20dfe"
+      },
+      {
+        "path": "data/processed/g5-04r/archive/original-46256f8/predictions/dkt-seed-11.jsonl",
+        "sha256": "a4adf72a92dacffcc51feb45ce3b6f2239f4a30aa01c6483c94c4a3987604e7f"
+      },
+      {
+        "path": "data/processed/g5-04r/archive/original-46256f8/predictions/dkt-seed-22.jsonl",
+        "sha256": "8b776131763a944244091f514fc7b1e25e10954abc421aa7a7c95cb1e65cfb83"
+      },
+      {
+        "path": "data/processed/g5-04r/predictions/dkt-seed-33-corrected.jsonl",
+        "sha256": "313c937f02b5f93c6e57e72723e694bc924fd682fa4943fe03187d66ae42ab27"
+      },
+      {
+        "path": "data/processed/g5-kt-evaluation-ledger.json",
+        "sha256": "383b1551b9a743fde110824f0310fdfb5f1c89b041aba263dfb95bc256c2f784"
+      },
+      {
+        "path": "data/processed/g5-04r/CORRECTIVE_ATTEMPT_CONSUMED",
+        "sha256": "45a9f4f581a2ec410b7f9dd00089f5e3429ba676a62a85bf543c58da68c5551d"
+      }
+    ],
+    "source": "artifacts/g5-kt-comparison.json"
+  },
+  "protocolCommit": "427426bc8e4699ae47bc749fc2afa06f6cc7d477",
+  "rankingSha256": {
+    "ABLATION_DROP_CF": "98b04b406b49a5db877b6cc85b44789ea9a68d6da9493dfce4961359cf650913",
+    "ABLATION_DROP_CONTENT": "2bfe06819c7790fad04fec162162e145550d8d3ec7070cb3bc73211034955220",
+    "ABLATION_DROP_KT": "6ebe466858750e3f13248f9d068e0b4968c7f38420b75c687809ae0d4473df75",
+    "CONTENT": "8d1e6ac442f9437e52e7b3d4f4661b9ea2998dfc72e1eedb6201030b1394000d",
+    "HYBRID_KT": "2bfe06819c7790fad04fec162162e145550d8d3ec7070cb3bc73211034955220",
+    "HYBRID_NO_KT": "6ebe466858750e3f13248f9d068e0b4968c7f38420b75c687809ae0d4473df75",
+    "ITEM_CF": "6ebe466858750e3f13248f9d068e0b4968c7f38420b75c687809ae0d4473df75",
+    "POPULAR": "be8076a3f8461f720e823870f37255344d796f1260d40f96bbe76befc0e479cd"
+  },
+  "schemaVersion": "g5-05-report-validation-v1",
+  "testRankingCount": 8,
+  "testSafety": {
+    "combinedCleanFileScanned": true,
+    "splitAssignmentsScanned": true,
+    "testCleanLinesParsedDuringStreaming": true,
+    "testEvaluationStatus": "COMPLETED",
+    "testInteractionObjectsRetained": true,
+    "testLabelsRetained": true,
+    "testLabelsUsedForCandidateConstruction": false,
+    "testLabelsUsedForFitting": false,
+    "testLabelsUsedForWeightSelection": false,
+    "testMetricsComputed": true,
+    "testRankingCount": 8,
+    "testRelevantItemsMaterialized": true,
+    "testRelevantItemsRetained": true,
+    "testRowsMaterialized": true
+  },
+  "tuningCommit": "427426bc8e4699ae47bc749fc2afa06f6cc7d477",
+  "verifiedAt": "2026-09-17T18:13:25Z"
+}
