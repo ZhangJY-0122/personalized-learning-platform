@@ -1,0 +1,722 @@
+[
+  {
+    "path": "/health",
+    "method": "get",
+    "status": 200,
+    "name": "normal",
+    "value": {
+      "code": "OK",
+      "message": "success",
+      "data": {
+        "status": "UP",
+        "database": "UP",
+        "stage": "G4_PATHS",
+        "catalogRows": 2
+      },
+      "traceId": "2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"
+    },
+    "schema": "HealthResponse"
+  },
+  {
+    "path": "/health",
+    "method": "get",
+    "status": 409,
+    "name": "conflict",
+    "value": {
+      "code": "CONFLICT",
+      "message": "同键不同内容",
+      "traceId": "2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"
+    },
+    "schema": "Error"
+  },
+  {
+    "path": "/auth/login",
+    "method": "post",
+    "status": 200,
+    "name": "normal",
+    "value": {
+      "code": "OK",
+      "message": "success",
+      "data": {
+        "accessToken": "EXAMPLE_NOT_REAL_TOKEN",
+        "tokenType": "Bearer",
+        "userId": "3d7a8826-cee4-525a-98d7-8cdb937e677e",
+        "role": "STUDENT",
+        "expiresIn": 3600
+      },
+      "traceId": "2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"
+    },
+    "schema": "LoginResponse"
+  },
+  {
+    "path": "/auth/login",
+    "method": "post",
+    "status": 409,
+    "name": "conflict",
+    "value": {
+      "code": "CONFLICT",
+      "message": "同键不同内容",
+      "traceId": "2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"
+    },
+    "schema": "Error"
+  },
+  {
+    "path": "/practice/submissions",
+    "method": "post",
+    "status": 200,
+    "name": "normal",
+    "value": {
+      "code": "OK",
+      "message": "success",
+      "data": {
+        "submissionId": "b7a73193-ccfd-5f58-83c6-fd6a0d79236f",
+        "eventId": "b7a73193-ccfd-5f58-83c6-fd6a0d79236f",
+        "correct": false,
+        "processingStatus": "PENDING"
+      },
+      "traceId": "2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"
+    },
+    "schema": "PracticeResponse"
+  },
+  {
+    "path": "/practice/submissions",
+    "method": "post",
+    "status": 409,
+    "name": "conflict",
+    "value": {
+      "code": "CONFLICT",
+      "message": "同键不同内容",
+      "traceId": "2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"
+    },
+    "schema": "Error"
+  },
+  {
+    "path": "/practice/submissions/{submissionId}",
+    "method": "get",
+    "status": 200,
+    "name": "normal",
+    "value": {
+      "code": "OK",
+      "message": "success",
+      "data": {
+        "submissionId": "b7a73193-ccfd-5f58-83c6-fd6a0d79236f",
+        "eventId": "b7a73193-ccfd-5f58-83c6-fd6a0d79236f",
+        "correct": false,
+        "processingStatus": "PENDING"
+      },
+      "traceId": "2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"
+    },
+    "schema": "PracticeResponse"
+  },
+  {
+    "path": "/practice/submissions/{submissionId}",
+    "method": "get",
+    "status": 409,
+    "name": "conflict",
+    "value": {
+      "code": "CONFLICT",
+      "message": "同键不同内容",
+      "traceId": "2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"
+    },
+    "schema": "Error"
+  },
+  {
+    "path": "/students/{userId}/mastery",
+    "method": "get",
+    "status": 200,
+    "name": "normal",
+    "value": {
+      "code": "OK",
+      "message": "success",
+      "data": {
+        "meta": {
+          "catalogVersion": "java-prep-v1",
+          "stateRevision": 3,
+          "asOf": "2026-09-09T09:03:00+08:00",
+          "stale": false,
+          "status": "READY"
+        },
+        "items": [
+          {
+            "knowledgeId": "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248",
+            "mastery": 0.11453989039925985,
+            "evidenceCount": 3,
+            "evidenceWeight": 3,
+            "evidenceStatus": "SUFFICIENT",
+            "modelName": "BKT",
+            "modelVersion": "bkt-java-cat1-param1"
+          }
+        ]
+      },
+      "traceId": "2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"
+    },
+    "schema": "MasteryResponse"
+  },
+  {
+    "path": "/students/{userId}/mastery",
+    "method": "get",
+    "status": 200,
+    "name": "empty",
+    "value": {
+      "code": "OK",
+      "message": "success",
+      "data": {
+        "meta": {
+          "catalogVersion": "java-prep-v1",
+          "stateRevision": 3,
+          "asOf": "2026-09-09T09:03:00+08:00",
+          "stale": false,
+          "status": "READY"
+        },
+        "items": []
+      },
+      "traceId": "2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"
+    },
+    "schema": "MasteryResponse"
+  },
+  {
+    "path": "/students/{userId}/mastery",
+    "method": "get",
+    "status": 200,
+    "name": "processing",
+    "value": {
+      "code": "OK",
+      "message": "success",
+      "data": {
+        "meta": {
+          "catalogVersion": "java-prep-v1",
+          "stateRevision": 3,
+          "asOf": "2026-09-09T09:03:00+08:00",
+          "stale": true,
+          "status": "PROCESSING"
+        },
+        "items": [
+          {
+            "knowledgeId": "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248",
+            "mastery": 0.11453989039925985,
+            "evidenceCount": 3,
+            "evidenceWeight": 3,
+            "evidenceStatus": "SUFFICIENT",
+            "modelName": "BKT",
+            "modelVersion": "bkt-java-cat1-param1"
+          }
+        ]
+      },
+      "traceId": "2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"
+    },
+    "schema": "MasteryResponse"
+  },
+  {
+    "path": "/students/{userId}/mastery",
+    "method": "get",
+    "status": 409,
+    "name": "conflict",
+    "value": {
+      "code": "CONFLICT",
+      "message": "同键不同内容",
+      "traceId": "2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"
+    },
+    "schema": "Error"
+  },
+  {
+    "path": "/students/{userId}/recommendations",
+    "method": "get",
+    "status": 200,
+    "name": "normal",
+    "value": {
+      "code": "OK",
+      "message": "success",
+      "data": {
+        "meta": {
+          "catalogVersion": "java-prep-v1",
+          "stateRevision": 3,
+          "asOf": "2026-09-09T09:03:00+08:00",
+          "stale": false,
+          "status": "READY"
+        },
+        "batchId": "042bcc3d-3439-5b50-99f1-f3998d5e3875",
+        "strategyVersion": "four-component-single-skill-v1",
+        "items": [
+          {
+            "recommendationId": "52644df4-15ab-513b-ab45-44522761138d",
+            "itemType": "RESOURCE",
+            "itemId": "15ed9295-11ee-552e-8153-f797788d0edf",
+            "score": 0.8668991135466831,
+            "reasons": [
+              "循环相关3次作答错误",
+              "资源关联循环知识点，标注难度0.2"
+            ],
+            "title": "循环入门",
+            "knowledgeId": "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248",
+            "review": false,
+            "available": true,
+            "opinion": null,
+            "trustedCompleted": false,
+            "scoreDetails": {
+              "weaknessMatch": {
+                "value": 0.7812760657604441,
+                "rawWeight": 0.45,
+                "effectiveWeight": 0.5,
+                "source": "BKT、近20次加权错误率、默认重要度0.5与后继比例"
+              },
+              "difficultyMatch": {
+                "value": 0.9145398903992599,
+                "rawWeight": 0.25,
+                "effectiveWeight": 0.2777777777777778,
+                "source": "资源标注难度与BKT启发式匹配"
+              },
+              "contentMatch": {
+                "value": 1,
+                "rawWeight": 0.2,
+                "effectiveWeight": 0.22222222222222224,
+                "source": "单知识点目标向量余弦"
+              },
+              "preferenceMatch": {
+                "value": null,
+                "rawWeight": 0.1,
+                "effectiveWeight": 0,
+                "source": "无可信资源偏好，剔除后归一化"
+              }
+            }
+          }
+        ],
+        "emptyReason": null,
+        "expiresAt": "2026-09-09T09:33:00+08:00",
+        "mode": "WEAKNESS",
+        "staleReasons": [],
+        "notices": []
+      },
+      "traceId": "2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"
+    },
+    "schema": "RecommendationsResponse"
+  },
+  {
+    "path": "/students/{userId}/recommendations",
+    "method": "get",
+    "status": 200,
+    "name": "empty",
+    "value": {
+      "code": "OK",
+      "message": "success",
+      "data": {
+        "meta": {
+          "catalogVersion": "java-prep-v1",
+          "stateRevision": 3,
+          "asOf": "2026-09-09T09:03:00+08:00",
+          "stale": false,
+          "status": "INSUFFICIENT"
+        },
+        "batchId": null,
+        "strategyVersion": "four-component-single-skill-v1",
+        "items": [],
+        "emptyReason": "尚未生成推荐，请点击生成推荐",
+        "expiresAt": null,
+        "mode": "NONE",
+        "staleReasons": [],
+        "notices": []
+      },
+      "traceId": "2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"
+    },
+    "schema": "RecommendationsResponse"
+  },
+  {
+    "path": "/students/{userId}/recommendations",
+    "method": "get",
+    "status": 200,
+    "name": "processing",
+    "value": {
+      "code": "OK",
+      "message": "success",
+      "data": {
+        "meta": {
+          "catalogVersion": "java-prep-v1",
+          "stateRevision": 3,
+          "asOf": "2026-09-09T09:03:00+08:00",
+          "stale": true,
+          "status": "PROCESSING"
+        },
+        "batchId": "042bcc3d-3439-5b50-99f1-f3998d5e3875",
+        "strategyVersion": "four-component-single-skill-v1",
+        "items": [
+          {
+            "recommendationId": "52644df4-15ab-513b-ab45-44522761138d",
+            "itemType": "RESOURCE",
+            "itemId": "15ed9295-11ee-552e-8153-f797788d0edf",
+            "score": 0.8668991135466831,
+            "reasons": [
+              "循环相关3次作答错误",
+              "资源关联循环知识点，标注难度0.2"
+            ],
+            "title": "循环入门",
+            "knowledgeId": "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248",
+            "review": false,
+            "available": true,
+            "opinion": null,
+            "trustedCompleted": false,
+            "scoreDetails": {
+              "weaknessMatch": {
+                "value": 0.7812760657604441,
+                "rawWeight": 0.45,
+                "effectiveWeight": 0.5,
+                "source": "BKT、近20次加权错误率、默认重要度0.5与后继比例"
+              },
+              "difficultyMatch": {
+                "value": 0.9145398903992599,
+                "rawWeight": 0.25,
+                "effectiveWeight": 0.2777777777777778,
+                "source": "资源标注难度与BKT启发式匹配"
+              },
+              "contentMatch": {
+                "value": 1,
+                "rawWeight": 0.2,
+                "effectiveWeight": 0.22222222222222224,
+                "source": "单知识点目标向量余弦"
+              },
+              "preferenceMatch": {
+                "value": null,
+                "rawWeight": 0.1,
+                "effectiveWeight": 0,
+                "source": "无可信资源偏好，剔除后归一化"
+              }
+            }
+          }
+        ],
+        "emptyReason": null,
+        "expiresAt": "2026-09-09T09:33:00+08:00",
+        "mode": "WEAKNESS",
+        "staleReasons": [
+          "学习状态处理中或待修复"
+        ],
+        "notices": []
+      },
+      "traceId": "2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"
+    },
+    "schema": "RecommendationsResponse"
+  },
+  {
+    "path": "/students/{userId}/recommendations",
+    "method": "get",
+    "status": 409,
+    "name": "conflict",
+    "value": {
+      "code": "CONFLICT",
+      "message": "同键不同内容",
+      "traceId": "2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"
+    },
+    "schema": "Error"
+  },
+  {
+    "path": "/students/{userId}/recommendations/generate",
+    "method": "post",
+    "status": 200,
+    "name": "normal",
+    "value": {
+      "code": "OK",
+      "message": "success",
+      "data": {
+        "meta": {
+          "catalogVersion": "java-prep-v1",
+          "stateRevision": 3,
+          "asOf": "2026-09-09T09:03:00+08:00",
+          "stale": false,
+          "status": "READY"
+        },
+        "batchId": "042bcc3d-3439-5b50-99f1-f3998d5e3875",
+        "strategyVersion": "four-component-single-skill-v1",
+        "items": [
+          {
+            "recommendationId": "52644df4-15ab-513b-ab45-44522761138d",
+            "itemType": "RESOURCE",
+            "itemId": "15ed9295-11ee-552e-8153-f797788d0edf",
+            "score": 0.8668991135466831,
+            "reasons": [
+              "循环相关3次作答错误",
+              "资源关联循环知识点，标注难度0.2"
+            ],
+            "title": "循环入门",
+            "knowledgeId": "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248",
+            "review": false,
+            "available": true,
+            "opinion": null,
+            "trustedCompleted": false,
+            "scoreDetails": {
+              "weaknessMatch": {
+                "value": 0.7812760657604441,
+                "rawWeight": 0.45,
+                "effectiveWeight": 0.5,
+                "source": "BKT、近20次加权错误率、默认重要度0.5与后继比例"
+              },
+              "difficultyMatch": {
+                "value": 0.9145398903992599,
+                "rawWeight": 0.25,
+                "effectiveWeight": 0.2777777777777778,
+                "source": "资源标注难度与BKT启发式匹配"
+              },
+              "contentMatch": {
+                "value": 1,
+                "rawWeight": 0.2,
+                "effectiveWeight": 0.22222222222222224,
+                "source": "单知识点目标向量余弦"
+              },
+              "preferenceMatch": {
+                "value": null,
+                "rawWeight": 0.1,
+                "effectiveWeight": 0,
+                "source": "无可信资源偏好，剔除后归一化"
+              }
+            }
+          }
+        ],
+        "emptyReason": null,
+        "expiresAt": "2026-09-09T09:33:00+08:00",
+        "mode": "WEAKNESS",
+        "staleReasons": [],
+        "notices": []
+      },
+      "traceId": "2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"
+    },
+    "schema": "RecommendationsResponse"
+  },
+  {
+    "path": "/students/{userId}/recommendations/generate",
+    "method": "post",
+    "status": 200,
+    "name": "empty",
+    "value": {
+      "code": "OK",
+      "message": "success",
+      "data": {
+        "meta": {
+          "catalogVersion": "java-prep-v1",
+          "stateRevision": 3,
+          "asOf": "2026-09-09T09:03:00+08:00",
+          "stale": false,
+          "status": "READY"
+        },
+        "batchId": "042bcc3d-3439-5b50-99f1-f3998d5e3875",
+        "strategyVersion": "four-component-single-skill-v1",
+        "items": [],
+        "emptyReason": "暂无满足目标与先修条件的内容",
+        "expiresAt": "2026-09-09T09:33:00+08:00",
+        "mode": "WEAKNESS",
+        "staleReasons": [],
+        "notices": []
+      },
+      "traceId": "2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"
+    },
+    "schema": "RecommendationsResponse"
+  },
+  {
+    "path": "/students/{userId}/recommendations/generate",
+    "method": "post",
+    "status": 409,
+    "name": "processing",
+    "value": {
+      "code": "CONFLICT",
+      "message": "学习状态正在处理或待修复，请稍后刷新再生成",
+      "traceId": "2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"
+    },
+    "schema": "Error"
+  },
+  {
+    "path": "/students/{userId}/recommendations/generate",
+    "method": "post",
+    "status": 409,
+    "name": "conflict",
+    "value": {
+      "code": "CONFLICT",
+      "message": "同键不同内容",
+      "traceId": "2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"
+    },
+    "schema": "Error"
+  },
+  {
+    "path": "/recommendations/{recommendationId}/feedback",
+    "method": "post",
+    "status": 200,
+    "name": "normal",
+    "value": {
+      "code": "OK",
+      "message": "success",
+      "data": {
+        "feedbackId": "eb239246-7085-5741-b84e-45a6e324bd62",
+        "trusted": false,
+        "updatedMastery": false
+      },
+      "traceId": "2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"
+    },
+    "schema": "FeedbackResponse"
+  },
+  {
+    "path": "/recommendations/{recommendationId}/feedback",
+    "method": "post",
+    "status": 409,
+    "name": "conflict",
+    "value": {
+      "code": "CONFLICT",
+      "message": "同键不同内容",
+      "traceId": "2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"
+    },
+    "schema": "Error"
+  },
+  {
+    "path": "/students/{userId}/learning-path",
+    "method": "get",
+    "status": 200,
+    "name": "normal",
+    "value": {
+      "code": "OK",
+      "message": "success",
+      "data": {
+        "meta": {
+          "catalogVersion": "java-prep-v1",
+          "stateRevision": 3,
+          "asOf": "2026-09-09T09:03:00+08:00",
+          "stale": false,
+          "status": "READY"
+        },
+        "pathId": "89e0dd47-48fb-56d5-a751-78f6bd5d0982",
+        "pathVersion": 1,
+        "generated": true,
+        "plannerVersion": "dag-path-v1",
+        "originStateRevision": 3,
+        "status": "BLOCKED",
+        "reasonCode": "NO_CONTENT",
+        "nodes": [],
+        "reason": "预开发样例仅含循环资源，先修知识点内容尚待补齐"
+      },
+      "traceId": "2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"
+    },
+    "schema": "PathResponse"
+  },
+  {
+    "path": "/students/{userId}/learning-path",
+    "method": "get",
+    "status": 200,
+    "name": "processing",
+    "value": {
+      "code": "OK",
+      "message": "success",
+      "data": {
+        "meta": {
+          "catalogVersion": "java-prep-v1",
+          "stateRevision": 3,
+          "asOf": "2026-09-09T09:03:00+08:00",
+          "stale": true,
+          "status": "PROCESSING"
+        },
+        "pathId": "89e0dd47-48fb-56d5-a751-78f6bd5d0982",
+        "pathVersion": 1,
+        "generated": true,
+        "plannerVersion": "dag-path-v1",
+        "originStateRevision": 3,
+        "status": "BLOCKED",
+        "reasonCode": "NO_CONTENT",
+        "nodes": [],
+        "reason": "预开发样例仅含循环资源，先修知识点内容尚待补齐"
+      },
+      "traceId": "2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"
+    },
+    "schema": "PathResponse"
+  },
+  {
+    "path": "/students/{userId}/learning-path",
+    "method": "get",
+    "status": 409,
+    "name": "conflict",
+    "value": {
+      "code": "CONFLICT",
+      "message": "同键不同内容",
+      "traceId": "2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"
+    },
+    "schema": "Error"
+  },
+  {
+    "path": "/students/{userId}/learning-path/generate",
+    "method": "post",
+    "status": 200,
+    "name": "normal",
+    "value": {
+      "code": "OK",
+      "message": "success",
+      "data": {
+        "meta": {
+          "catalogVersion": "java-prep-v1",
+          "stateRevision": 3,
+          "asOf": "2026-09-09T09:03:00+08:00",
+          "stale": false,
+          "status": "READY"
+        },
+        "pathId": "89e0dd47-48fb-56d5-a751-78f6bd5d0982",
+        "pathVersion": 1,
+        "generated": true,
+        "plannerVersion": "dag-path-v1",
+        "originStateRevision": 3,
+        "status": "BLOCKED",
+        "reasonCode": "NO_CONTENT",
+        "nodes": [],
+        "reason": "预开发样例仅含循环资源，先修知识点内容尚待补齐"
+      },
+      "traceId": "2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"
+    },
+    "schema": "PathResponse"
+  },
+  {
+    "path": "/students/{userId}/learning-path/generate",
+    "method": "post",
+    "status": 200,
+    "name": "processing",
+    "value": {
+      "code": "OK",
+      "message": "success",
+      "data": {
+        "meta": {
+          "catalogVersion": "java-prep-v1",
+          "stateRevision": 3,
+          "asOf": "2026-09-09T09:03:00+08:00",
+          "stale": true,
+          "status": "PROCESSING"
+        },
+        "pathId": "89e0dd47-48fb-56d5-a751-78f6bd5d0982",
+        "pathVersion": 1,
+        "generated": true,
+        "plannerVersion": "dag-path-v1",
+        "originStateRevision": 3,
+        "status": "BLOCKED",
+        "reasonCode": "NO_CONTENT",
+        "nodes": [],
+        "reason": "预开发样例仅含循环资源，先修知识点内容尚待补齐"
+      },
+      "traceId": "2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"
+    },
+    "schema": "PathResponse"
+  },
+  {
+    "path": "/students/{userId}/learning-path/generate",
+    "method": "post",
+    "status": 409,
+    "name": "conflict",
+    "value": {
+      "code": "CONFLICT",
+      "message": "同键不同内容",
+      "traceId": "2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"
+    },
+    "schema": "Error"
+  },
+  {"path":"/models","method":"get","status":200,"name":"g5-normal","schema":"ModelsResponse","value":{"code":"OK","message":"success","data":{"items":[{"modelId":"dkt-g5-01","modelName":"DKT","modelVersion":"single-lstm-h64-lr0.001","experimentId":"g5-kt-comparison","dataType":"PUBLIC_DATASET","datasetVersion":"assistments-2009-2010-skill-builder-corrected","targetDefinition":"next-answer correctness before revelation","sampleCount":71937,"seeds":[11,22,33],"metrics":[{"name":"LogLoss","value":0.5653667490894067,"stdDev":0.000997491635147301,"unit":"LOSS"}],"artifact":{"relativePath":"artifacts/g5-kt-comparison.json","sha256":"5cb49d977f897110b6a0a3f9cf0d1a74d00355d082b61259857b254de8957e70","schemaVersion":"g5-kt-comparison-v2","checksumVerified":true},"status":"VERIFIED","limitations":["公开数据聚合结果，不含逐生序列"]}],"page":1,"pageSize":20,"total":1},"traceId":"2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"}},
+  {"path":"/models","method":"get","status":200,"name":"g5-empty","schema":"ModelsResponse","value":{"code":"OK","message":"success","data":{"items":[],"page":1,"pageSize":20,"total":0},"traceId":"2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"}},
+  {"path":"/experiments","method":"get","status":200,"name":"g5-normal","schema":"ExperimentsResponse","value":{"code":"OK","message":"success","data":{"items":[{"experimentId":"g5-recommendation-comparison","title":"G5 推荐基线比较","experimentType":"RECOMMENDATION_COMPARISON","dataType":"PUBLIC_DATASET","datasetVersion":"assistments-2009-2010-skill-builder-corrected","catalogVersion":null,"strategyVersion":"g5-recommendation-v1","sampleCount":3744,"metrics":[{"name":"NDCG@5","value":0.09041219261002403,"stdDev":0,"unit":"RATE"}],"artifact":{"relativePath":"artifacts/g5-recommendation-comparison.json","sha256":"48c2b38d1fe88b0e2902c3fee2125b521e07bf667dc078fdb89b2958a257ab0e","schemaVersion":"g5-recommendation-comparison-v1","checksumVerified":true},"validationArtifact":{"relativePath":"artifacts/g5-05-report-validation.json","sha256":"cb921d69c0bdef3174936dc3f4c11a06d49302fcaee641483dfcf16d6ac27a7e","schemaVersion":"g5-05-report-validation-v1","checksumVerified":true},"verifiedAt":"2026-09-18T00:00:00Z","limitations":["离线题目推荐，不代表资源点击"]}],"page":1,"pageSize":20,"total":1},"traceId":"2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"}},
+  {"path":"/experiments","method":"get","status":200,"name":"g5-empty","schema":"ExperimentsResponse","value":{"code":"OK","message":"success","data":{"items":[],"page":1,"pageSize":20,"total":0},"traceId":"2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"}},
+  {"path":"/courses/{courseId}/weakness-statistics","method":"get","status":200,"name":"g5-normal","schema":"WeaknessStatisticsResponse","value":{"code":"OK","message":"success","data":{"courseId":"10000000-0000-4000-8000-000000000001","catalogVersion":"java-g5-v1","dataType":"SYNTHETIC_DEMO","generatedAt":"2026-09-18T00:00:00Z","window":{"kind":"ALL_TIME","start":null,"end":"2026-09-18T00:00:00Z","timezone":"UTC"},"population":{"enrolledLearners":12,"learnersWithState":10,"learnersWithEvidence":8,"eligibleLearners":8},"threshold":{"minimumEvidenceCount":3,"minimumEvidenceWeight":2,"weaknessMasteryBelow":0.6},"items":[{"knowledgeId":"2d5ea4ba-665d-5f13-a3f8-7feeb2a58248","knowledgeName":"循环","eligibleLearnerCount":8,"weakLearnerCount":3,"weakLearnerRate":0.375,"meanMastery":0.58,"evidenceCount":31,"evidenceWeight":25.0}],"emptyReason":null},"traceId":"2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"}},
+  {"path":"/courses/{courseId}/weakness-statistics","method":"get","status":200,"name":"g5-empty","schema":"WeaknessStatisticsResponse","value":{"code":"OK","message":"success","data":{"courseId":"10000000-0000-4000-8000-000000000001","catalogVersion":"java-g5-v1","dataType":"SYNTHETIC_DEMO","generatedAt":"2026-09-18T00:00:00Z","window":{"kind":"ALL_TIME","start":null,"end":"2026-09-18T00:00:00Z","timezone":"UTC"},"population":{"enrolledLearners":0,"learnersWithState":0,"learnersWithEvidence":0,"eligibleLearners":0},"threshold":{"minimumEvidenceCount":3,"minimumEvidenceWeight":2,"weaknessMasteryBelow":0.6},"items":[],"emptyReason":"NO_ELIGIBLE_EVIDENCE"},"traceId":"2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"}},
+  {"path":"/courses/{courseId}/recommendation-metrics","method":"get","status":200,"name":"g5-normal","schema":"RecommendationMetricsResponse","value":{"code":"OK","message":"success","data":{"courseId":"10000000-0000-4000-8000-000000000001","catalogVersion":"java-g5-v1","dataType":"SYNTHETIC_DEMO","sourceType":"LOCAL_PRODUCT_EVENT_AGGREGATE","generatedAt":"2026-09-18T00:00:00Z","window":{"kind":"ALL_TIME","start":null,"end":"2026-09-18T00:00:00Z","timezone":"UTC"},"population":{"generatedBatches":8,"distinctLearners":5,"recommendedItems":40,"availableRecommendedItems":38,"exposures":40,"clicks":12,"opinions":7,"helpfulOpinions":5,"trustedCompletions":4},"metrics":[{"name":"availableItemRate","numerator":38,"denominator":40,"value":0.95,"unit":"RATE"},{"name":"clickThroughRate","numerator":12,"denominator":40,"value":0.3,"unit":"RATE"},{"name":"helpfulRate","numerator":5,"denominator":7,"value":0.7142857142857143,"unit":"RATE"},{"name":"trustedCompletionRate","numerator":4,"denominator":40,"value":0.1,"unit":"RATE"}],"emptyReason":null},"traceId":"2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"}},
+  {"path":"/courses/{courseId}/recommendation-metrics","method":"get","status":200,"name":"g5-empty","schema":"RecommendationMetricsResponse","value":{"code":"OK","message":"success","data":{"courseId":"10000000-0000-4000-8000-000000000001","catalogVersion":"java-g5-v1","dataType":"SYNTHETIC_DEMO","sourceType":"LOCAL_PRODUCT_EVENT_AGGREGATE","generatedAt":"2026-09-18T00:00:00Z","window":{"kind":"ALL_TIME","start":null,"end":"2026-09-18T00:00:00Z","timezone":"UTC"},"population":{"generatedBatches":0,"distinctLearners":0,"recommendedItems":0,"availableRecommendedItems":0,"exposures":0,"clicks":0,"opinions":0,"helpfulOpinions":0,"trustedCompletions":0},"metrics":[{"name":"availableItemRate","numerator":0,"denominator":0,"value":null,"unit":"RATE"},{"name":"clickThroughRate","numerator":0,"denominator":0,"value":null,"unit":"RATE"},{"name":"helpfulRate","numerator":0,"denominator":0,"value":null,"unit":"RATE"},{"name":"trustedCompletionRate","numerator":0,"denominator":0,"value":null,"unit":"RATE"}],"emptyReason":"NO_PRODUCT_EVENT_DATA"},"traceId":"2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"}},
+  {"path":"/models","method":"get","status":403,"name":"g5-student-forbidden","schema":"Error","value":{"code":"FORBIDDEN","message":"FORBIDDEN","traceId":"2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"}},
+  {"path":"/experiments","method":"get","status":403,"name":"g5-student-forbidden","schema":"Error","value":{"code":"FORBIDDEN","message":"FORBIDDEN","traceId":"2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"}},
+  {"path":"/courses/{courseId}/weakness-statistics","method":"get","status":403,"name":"g5-student-forbidden","schema":"Error","value":{"code":"FORBIDDEN","message":"FORBIDDEN","traceId":"2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"}},
+  {"path":"/courses/{courseId}/recommendation-metrics","method":"get","status":403,"name":"g5-student-forbidden","schema":"Error","value":{"code":"FORBIDDEN","message":"FORBIDDEN","traceId":"2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"}},
+  {"path":"/courses/{courseId}/weakness-statistics","method":"get","status":403,"name":"g5-unscoped-teacher-forbidden","schema":"Error","value":{"code":"FORBIDDEN","message":"FORBIDDEN","traceId":"2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"}},
+  {"path":"/courses/{courseId}/weakness-statistics","method":"get","status":404,"name":"g5-admin-missing-or-inactive","schema":"Error","value":{"code":"NOT_FOUND","message":"NOT_FOUND","traceId":"2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"}},
+  {"path":"/courses/{courseId}/recommendation-metrics","method":"get","status":403,"name":"g5-unscoped-teacher-forbidden","schema":"Error","value":{"code":"FORBIDDEN","message":"FORBIDDEN","traceId":"2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"}},
+  {"path":"/courses/{courseId}/recommendation-metrics","method":"get","status":404,"name":"g5-admin-missing-or-inactive","schema":"Error","value":{"code":"NOT_FOUND","message":"NOT_FOUND","traceId":"2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"}}
+]
