@@ -1,0 +1,240 @@
+{
+  "passed": true,
+  "verifiedAt": "2026-09-16T16:19:11Z",
+  "gitCommit": "caf737db8c9523342bceba4660206f7fe9f5fc75",
+  "dataType": "PUBLIC_DATASET",
+  "datasetName": "ASSISTments 2009-2010 Skill Builder",
+  "datasetVersion": "2009-2010 Skill Builder corrected version",
+  "rawRows": 346860,
+  "validCoreRows": 346860,
+  "columns": [
+    "",
+    "order_id",
+    "assignment_id",
+    "user_id",
+    "assistment_id",
+    "problem_id",
+    "original",
+    "correct",
+    "attempt_count",
+    "ms_first_response",
+    "tutor_mode",
+    "answer_type",
+    "sequence_id",
+    "student_class_id",
+    "position",
+    "type",
+    "base_sequence_id",
+    "skill_id",
+    "skill_name",
+    "teacher_id",
+    "school_id",
+    "hint_count",
+    "hint_total",
+    "overlap_time",
+    "template_id",
+    "answer_id",
+    "answer_text",
+    "first_action",
+    "bottom_hint",
+    "opportunity",
+    "opportunity_original"
+  ],
+  "columnTypes": {
+    "": "integer",
+    "order_id": "integer",
+    "assignment_id": "integer",
+    "user_id": "integer",
+    "assistment_id": "integer",
+    "problem_id": "integer",
+    "original": "integer",
+    "correct": "integer",
+    "attempt_count": "integer",
+    "ms_first_response": "integer",
+    "tutor_mode": "string",
+    "answer_type": "string",
+    "sequence_id": "integer",
+    "student_class_id": "integer",
+    "position": "integer",
+    "type": "string",
+    "base_sequence_id": "integer",
+    "skill_id": "mixed",
+    "skill_name": "string",
+    "teacher_id": "integer",
+    "school_id": "integer",
+    "hint_count": "integer",
+    "hint_total": "integer",
+    "overlap_time": "integer",
+    "template_id": "integer",
+    "answer_id": "integer",
+    "answer_text": "mixed",
+    "first_action": "integer",
+    "bottom_hint": "integer",
+    "opportunity": "integer",
+    "opportunity_original": "integer"
+  },
+  "missingness": {
+    "": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "order_id": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "assignment_id": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "user_id": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "assistment_id": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "problem_id": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "original": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "correct": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "attempt_count": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "ms_first_response": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "tutor_mode": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "answer_type": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "sequence_id": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "student_class_id": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "position": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "type": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "base_sequence_id": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "skill_id": {
+      "count": 63755,
+      "rate": 0.18380615
+    },
+    "skill_name": {
+      "count": 72270,
+      "rate": 0.20835496
+    },
+    "teacher_id": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "school_id": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "hint_count": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "hint_total": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "overlap_time": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "template_id": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "answer_id": {
+      "count": 306818,
+      "rate": 0.88455861
+    },
+    "answer_text": {
+      "count": 77629,
+      "rate": 0.22380499
+    },
+    "first_action": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "bottom_hint": {
+      "count": 287003,
+      "rate": 0.82743182
+    },
+    "opportunity": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "opportunity_original": {
+      "count": 71402,
+      "rate": 0.20585251
+    }
+  },
+  "uniqueCounts": {
+    "students": 4217,
+    "problems": 26688,
+    "skills": 149
+  },
+  "correctness": {
+    "validValues": 346860,
+    "correctCount": 223818,
+    "correctRate": 0.64526898
+  },
+  "perStudentSequenceLength": {
+    "students": 4217,
+    "min": 1,
+    "max": 1383,
+    "mean": 82.253,
+    "median": 23,
+    "p90": 192.0,
+    "p99": 833.0
+  },
+  "duplicates": {
+    "eventKey": "user_id + problem_id + order_id",
+    "duplicateRows": 0,
+    "conflictingRows": 0
+  },
+  "noSkillRows": 63755,
+  "multiSkillCompositeTokenRows": 47037,
+  "multiSkillPolicy": "COMPOSITE_TOKEN_NO_SPLIT",
+  "sequencePolicy": "ORDER_ID_SEQUENCE_NOT_REAL_TIME",
+  "sourceEncoding": "windows-1252",
+  "utf8DecodeErrorCount": 5,
+  "replacementCharacterCount": 0,
+  "encodingFallbackUsed": true,
+  "errors": [],
+  "input": {
+    "relativePath": "data/raw/assistments-2009-2010-skill-builder-corrected/assistments-2009-2010-skill-builder-corrected.csv",
+    "sha256": "162ef8d2d28bcbfea6591a282994062bd8d5eaa00636544292a0d268dca6e5da",
+    "bytes": 64412812
+  }
+}
