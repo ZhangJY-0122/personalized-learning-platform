@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "project": "f21-g1-check-ae5b3201",
+  "freshVolume": true,
+  "migrations": 3,
+  "bcryptAccounts": 5,
+  "resourceEditSurvivedRestart": true,
+  "passwordHashesUnchanged": true,
+  "revocationSurvivedRestart": true,
+  "disabledAccountRejected": true,
+  "scopeRevocationImmediate": true,
+  "inactiveCourseHidden": true,
+  "proxyAfterServerRecreate": true,
+  "volumeRetained": "f21-g1-check-ae5b3201_f21-data"
+}
