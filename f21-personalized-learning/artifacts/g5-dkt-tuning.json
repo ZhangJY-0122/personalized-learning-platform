@@ -1,0 +1,442 @@
+{
+  "configs": [
+    {
+      "actualEpochs": 19,
+      "bestEpoch": 16,
+      "configId": "h32-lr0.001",
+      "earlyStopReason": "PATIENCE",
+      "hiddenSize": 32,
+      "history": [
+        {
+          "epoch": 1,
+          "trainLoss": 0.6296791915567765,
+          "validationLogLoss": 0.594307327149072
+        },
+        {
+          "epoch": 2,
+          "trainLoss": 0.577420101032494,
+          "validationLogLoss": 0.5784236930567237
+        },
+        {
+          "epoch": 3,
+          "trainLoss": 0.56558868122397,
+          "validationLogLoss": 0.5728153208216171
+        },
+        {
+          "epoch": 4,
+          "trainLoss": 0.5590591325152735,
+          "validationLogLoss": 0.5692797626738912
+        },
+        {
+          "epoch": 5,
+          "trainLoss": 0.5542619707791702,
+          "validationLogLoss": 0.5666978663026507
+        },
+        {
+          "epoch": 6,
+          "trainLoss": 0.5504544642030823,
+          "validationLogLoss": 0.5648640294361373
+        },
+        {
+          "epoch": 7,
+          "trainLoss": 0.5473294530225836,
+          "validationLogLoss": 0.5634558193129059
+        },
+        {
+          "epoch": 8,
+          "trainLoss": 0.5447047650814056,
+          "validationLogLoss": 0.5625145119053575
+        },
+        {
+          "epoch": 9,
+          "trainLoss": 0.5424531651950031,
+          "validationLogLoss": 0.5618261735664094
+        },
+        {
+          "epoch": 10,
+          "trainLoss": 0.5403965868935081,
+          "validationLogLoss": 0.5613219871116036
+        },
+        {
+          "epoch": 11,
+          "trainLoss": 0.5385224067646525,
+          "validationLogLoss": 0.5604346753478038
+        },
+        {
+          "epoch": 12,
+          "trainLoss": 0.5367736836768086,
+          "validationLogLoss": 0.5601219300649866
+        },
+        {
+          "epoch": 13,
+          "trainLoss": 0.5351516889489215,
+          "validationLogLoss": 0.5599927999008404
+        },
+        {
+          "epoch": 14,
+          "trainLoss": 0.5336617851479454,
+          "validationLogLoss": 0.5598525707419651
+        },
+        {
+          "epoch": 15,
+          "trainLoss": 0.5322581081656936,
+          "validationLogLoss": 0.5596842304174415
+        },
+        {
+          "epoch": 16,
+          "trainLoss": 0.5309658496646408,
+          "validationLogLoss": 0.5596543383215163
+        },
+        {
+          "epoch": 17,
+          "trainLoss": 0.5297255649329713,
+          "validationLogLoss": 0.5598857708722992
+        },
+        {
+          "epoch": 18,
+          "trainLoss": 0.5286877308943256,
+          "validationLogLoss": 0.56022998053123
+        },
+        {
+          "epoch": 19,
+          "trainLoss": 0.5274331875099159,
+          "validationLogLoss": 0.5602336932067333
+        }
+      ],
+      "learningRate": 0.001,
+      "runtimeSeconds": 28.966630875016563,
+      "status": "passed",
+      "trainLoss": 0.5309658496646408,
+      "validationLogLoss": 0.5596543383215163
+    },
+    {
+      "actualEpochs": 20,
+      "bestEpoch": 20,
+      "configId": "h32-lr0.0003",
+      "earlyStopReason": "MAX_EPOCHS",
+      "hiddenSize": 32,
+      "history": [
+        {
+          "epoch": 1,
+          "trainLoss": 0.6696165748264479,
+          "validationLogLoss": 0.6490836068773349
+        },
+        {
+          "epoch": 2,
+          "trainLoss": 0.6255488732586736,
+          "validationLogLoss": 0.6137032870604339
+        },
+        {
+          "epoch": 3,
+          "trainLoss": 0.5958354636008695,
+          "validationLogLoss": 0.5943461780133831
+        },
+        {
+          "epoch": 4,
+          "trainLoss": 0.5828171139178069,
+          "validationLogLoss": 0.5862882014369648
+        },
+        {
+          "epoch": 5,
+          "trainLoss": 0.5760205432494975,
+          "validationLogLoss": 0.5820014518966263
+        },
+        {
+          "epoch": 6,
+          "trainLoss": 0.5715221962573366,
+          "validationLogLoss": 0.5791380829874802
+        },
+        {
+          "epoch": 7,
+          "trainLoss": 0.5681007819146103,
+          "validationLogLoss": 0.5769012510197687
+        },
+        {
+          "epoch": 8,
+          "trainLoss": 0.5652892348929222,
+          "validationLogLoss": 0.5751261118372203
+        },
+        {
+          "epoch": 9,
+          "trainLoss": 0.5628957033897779,
+          "validationLogLoss": 0.5736165915781235
+        },
+        {
+          "epoch": 10,
+          "trainLoss": 0.5607899810586657,
+          "validationLogLoss": 0.5723050856115408
+        },
+        {
+          "epoch": 11,
+          "trainLoss": 0.5589032846948375,
+          "validationLogLoss": 0.5711452689942234
+        },
+        {
+          "epoch": 12,
+          "trainLoss": 0.5571905063546222,
+          "validationLogLoss": 0.5701173642264192
+        },
+        {
+          "epoch": 13,
+          "trainLoss": 0.555626856984559,
+          "validationLogLoss": 0.5692023152288351
+        },
+        {
+          "epoch": 14,
+          "trainLoss": 0.5541917796460738,
+          "validationLogLoss": 0.5683876746726156
+        },
+        {
+          "epoch": 15,
+          "trainLoss": 0.5528598155664362,
+          "validationLogLoss": 0.5676601750938324
+        },
+        {
+          "epoch": 16,
+          "trainLoss": 0.5516277181435816,
+          "validationLogLoss": 0.5669991709194047
+        },
+        {
+          "epoch": 17,
+          "trainLoss": 0.5504768090958921,
+          "validationLogLoss": 0.5663925501116975
+        },
+        {
+          "epoch": 18,
+          "trainLoss": 0.5493928042257795,
+          "validationLogLoss": 0.5658329110443392
+        },
+        {
+          "epoch": 19,
+          "trainLoss": 0.5483680691408075,
+          "validationLogLoss": 0.5653256988551283
+        },
+        {
+          "epoch": 20,
+          "trainLoss": 0.5473912132452734,
+          "validationLogLoss": 0.564812757241839
+        }
+      ],
+      "learningRate": 0.0003,
+      "runtimeSeconds": 30.00296058296226,
+      "status": "passed",
+      "trainLoss": 0.5473912132452734,
+      "validationLogLoss": 0.564812757241839
+    },
+    {
+      "actualEpochs": 11,
+      "bestEpoch": 8,
+      "configId": "h64-lr0.001",
+      "earlyStopReason": "PATIENCE",
+      "hiddenSize": 64,
+      "history": [
+        {
+          "epoch": 1,
+          "trainLoss": 0.6052891804564814,
+          "validationLogLoss": 0.5811468085143813
+        },
+        {
+          "epoch": 2,
+          "trainLoss": 0.5625496143880098,
+          "validationLogLoss": 0.5708258179107876
+        },
+        {
+          "epoch": 3,
+          "trainLoss": 0.5522058515445046,
+          "validationLogLoss": 0.5644901850518022
+        },
+        {
+          "epoch": 4,
+          "trainLoss": 0.545367146315782,
+          "validationLogLoss": 0.5611339497443985
+        },
+        {
+          "epoch": 5,
+          "trainLoss": 0.5400828528478279,
+          "validationLogLoss": 0.5589070393500136
+        },
+        {
+          "epoch": 6,
+          "trainLoss": 0.5356221304546972,
+          "validationLogLoss": 0.5579353516971949
+        },
+        {
+          "epoch": 7,
+          "trainLoss": 0.531642904007657,
+          "validationLogLoss": 0.5575383632314407
+        },
+        {
+          "epoch": 8,
+          "trainLoss": 0.5283405205107624,
+          "validationLogLoss": 0.556342250760824
+        },
+        {
+          "epoch": 9,
+          "trainLoss": 0.5252294199807304,
+          "validationLogLoss": 0.5563744094880619
+        },
+        {
+          "epoch": 10,
+          "trainLoss": 0.5221494053091321,
+          "validationLogLoss": 0.5569449819532137
+        },
+        {
+          "epoch": 11,
+          "trainLoss": 0.5192886813086752,
+          "validationLogLoss": 0.5577188043060642
+        }
+      ],
+      "learningRate": 0.001,
+      "runtimeSeconds": 22.513606082997285,
+      "status": "passed",
+      "trainLoss": 0.5283405205107624,
+      "validationLogLoss": 0.556342250760824
+    },
+    {
+      "actualEpochs": 20,
+      "bestEpoch": 20,
+      "configId": "h64-lr0.0003",
+      "earlyStopReason": "MAX_EPOCHS",
+      "hiddenSize": 64,
+      "history": [
+        {
+          "epoch": 1,
+          "trainLoss": 0.6457805940823526,
+          "validationLogLoss": 0.6218466912840244
+        },
+        {
+          "epoch": 2,
+          "trainLoss": 0.5943967311278634,
+          "validationLogLoss": 0.5894327496739492
+        },
+        {
+          "epoch": 3,
+          "trainLoss": 0.5734088728146524,
+          "validationLogLoss": 0.5795560297021767
+        },
+        {
+          "epoch": 4,
+          "trainLoss": 0.5648616226563542,
+          "validationLogLoss": 0.5749991242047864
+        },
+        {
+          "epoch": 5,
+          "trainLoss": 0.5595448329952193,
+          "validationLogLoss": 0.5713110178140414
+        },
+        {
+          "epoch": 6,
+          "trainLoss": 0.5555186806628423,
+          "validationLogLoss": 0.568511118117403
+        },
+        {
+          "epoch": 7,
+          "trainLoss": 0.5522368674322685,
+          "validationLogLoss": 0.5665691938765821
+        },
+        {
+          "epoch": 8,
+          "trainLoss": 0.5493603826309583,
+          "validationLogLoss": 0.5650687670518975
+        },
+        {
+          "epoch": 9,
+          "trainLoss": 0.5468493352025192,
+          "validationLogLoss": 0.563919059075271
+        },
+        {
+          "epoch": 10,
+          "trainLoss": 0.5445619606823655,
+          "validationLogLoss": 0.5630152286399488
+        },
+        {
+          "epoch": 11,
+          "trainLoss": 0.5424851660402665,
+          "validationLogLoss": 0.5622319040775049
+        },
+        {
+          "epoch": 12,
+          "trainLoss": 0.5405450050505052,
+          "validationLogLoss": 0.5615185435573529
+        },
+        {
+          "epoch": 13,
+          "trainLoss": 0.5387221006503017,
+          "validationLogLoss": 0.5608740889206963
+        },
+        {
+          "epoch": 14,
+          "trainLoss": 0.5370009621107801,
+          "validationLogLoss": 0.5602867309069117
+        },
+        {
+          "epoch": 15,
+          "trainLoss": 0.5353937302687153,
+          "validationLogLoss": 0.5599690020568859
+        },
+        {
+          "epoch": 16,
+          "trainLoss": 0.5338969213992172,
+          "validationLogLoss": 0.5595758592545822
+        },
+        {
+          "epoch": 17,
+          "trainLoss": 0.5324183123082108,
+          "validationLogLoss": 0.5593501916760019
+        },
+        {
+          "epoch": 18,
+          "trainLoss": 0.5310122335549468,
+          "validationLogLoss": 0.5590750382013546
+        },
+        {
+          "epoch": 19,
+          "trainLoss": 0.5296924166057421,
+          "validationLogLoss": 0.5588671730201611
+        },
+        {
+          "epoch": 20,
+          "trainLoss": 0.528341247428278,
+          "validationLogLoss": 0.5587395431243497
+        }
+      ],
+      "learningRate": 0.0003,
+      "runtimeSeconds": 41.140659041004255,
+      "status": "passed",
+      "trainLoss": 0.528341247428278,
+      "validationLogLoss": 0.5587395431243497
+    }
+  ],
+  "environment": {
+    "device": "CPU",
+    "machine": "arm64",
+    "numpy": "2.2.6",
+    "os": "Darwin",
+    "osRelease": "25.5.0",
+    "pythonImplementation": "CPython",
+    "pythonVersion": "3.13.14 (v3.13.14:fd17997c386, Jun 10 2026, 08:55:00) [Clang 21.0.0 (clang-2100.1.1.101)]",
+    "torch": "2.8.0",
+    "torchThreads": 1
+  },
+  "generator": "training/run_g5_kt_comparison.py",
+  "gitCommit": "fd320220586cad0ead00b20bc0f5731b3ba3a457",
+  "input": {
+    "cleanSha256": "751fa5917ba2bf2db35ab6bf4864689e1e0159e08eed4f33321628aa1b021552",
+    "splitSha256": "52168dc474895499359cab820f5da666990c6998ee459302cc76f055d2693098"
+  },
+  "passed": true,
+  "protocolCommit": "fd320220586cad0ead00b20bc0f5731b3ba3a457",
+  "schemaVersion": "g5-dkt-tuning-v1",
+  "selectedConfig": {
+    "bestEpoch": 8,
+    "configId": "h64-lr0.001",
+    "hiddenSize": 64,
+    "learningRate": 0.001
+  },
+  "testMetricsComputed": 0,
+  "testPredictionsComputed": 0,
+  "vocabulary": {
+    "hash": "af5827ef4f413c9e01758b3a610496a9b32a987c10a0c0f7053a323476019308",
+    "size": 151
+  }
+}
