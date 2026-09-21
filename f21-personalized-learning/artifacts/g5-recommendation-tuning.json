@@ -1,0 +1,1785 @@
+{
+  "ablations": {
+    "ABLATION_DROP_CF": {
+      "candidateDirectorySize": 25005,
+      "coverage": 0.008558288342331534,
+      "deletedComponent": "cf",
+      "diversity": 0.0005341880341880342,
+      "diversityComputableUsers": 3744,
+      "fallbackComponents": {},
+      "fallbackRate": 0.0,
+      "fallbackUsers": 0,
+      "hitRateAt5": 0.010683760683760684,
+      "metricTolerance": 1e-12,
+      "ndcgAt5": 0.003728061241484969,
+      "noRelevantItemUsers": 34,
+      "precisionAt5": 0.003685897435897435,
+      "previouslySeenItemRate": 0.019454904070288687,
+      "previouslySeenItemRows": 651,
+      "recallAt5": 0.0015840206156559884,
+      "shortListCount": 0,
+      "shortListRate": 0.0,
+      "uniqueRecommendedItems": 214,
+      "unknownItemRate": 0.024445639830255213,
+      "unknownItemRows": 818,
+      "validUsers": 3744,
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "ABLATION_DROP_CONTENT": {
+      "candidateDirectorySize": 25005,
+      "coverage": 0.2389122175564887,
+      "deletedComponent": "content",
+      "diversity": 0.3944978632478665,
+      "diversityComputableUsers": 3744,
+      "fallbackComponents": {
+        "cf": 3
+      },
+      "fallbackRate": 0.0008012820512820513,
+      "fallbackUsers": 3,
+      "hitRateAt5": 0.12446581196581197,
+      "metricTolerance": 1e-12,
+      "ndcgAt5": 0.060921046925701564,
+      "noRelevantItemUsers": 34,
+      "precisionAt5": 0.037500000000000096,
+      "previouslySeenItemRate": 0.019454904070288687,
+      "previouslySeenItemRows": 651,
+      "recallAt5": 0.05105662262701397,
+      "shortListCount": 0,
+      "shortListRate": 0.0,
+      "uniqueRecommendedItems": 5974,
+      "unknownItemRate": 0.024445639830255213,
+      "unknownItemRows": 818,
+      "validUsers": 3744,
+      "weights": [
+        0.0,
+        0.0,
+        0.75,
+        0.25
+      ]
+    },
+    "ABLATION_DROP_KT": {
+      "candidateDirectorySize": 25005,
+      "coverage": 0.24039192161567685,
+      "deletedComponent": "kt",
+      "diversity": 0.3816773504273536,
+      "diversityComputableUsers": 3744,
+      "fallbackComponents": {
+        "cf": 3
+      },
+      "fallbackRate": 0.0008012820512820513,
+      "fallbackUsers": 3,
+      "hitRateAt5": 0.1188568376068376,
+      "metricTolerance": 1e-12,
+      "ndcgAt5": 0.06231763255734428,
+      "noRelevantItemUsers": 34,
+      "precisionAt5": 0.03653846153846166,
+      "previouslySeenItemRate": 0.019454904070288687,
+      "previouslySeenItemRows": 651,
+      "recallAt5": 0.05401400261871615,
+      "shortListCount": 0,
+      "shortListRate": 0.0,
+      "uniqueRecommendedItems": 6011,
+      "unknownItemRate": 0.024445639830255213,
+      "unknownItemRows": 818,
+      "validUsers": 3744,
+      "weights": [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    }
+  },
+  "candidateCatalogSha256": "35163c1856a82251a66e37968f08d178304c008af1fa1e4fa05accb04354ca7f",
+  "candidateCount": 25005,
+  "catalogVersion": "NOT_APPLICABLE_ASSISTMENTS_PUBLIC_DATASET",
+  "durationSeconds": 192.049724,
+  "environment": {
+    "device": "CPU",
+    "machine": "arm64",
+    "numpy": "2.2.6",
+    "os": "Darwin",
+    "osRelease": "25.5.0",
+    "pythonExecutable": "/Users/zhangjiayi/code/个性化学习平台-g5/f21-personalized-learning/.venv/bin/python",
+    "pythonImplementation": "CPython",
+    "pythonVersion": "3.13.14 (v3.13.14:fd17997c386, Jun 10 2026, 08:55:00) [Clang 21.0.0 (clang-2100.1.1.101)]",
+    "scikitLearn": "1.7.1",
+    "scipy": "1.18.1"
+  },
+  "generator": {
+    "schemaVersion": "g5-recommendation-tuning-v2",
+    "script": "training/run_g5_recommendation_comparison.py"
+  },
+  "gitCommit": "427426bc8e4699ae47bc749fc2afa06f6cc7d477",
+  "input": {
+    "bktFitSha256": "315473b2dd4c2084d302a5d7cbbebe28ef1568473c729eab4534d482251604d6",
+    "bktParametersSha256": "c1178ab67e8cc4aed117919871b570265b385efde296f565bb6ae863dd757e80",
+    "cleanSha256": "751fa5917ba2bf2db35ab6bf4864689e1e0159e08eed4f33321628aa1b021552",
+    "manifestSha256": "4d6b0758122f65f163614e15d4513cf21ab62185622cc7c46b72152de8bfdb24",
+    "partitionHashes": {
+      "SHORT_COVERAGE": "f5f80e24e5d46dd51acb260e54fa58cd6f52a38b42c4f4737e5c7955aacf8b90",
+      "test": "a4700cac1748cba73d0761dd5cfab050b701468360bdbc1dba745233d26416b9",
+      "train": "2e445bb1def97d6de54a49b1ffce9468e022775747dd432c1dc3c793837a086b",
+      "validation": "5e8dfde07c2db789789ad95a81095022cc72cb0fab652deadd1ca5c2ba6488e9"
+    },
+    "splitSha256": "52168dc474895499359cab820f5da666990c6998ee459302cc76f055d2693098"
+  },
+  "leakage": {
+    "combinedCleanFileScanned": true,
+    "splitAssignmentsScanned": true,
+    "testCleanLinesParsedDuringStreaming": true,
+    "testEvaluationStatus": "DEFERRED_TO_G5_05B",
+    "testInteractionObjectsRetained": false,
+    "testLabelsRetained": false,
+    "testLabelsUsedForCandidateConstruction": false,
+    "testLabelsUsedForFitting": false,
+    "testLabelsUsedForWeightSelection": false,
+    "testMetricsComputed": false,
+    "testRankingCount": 0,
+    "testRelevantItemsMaterialized": false,
+    "testRelevantItemsRetained": false,
+    "testRowsMaterialized": false
+  },
+  "limitations": [
+    "ASSISTments public item identifiers have no separate catalog metadata.",
+    "Formal test ranking is deferred to G5-05B."
+  ],
+  "metricDefinitions": {
+    "coverage": "unique recommended itemExternalId / train candidate count",
+    "diversity": "mean pairwise 1-cosine of atomic skill one-hot vectors; null for list <2",
+    "hitCount": "|Top5 ∩ relevantItems|",
+    "hitRateAt5": "1 iff hitCount > 0",
+    "macro": "user-level macro average",
+    "ndcgAt5": "binary relevance and IDCG length min(5, |relevantItems|)",
+    "precisionAt5": "hitCount / 5 including short lists",
+    "recallAt5": "hitCount / |relevantItems| excluding no-relevant users",
+    "tolerance": 1e-12
+  },
+  "passed": true,
+  "protectedG5Hashes": {
+    "files": [
+      {
+        "path": "data/processed/g5-04r/archive/original-46256f8/checkpoints/dkt-seed-11.pt",
+        "sha256": "90046d93f1212c9e68caca9dc1c52f4e3f18957b398b3c8ff5f8a1f18085b0c1"
+      },
+      {
+        "path": "data/processed/g5-04r/archive/original-46256f8/checkpoints/dkt-seed-22.pt",
+        "sha256": "2c756558965782ea8a24b2d2f1e6707d678fcd42af998a97f8b997db8856199f"
+      },
+      {
+        "path": "data/processed/g5-04r/candidates/dkt-seed-33-epoch8.pt",
+        "sha256": "037f908e0d9d1aa9f89eaa26cb80101edd299cd9400af31852ad6ea8256f199f"
+      },
+      {
+        "path": "data/processed/g5-04r/archive/original-46256f8/predictions/rule.jsonl",
+        "sha256": "92172df9cdc0d4d066be11afee5fc0f196ba8fa99e5ec9b1d9215a6c169f55e5"
+      },
+      {
+        "path": "data/processed/g5-04r/archive/original-46256f8/predictions/bkt.jsonl",
+        "sha256": "ad500d540e9ef5135456b8448dbcf8544896a21b31382d302b2efa2901f20dfe"
+      },
+      {
+        "path": "data/processed/g5-04r/archive/original-46256f8/predictions/dkt-seed-11.jsonl",
+        "sha256": "a4adf72a92dacffcc51feb45ce3b6f2239f4a30aa01c6483c94c4a3987604e7f"
+      },
+      {
+        "path": "data/processed/g5-04r/archive/original-46256f8/predictions/dkt-seed-22.jsonl",
+        "sha256": "8b776131763a944244091f514fc7b1e25e10954abc421aa7a7c95cb1e65cfb83"
+      },
+      {
+        "path": "data/processed/g5-04r/predictions/dkt-seed-33-corrected.jsonl",
+        "sha256": "313c937f02b5f93c6e57e72723e694bc924fd682fa4943fe03187d66ae42ab27"
+      },
+      {
+        "path": "data/processed/g5-kt-evaluation-ledger.json",
+        "sha256": "383b1551b9a743fde110824f0310fdfb5f1c89b041aba263dfb95bc256c2f784"
+      },
+      {
+        "path": "data/processed/g5-04r/CORRECTIVE_ATTEMPT_CONSUMED",
+        "sha256": "45a9f4f581a2ec410b7f9dd00089f5e3429ba676a62a85bf543c58da68c5551d"
+      }
+    ],
+    "source": "artifacts/g5-kt-comparison.json"
+  },
+  "protocolCommit": "427426bc8e4699ae47bc749fc2afa06f6cc7d477",
+  "randomnessUsed": false,
+  "reproduceCommands": {
+    "evaluateOnce": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python training/run_g5_recommendation_comparison.py evaluate-once --expected-head <evaluationBaseCommit> --expected-protocol-commit <protocolCommit>",
+    "freezeReport": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python training/run_g5_recommendation_comparison.py freeze-report --expected-head <evaluationBaseCommit> --expected-protocol-commit <protocolCommit>",
+    "prepare": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python training/run_g5_recommendation_comparison.py prepare",
+    "tune": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python training/run_g5_recommendation_comparison.py tune",
+    "unittest": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m unittest discover -s tests -v",
+    "validateFrozen": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python training/run_g5_recommendation_comparison.py validate-frozen",
+    "validateTuning": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python training/run_g5_recommendation_comparison.py validate-tuning"
+  },
+  "rules": {
+    "candidateConstruction": "train-only item directory, skill map, popularity and Item-CF",
+    "content": "atomic skillExternalId one-hot; composite token never split; correct unused",
+    "hybrid": "per-user candidate-set min-max; constant component zero; positive-weight fallback counted",
+    "itemCf": "binary train CSR, cosine column similarity, diagonal excluded",
+    "randomnessUsed": false,
+    "ranking": "final score descending, raw POPULAR descending, itemExternalId ascending",
+    "relevance": "future itemExternalId deduplicated excluding unknownItem and previouslySeenItem",
+    "seed": null,
+    "selection": "NDCG, Recall, HitRate, Precision descending then weight tuple lexicographic ascending",
+    "shortCoverage": "excluded from main evaluation",
+    "split": "按顺序切分; sequenceIndex/order_id is not real-time",
+    "topK": 5
+  },
+  "schemaVersion": "g5-recommendation-tuning-v2",
+  "seed": null,
+  "strategies": {
+    "CONTENT": {
+      "candidateDirectorySize": 25005,
+      "coverage": 0.03167366526694661,
+      "diversity": 0.005422008547008547,
+      "diversityComputableUsers": 3744,
+      "fallbackComponents": {},
+      "fallbackRate": 0.0,
+      "fallbackUsers": 0,
+      "hitRateAt5": 0.036057692307692304,
+      "metricTolerance": 1e-12,
+      "ndcgAt5": 0.01644538210824099,
+      "noRelevantItemUsers": 34,
+      "precisionAt5": 0.010202991452991444,
+      "previouslySeenItemRate": 0.019454904070288687,
+      "previouslySeenItemRows": 651,
+      "recallAt5": 0.01742628221226898,
+      "shortListCount": 0,
+      "shortListRate": 0.0,
+      "uniqueRecommendedItems": 792,
+      "unknownItemRate": 0.024445639830255213,
+      "unknownItemRows": 818,
+      "validUsers": 3744
+    },
+    "HYBRID_KT": {
+      "candidateDirectorySize": 25005,
+      "coverage": 0.2389122175564887,
+      "diversity": 0.3944978632478665,
+      "diversityComputableUsers": 3744,
+      "fallbackComponents": {
+        "cf": 3
+      },
+      "fallbackRate": 0.0008012820512820513,
+      "fallbackUsers": 3,
+      "hitRateAt5": 0.12446581196581197,
+      "metricTolerance": 1e-12,
+      "ndcgAt5": 0.060921046925701564,
+      "noRelevantItemUsers": 34,
+      "precisionAt5": 0.037500000000000096,
+      "previouslySeenItemRate": 0.019454904070288687,
+      "previouslySeenItemRows": 651,
+      "recallAt5": 0.05105662262701397,
+      "shortListCount": 0,
+      "shortListRate": 0.0,
+      "uniqueRecommendedItems": 5974,
+      "unknownItemRate": 0.024445639830255213,
+      "unknownItemRows": 818,
+      "validUsers": 3744,
+      "weights": [
+        0.0,
+        0.0,
+        0.75,
+        0.25
+      ]
+    },
+    "HYBRID_NO_KT": {
+      "candidateDirectorySize": 25005,
+      "coverage": 0.24039192161567685,
+      "diversity": 0.3816773504273536,
+      "diversityComputableUsers": 3744,
+      "fallbackComponents": {
+        "cf": 3
+      },
+      "fallbackRate": 0.0008012820512820513,
+      "fallbackUsers": 3,
+      "hitRateAt5": 0.1188568376068376,
+      "metricTolerance": 1e-12,
+      "ndcgAt5": 0.06231763255734428,
+      "noRelevantItemUsers": 34,
+      "precisionAt5": 0.03653846153846166,
+      "previouslySeenItemRate": 0.019454904070288687,
+      "previouslySeenItemRows": 651,
+      "recallAt5": 0.05401400261871615,
+      "shortListCount": 0,
+      "shortListRate": 0.0,
+      "uniqueRecommendedItems": 6011,
+      "unknownItemRate": 0.024445639830255213,
+      "unknownItemRows": 818,
+      "validUsers": 3744,
+      "weights": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "ITEM_CF": {
+      "candidateDirectorySize": 25005,
+      "coverage": 0.24039192161567685,
+      "diversity": 0.3816773504273536,
+      "diversityComputableUsers": 3744,
+      "fallbackComponents": {
+        "cf": 3
+      },
+      "fallbackRate": 0.0008012820512820513,
+      "fallbackUsers": 3,
+      "hitRateAt5": 0.1188568376068376,
+      "metricTolerance": 1e-12,
+      "ndcgAt5": 0.06231763255734428,
+      "noRelevantItemUsers": 34,
+      "precisionAt5": 0.03653846153846166,
+      "previouslySeenItemRate": 0.019454904070288687,
+      "previouslySeenItemRows": 651,
+      "recallAt5": 0.05401400261871615,
+      "shortListCount": 0,
+      "shortListRate": 0.0,
+      "uniqueRecommendedItems": 6011,
+      "unknownItemRate": 0.024445639830255213,
+      "unknownItemRows": 818,
+      "validUsers": 3744
+    },
+    "POPULAR": {
+      "candidateDirectorySize": 25005,
+      "coverage": 0.0005198960207958408,
+      "diversity": 0.6115384615384224,
+      "diversityComputableUsers": 3744,
+      "fallbackComponents": {},
+      "fallbackRate": 0.0,
+      "fallbackUsers": 0,
+      "hitRateAt5": 0.0109508547008547,
+      "metricTolerance": 1e-12,
+      "ndcgAt5": 0.0024886061019523706,
+      "noRelevantItemUsers": 34,
+      "precisionAt5": 0.0022970085470085475,
+      "previouslySeenItemRate": 0.019454904070288687,
+      "previouslySeenItemRows": 651,
+      "recallAt5": 0.0019030520906530804,
+      "shortListCount": 0,
+      "shortListRate": 0.0,
+      "uniqueRecommendedItems": 13,
+      "unknownItemRate": 0.024445639830255213,
+      "unknownItemRows": 818,
+      "validUsers": 3744
+    }
+  },
+  "strategyVersion": "G5_RECOMMENDATION_BASELINES_V2",
+  "testSafety": {
+    "combinedCleanFileScanned": true,
+    "splitAssignmentsScanned": true,
+    "testCleanLinesParsedDuringStreaming": true,
+    "testEvaluationStatus": "DEFERRED_TO_G5_05B",
+    "testInteractionObjectsRetained": false,
+    "testLabelsRetained": false,
+    "testLabelsUsedForCandidateConstruction": false,
+    "testLabelsUsedForFitting": false,
+    "testLabelsUsedForWeightSelection": false,
+    "testMetricsComputed": false,
+    "testRankingCount": 0,
+    "testRelevantItemsMaterialized": false,
+    "testRelevantItemsRetained": false,
+    "testRowsMaterialized": false
+  },
+  "tuningCommit": "427426bc8e4699ae47bc749fc2afa06f6cc7d477",
+  "validation": {
+    "allowedPartitions": [
+      "train",
+      "validation"
+    ],
+    "gridCounts": {
+      "ktWeights": 20,
+      "noKtWeights": 15
+    },
+    "hybridKt": {
+      "candidates": [
+        {
+          "metrics": {
+            "candidateDirectorySize": 25005,
+            "coverage": 0.008558288342331534,
+            "diversity": 0.0005341880341880342,
+            "diversityComputableUsers": 3744,
+            "fallbackComponents": {},
+            "fallbackRate": 0.0,
+            "fallbackUsers": 0,
+            "hitRateAt5": 0.010683760683760684,
+            "metricTolerance": 1e-12,
+            "ndcgAt5": 0.003728061241484969,
+            "noRelevantItemUsers": 34,
+            "precisionAt5": 0.003685897435897435,
+            "previouslySeenItemRate": 0.019454904070288687,
+            "previouslySeenItemRows": 651,
+            "recallAt5": 0.0015840206156559884,
+            "shortListCount": 0,
+            "shortListRate": 0.0,
+            "uniqueRecommendedItems": 214,
+            "unknownItemRate": 0.024445639830255213,
+            "unknownItemRows": 818,
+            "validUsers": 3744
+          },
+          "weights": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "metrics": {
+            "candidateDirectorySize": 25005,
+            "coverage": 0.10425914817036593,
+            "diversity": 0.2874732905982904,
+            "diversityComputableUsers": 3744,
+            "fallbackComponents": {
+              "cf": 3
+            },
+            "fallbackRate": 0.0008012820512820513,
+            "fallbackUsers": 3,
+            "hitRateAt5": 0.044070512820512824,
+            "metricTolerance": 1e-12,
+            "ndcgAt5": 0.019876067733028812,
+            "noRelevantItemUsers": 34,
+            "precisionAt5": 0.01351495726495728,
+            "previouslySeenItemRate": 0.019454904070288687,
+            "previouslySeenItemRows": 651,
+            "recallAt5": 0.01389707225814188,
+            "shortListCount": 0,
+            "shortListRate": 0.0,
+            "uniqueRecommendedItems": 2607,
+            "unknownItemRate": 0.024445639830255213,
+            "unknownItemRows": 818,
+            "validUsers": 3744
+          },
+          "weights": [
+            0.0,
+            0.0,
+            0.25,
+            0.75
+          ]
+        },
+        {
+          "metrics": {
+            "candidateDirectorySize": 25005,
+            "coverage": 0.17000599880023995,
+            "diversity": 0.3933760683760712,
+            "diversityComputableUsers": 3744,
+            "fallbackComponents": {
+              "cf": 3
+            },
+            "fallbackRate": 0.0008012820512820513,
+            "fallbackUsers": 3,
+            "hitRateAt5": 0.07158119658119658,
+            "metricTolerance": 1e-12,
+            "ndcgAt5": 0.03513444189335815,
+            "noRelevantItemUsers": 34,
+            "precisionAt5": 0.021741452991453063,
+            "previouslySeenItemRate": 0.019454904070288687,
+            "previouslySeenItemRows": 651,
+            "recallAt5": 0.028452603444924632,
+            "shortListCount": 0,
+            "shortListRate": 0.0,
+            "uniqueRecommendedItems": 4251,
+            "unknownItemRate": 0.024445639830255213,
+            "unknownItemRows": 818,
+            "validUsers": 3744
+          },
+          "weights": [
+            0.0,
+            0.0,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "metrics": {
+            "candidateDirectorySize": 25005,
+            "coverage": 0.2389122175564887,
+            "diversity": 0.3944978632478665,
+            "diversityComputableUsers": 3744,
+            "fallbackComponents": {
+              "cf": 3
+            },
+            "fallbackRate": 0.0008012820512820513,
+            "fallbackUsers": 3,
+            "hitRateAt5": 0.12446581196581197,
+            "metricTolerance": 1e-12,
+            "ndcgAt5": 0.060921046925701564,
+            "noRelevantItemUsers": 34,
+            "precisionAt5": 0.037500000000000096,
+            "previouslySeenItemRate": 0.019454904070288687,
+            "previouslySeenItemRows": 651,
+            "recallAt5": 0.05105662262701397,
+            "shortListCount": 0,
+            "shortListRate": 0.0,
+            "uniqueRecommendedItems": 5974,
+            "unknownItemRate": 0.024445639830255213,
+            "unknownItemRows": 818,
+            "validUsers": 3744
+          },
+          "weights": [
+            0.0,
+            0.0,
+            0.75,
+            0.25
+          ]
+        },
+        {
+          "metrics": {
+            "candidateDirectorySize": 25005,
+            "coverage": 0.022355528894221155,
+            "diversity": 0.0005341880341880342,
+            "diversityComputableUsers": 3744,
+            "fallbackComponents": {},
+            "fallbackRate": 0.0,
+            "fallbackUsers": 0,
+            "hitRateAt5": 0.018162393162393164,
+            "metricTolerance": 1e-12,
+            "ndcgAt5": 0.006112310581577216,
+            "noRelevantItemUsers": 34,
+            "precisionAt5": 0.005822649572649568,
+            "previouslySeenItemRate": 0.019454904070288687,
+            "previouslySeenItemRows": 651,
+            "recallAt5": 0.0036417144126035784,
+            "shortListCount": 0,
+            "shortListRate": 0.0,
+            "uniqueRecommendedItems": 559,
+            "unknownItemRate": 0.024445639830255213,
+            "unknownItemRows": 818,
+            "validUsers": 3744
+          },
+          "weights": [
+            0.0,
+            0.25,
+            0.0,
+            0.75
+          ]
+        },
+        {
+          "metrics": {
+            "candidateDirectorySize": 25005,
+            "coverage": 0.16716656668666266,
+            "diversity": 0.27633547008546927,
+            "diversityComputableUsers": 3744,
+            "fallbackComponents": {
+              "cf": 3
+            },
+            "fallbackRate": 0.0008012820512820513,
+            "fallbackUsers": 3,
+            "hitRateAt5": 0.06757478632478632,
+            "metricTolerance": 1e-12,
+            "ndcgAt5": 0.03347109494339626,
+            "noRelevantItemUsers": 34,
+            "precisionAt5": 0.020138888888888956,
+            "previouslySeenItemRate": 0.019454904070288687,
+            "previouslySeenItemRows": 651,
+            "recallAt5": 0.029020684851390015,
+            "shortListCount": 0,
+            "shortListRate": 0.0,
+            "uniqueRecommendedItems": 4180,
+            "unknownItemRate": 0.024445639830255213,
+            "unknownItemRows": 818,
+            "validUsers": 3744
+          },
+          "weights": [
+            0.0,
+            0.25,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "metrics": {
+            "candidateDirectorySize": 25005,
+            "coverage": 0.24111177764447111,
+            "diversity": 0.14610042735042686,
+            "diversityComputableUsers": 3744,
+            "fallbackComponents": {
+              "cf": 3
+            },
+            "fallbackRate": 0.0008012820512820513,
+            "fallbackUsers": 3,
+            "hitRateAt5": 0.10790598290598291,
+            "metricTolerance": 1e-12,
+            "ndcgAt5": 0.05632247940852665,
+            "noRelevantItemUsers": 34,
+            "precisionAt5": 0.03151709401709418,
+            "previouslySeenItemRate": 0.019454904070288687,
+            "previouslySeenItemRows": 651,
+            "recallAt5": 0.05363308603460157,
+            "shortListCount": 0,
+            "shortListRate": 0.0,
+            "uniqueRecommendedItems": 6029,
+            "unknownItemRate": 0.024445639830255213,
+            "unknownItemRows": 818,
+            "validUsers": 3744
+          },
+          "weights": [
+            0.0,
+            0.25,
+            0.5,
+            0.25
+          ]
+        },
+        {
+          "metrics": {
+            "candidateDirectorySize": 25005,
+            "coverage": 0.0371125774845031,
+            "diversity": 0.0026709401709401714,
+            "diversityComputableUsers": 3744,
+            "fallbackComponents": {},
+            "fallbackRate": 0.0,
+            "fallbackUsers": 0,
+            "hitRateAt5": 0.04513888888888889,
+            "metricTolerance": 1e-12,
+            "ndcgAt5": 0.018256641374584416,
+            "noRelevantItemUsers": 34,
+            "precisionAt5": 0.012072649572649571,
+            "previouslySeenItemRate": 0.019454904070288687,
+            "previouslySeenItemRows": 651,
+            "recallAt5": 0.018590565232102955,
+            "shortListCount": 0,
+            "shortListRate": 0.0,
+            "uniqueRecommendedItems": 928,
+            "unknownItemRate": 0.024445639830255213,
+            "unknownItemRows": 818,
+            "validUsers": 3744
+          },
+          "weights": [
+            0.0,
+            0.5,
+            0.0,
+            0.5
+          ]
+        },
+        {
+          "metrics": {
+            "candidateDirectorySize": 25005,
+            "coverage": 0.23615276944611077,
+            "diversity": 0.02983440170940171,
+            "diversityComputableUsers": 3744,
+            "fallbackComponents": {
+              "cf": 3
+            },
+            "fallbackRate": 0.0008012820512820513,
+            "fallbackUsers": 3,
+            "hitRateAt5": 0.09668803418803419,
+            "metricTolerance": 1e-12,
+            "ndcgAt5": 0.05120409481061183,
+            "noRelevantItemUsers": 34,
+            "precisionAt5": 0.02905982905982919,
+            "previouslySeenItemRate": 0.019454904070288687,
+            "previouslySeenItemRows": 651,
+            "recallAt5": 0.050305745369489986,
+            "shortListCount": 0,
+            "shortListRate": 0.0,
+            "uniqueRecommendedItems": 5905,
+            "unknownItemRate": 0.024445639830255213,
+            "unknownItemRows": 818,
+            "validUsers": 3744
+          },
+          "weights": [
+            0.0,
+            0.5,
+            0.25,
+            0.25
+          ]
+        },
+        {
+          "metrics": {
+            "candidateDirectorySize": 25005,
+            "coverage": 0.03327334533093381,
+            "diversity": 0.0002670940170940171,
+            "diversityComputableUsers": 3744,
+            "fallbackComponents": {},
+            "fallbackRate": 0.0,
+            "fallbackUsers": 0,
+            "hitRateAt5": 0.037126068376068376,
+            "metricTolerance": 1e-12,
+            "ndcgAt5": 0.016775621972589302,
+            "noRelevantItemUsers": 34,
+            "precisionAt5": 0.010737179487179484,
+            "previouslySeenItemRate": 0.019454904070288687,
+            "previouslySeenItemRows": 651,
+            "recallAt5": 0.01744747994236159,
+            "shortListCount": 0,
+            "shortListRate": 0.0,
+            "uniqueRecommendedItems": 832,
+            "unknownItemRate": 0.024445639830255213,
+            "unknownItemRows": 818,
+            "validUsers": 3744
+          },
+          "weights": [
+            0.0,
+            0.75,
+            0.0,
+            0.25
+          ]
+        },
+        {
+          "metrics": {
+            "candidateDirectorySize": 25005,
+            "coverage": 0.007678464307138573,
+            "diversity": 0.617895299145292,
+            "diversityComputableUsers": 3744,
+            "fallbackComponents": {},
+            "fallbackRate": 0.0,
+            "fallbackUsers": 0,
+            "hitRateAt5": 0.02403846153846154,
+            "metricTolerance": 1e-12,
+            "ndcgAt5": 0.007870118762321328,
+            "noRelevantItemUsers": 34,
+            "precisionAt5": 0.00763888888888888,
+            "previouslySeenItemRate": 0.019454904070288687,
+            "previouslySeenItemRows": 651,
+            "recallAt5": 0.00286515079392828,
+            "shortListCount": 0,
+            "shortListRate": 0.0,
+            "uniqueRecommendedItems": 192,
+            "unknownItemRate": 0.024445639830255213,
+            "unknownItemRows": 818,
+            "validUsers": 3744
+          },
+          "weights": [
+            0.25,
+            0.0,
+            0.0,
+            0.75
+          ]
+        },
+        {
+          "metrics": {
+            "candidateDirectorySize": 25005,
+            "coverage": 0.06226754649070186,
+            "diversity": 0.4531517094017125,
+            "diversityComputableUsers": 3744,
+            "fallbackComponents": {
+              "cf": 3
+            },
+            "fallbackRate": 0.0008012820512820513,
+            "fallbackUsers": 3,
+            "hitRateAt5": 0.04620726495726496,
+            "metricTolerance": 1e-12,
+            "ndcgAt5": 0.01994807398846815,
+            "noRelevantItemUsers": 34,
+            "precisionAt5": 0.015170940170940192,
+            "previouslySeenItemRate": 0.019454904070288687,
+            "previouslySeenItemRows": 651,
+            "recallAt5": 0.012689245588070486,
+            "shortListCount": 0,
+            "shortListRate": 0.0,
+            "uniqueRecommendedItems": 1557,
+            "unknownItemRate": 0.024445639830255213,
+            "unknownItemRows": 818,
+            "validUsers": 3744
+          },
+          "weights": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "metrics": {
+            "candidateDirectorySize": 25005,
+            "coverage": 0.14465106978604278,
+            "diversity": 0.38282585470085767,
+            "diversityComputableUsers": 3744,
+            "fallbackComponents": {
+              "cf": 3
+            },
+            "fallbackRate": 0.0008012820512820513,
+            "fallbackUsers": 3,
+            "hitRateAt5": 0.09508547008547008,
+            "metricTolerance": 1e-12,
+            "ndcgAt5": 0.04536094006114694,
+            "noRelevantItemUsers": 34,
+            "precisionAt5": 0.026816239316239467,
+            "previouslySeenItemRate": 0.019454904070288687,
+            "previouslySeenItemRows": 651,
+            "recallAt5": 0.040652799182896666,
+            "shortListCount": 0,
+            "shortListRate": 0.0,
+            "uniqueRecommendedItems": 3617,
+            "unknownItemRate": 0.024445639830255213,
+            "unknownItemRows": 818,
+            "validUsers": 3744
+          },
+          "weights": [
+            0.25,
+            0.0,
+            0.5,
+            0.25
+          ]
+        },
+        {
+          "metrics": {
+            "candidateDirectorySize": 25005,
+            "coverage": 0.021915616876624675,
+            "diversity": 0.3717681623931551,
+            "diversityComputableUsers": 3744,
+            "fallbackComponents": {},
+            "fallbackRate": 0.0,
+            "fallbackUsers": 0,
+            "hitRateAt5": 0.031517094017094016,
+            "metricTolerance": 1e-12,
+            "ndcgAt5": 0.010747055537962878,
+            "noRelevantItemUsers": 34,
+            "precisionAt5": 0.009561965811965802,
+            "previouslySeenItemRate": 0.019454904070288687,
+            "previouslySeenItemRows": 651,
+            "recallAt5": 0.00663301237645059,
+            "shortListCount": 0,
+            "shortListRate": 0.0,
+            "uniqueRecommendedItems": 548,
+            "unknownItemRate": 0.024445639830255213,
+            "unknownItemRows": 818,
+            "validUsers": 3744
+          },
+          "weights": [
+            0.25,
+            0.25,
+            0.0,
+            0.5
+          ]
+        },
+        {
+          "metrics": {
+            "candidateDirectorySize": 25005,
+            "coverage": 0.14077184563087383,
+            "diversity": 0.1182959401709397,
+            "diversityComputableUsers": 3744,
+            "fallbackComponents": {
+              "cf": 3
+            },
+            "fallbackRate": 0.0008012820512820513,
+            "fallbackUsers": 3,
+            "hitRateAt5": 0.08520299145299146,
+            "metricTolerance": 1e-12,
+            "ndcgAt5": 0.042294068361404855,
+            "noRelevantItemUsers": 34,
+            "precisionAt5": 0.023450854700854815,
+            "previouslySeenItemRate": 0.019454904070288687,
+            "previouslySeenItemRows": 651,
+            "recallAt5": 0.04450280921770691,
+            "shortListCount": 0,
+            "shortListRate": 0.0,
+            "uniqueRecommendedItems": 3520,
+            "unknownItemRate": 0.024445639830255213,
+            "unknownItemRows": 818,
+            "validUsers": 3744
+          },
+          "weights": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ]
+        },
+        {
+          "metrics": {
+            "candidateDirectorySize": 25005,
+            "coverage": 0.03115376924615077,
+            "diversity": 0.013942307692307688,
+            "diversityComputableUsers": 3744,
+            "fallbackComponents": {},
+            "fallbackRate": 0.0,
+            "fallbackUsers": 0,
+            "hitRateAt5": 0.03952991452991453,
+            "metricTolerance": 1e-12,
+            "ndcgAt5": 0.017685485819084763,
+            "noRelevantItemUsers": 34,
+            "precisionAt5": 0.011485042735042738,
+            "previouslySeenItemRate": 0.019454904070288687,
+            "previouslySeenItemRows": 651,
+            "recallAt5": 0.01767565774551097,
+            "shortListCount": 0,
+            "shortListRate": 0.0,
+            "uniqueRecommendedItems": 779,
+            "unknownItemRate": 0.024445639830255213,
+            "unknownItemRows": 818,
+            "validUsers": 3744
+          },
+          "weights": [
+            0.25,
+            0.5,
+            0.0,
+            0.25
+          ]
+        },
+        {
+          "metrics": {
+            "candidateDirectorySize": 25005,
+            "coverage": 0.00599880023995201,
+            "diversity": 0.5327991452991646,
+            "diversityComputableUsers": 3744,
+            "fallbackComponents": {},
+            "fallbackRate": 0.0,
+            "fallbackUsers": 0,
+            "hitRateAt5": 0.029113247863247864,
+            "metricTolerance": 1e-12,
+            "ndcgAt5": 0.00948266272778295,
+            "noRelevantItemUsers": 34,
+            "precisionAt5": 0.009134615384615378,
+            "previouslySeenItemRate": 0.019454904070288687,
+            "previouslySeenItemRows": 651,
+            "recallAt5": 0.003975408404983452,
+            "shortListCount": 0,
+            "shortListRate": 0.0,
+            "uniqueRecommendedItems": 150,
+            "unknownItemRate": 0.024445639830255213,
+            "unknownItemRows": 818,
+            "validUsers": 3744
+          },
+          "weights": [
+            0.5,
+            0.0,
+            0.0,
+            0.5
+          ]
+        },
+        {
+          "metrics": {
+            "candidateDirectorySize": 25005,
+            "coverage": 0.009918016396720656,
+            "diversity": 0.36298076923076733,
+            "diversityComputableUsers": 3744,
+            "fallbackComponents": {
+              "cf": 3
+            },
+            "fallbackRate": 0.0008012820512820513,
+            "fallbackUsers": 3,
+            "hitRateAt5": 0.037927350427350424,
+            "metricTolerance": 1e-12,
+            "ndcgAt5": 0.012292971648637309,
+            "noRelevantItemUsers": 34,
+            "precisionAt5": 0.011111111111111115,
+            "previouslySeenItemRate": 0.019454904070288687,
+            "previouslySeenItemRows": 651,
+            "recallAt5": 0.00720920945310427,
+            "shortListCount": 0,
+            "shortListRate": 0.0,
+            "uniqueRecommendedItems": 248,
+            "unknownItemRate": 0.024445639830255213,
+            "unknownItemRows": 818,
+            "validUsers": 3744
+          },
+          "weights": [
+            0.5,
+            0.0,
+            0.25,
+            0.25
+          ]
+        },
+        {
+          "metrics": {
+            "candidateDirectorySize": 25005,
+            "coverage": 0.010837832433513297,
+            "diversity": 0.41012286324785086,
+            "diversityComputableUsers": 3744,
+            "fallbackComponents": {},
+            "fallbackRate": 0.0,
+            "fallbackUsers": 0,
+            "hitRateAt5": 0.03178418803418803,
+            "metricTolerance": 1e-12,
+            "ndcgAt5": 0.011601914510913998,
+            "noRelevantItemUsers": 34,
+            "precisionAt5": 0.00908119658119657,
+            "previouslySeenItemRate": 0.019454904070288687,
+            "previouslySeenItemRows": 651,
+            "recallAt5": 0.008837100407703455,
+            "shortListCount": 0,
+            "shortListRate": 0.0,
+            "uniqueRecommendedItems": 271,
+            "unknownItemRate": 0.024445639830255213,
+            "unknownItemRows": 818,
+            "validUsers": 3744
+          },
+          "weights": [
+            0.5,
+            0.25,
+            0.0,
+            0.25
+          ]
+        },
+        {
+          "metrics": {
+            "candidateDirectorySize": 25005,
+            "coverage": 0.0021995600879824036,
+            "diversity": 0.6197649572649448,
+            "diversityComputableUsers": 3744,
+            "fallbackComponents": {},
+            "fallbackRate": 0.0,
+            "fallbackUsers": 0,
+            "hitRateAt5": 0.016826923076923076,
+            "metricTolerance": 1e-12,
+            "ndcgAt5": 0.005407582421728931,
+            "noRelevantItemUsers": 34,
+            "precisionAt5": 0.0050213675213675165,
+            "previouslySeenItemRate": 0.019454904070288687,
+            "previouslySeenItemRows": 651,
+            "recallAt5": 0.003094069921332699,
+            "shortListCount": 0,
+            "shortListRate": 0.0,
+            "uniqueRecommendedItems": 55,
+            "unknownItemRate": 0.024445639830255213,
+            "unknownItemRows": 818,
+            "validUsers": 3744
+          },
+          "weights": [
+            0.75,
+            0.0,
+            0.0,
+            0.25
+          ]
+        }
+      ],
+      "selected": {
+        "metrics": {
+          "candidateDirectorySize": 25005,
+          "coverage": 0.2389122175564887,
+          "diversity": 0.3944978632478665,
+          "diversityComputableUsers": 3744,
+          "fallbackComponents": {
+            "cf": 3
+          },
+          "fallbackRate": 0.0008012820512820513,
+          "fallbackUsers": 3,
+          "hitRateAt5": 0.12446581196581197,
+          "metricTolerance": 1e-12,
+          "ndcgAt5": 0.060921046925701564,
+          "noRelevantItemUsers": 34,
+          "precisionAt5": 0.037500000000000096,
+          "previouslySeenItemRate": 0.019454904070288687,
+          "previouslySeenItemRows": 651,
+          "recallAt5": 0.05105662262701397,
+          "shortListCount": 0,
+          "shortListRate": 0.0,
+          "uniqueRecommendedItems": 5974,
+          "unknownItemRate": 0.024445639830255213,
+          "unknownItemRows": 818,
+          "validUsers": 3744
+        },
+        "weights": [
+          0.0,
+          0.0,
+          0.75,
+          0.25
+        ]
+      }
+    },
+    "hybridNoKt": {
+      "candidates": [
+        {
+          "metrics": {
+            "candidateDirectorySize": 25005,
+            "coverage": 0.24039192161567685,
+            "diversity": 0.3816773504273536,
+            "diversityComputableUsers": 3744,
+            "fallbackComponents": {
+              "cf": 3
+            },
+            "fallbackRate": 0.0008012820512820513,
+            "fallbackUsers": 3,
+            "hitRateAt5": 0.1188568376068376,
+            "metricTolerance": 1e-12,
+            "ndcgAt5": 0.06231763255734428,
+            "noRelevantItemUsers": 34,
+            "precisionAt5": 0.03653846153846166,
+            "previouslySeenItemRate": 0.019454904070288687,
+            "previouslySeenItemRows": 651,
+            "recallAt5": 0.05401400261871615,
+            "shortListCount": 0,
+            "shortListRate": 0.0,
+            "uniqueRecommendedItems": 6011,
+            "unknownItemRate": 0.024445639830255213,
+            "unknownItemRows": 818,
+            "validUsers": 3744
+          },
+          "weights": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "metrics": {
+            "candidateDirectorySize": 25005,
+            "coverage": 0.23887222555488902,
+            "diversity": 0.16244658119658067,
+            "diversityComputableUsers": 3744,
+            "fallbackComponents": {
+              "cf": 3
+            },
+            "fallbackRate": 0.0008012820512820513,
+            "fallbackUsers": 3,
+            "hitRateAt5": 0.11351495726495726,
+            "metricTolerance": 1e-12,
+            "ndcgAt5": 0.05943185679034514,
+            "noRelevantItemUsers": 34,
+            "precisionAt5": 0.0331730769230771,
+            "previouslySeenItemRate": 0.019454904070288687,
+            "previouslySeenItemRows": 651,
+            "recallAt5": 0.05568397122216853,
+            "shortListCount": 0,
+            "shortListRate": 0.0,
+            "uniqueRecommendedItems": 5973,
+            "unknownItemRate": 0.024445639830255213,
+            "unknownItemRows": 818,
+            "validUsers": 3744
+          },
+          "weights": [
+            0.0,
+            0.25,
+            0.75
+          ]
+        },
+        {
+          "metrics": {
+            "candidateDirectorySize": 25005,
+            "coverage": 0.2332733453309338,
+            "diversity": 0.05299145299145299,
+            "diversityComputableUsers": 3744,
+            "fallbackComponents": {
+              "cf": 3
+            },
+            "fallbackRate": 0.0008012820512820513,
+            "fallbackUsers": 3,
+            "hitRateAt5": 0.09829059829059829,
+            "metricTolerance": 1e-12,
+            "ndcgAt5": 0.05245223019214938,
+            "noRelevantItemUsers": 34,
+            "precisionAt5": 0.02948717948717962,
+            "previouslySeenItemRate": 0.019454904070288687,
+            "previouslySeenItemRows": 651,
+            "recallAt5": 0.05189910617788613,
+            "shortListCount": 0,
+            "shortListRate": 0.0,
+            "uniqueRecommendedItems": 5833,
+            "unknownItemRate": 0.024445639830255213,
+            "unknownItemRows": 818,
+            "validUsers": 3744
+          },
+          "weights": [
+            0.0,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "metrics": {
+            "candidateDirectorySize": 25005,
+            "coverage": 0.2355128974205159,
+            "diversity": 0.021848290598290594,
+            "diversityComputableUsers": 3744,
+            "fallbackComponents": {
+              "cf": 3
+            },
+            "fallbackRate": 0.0008012820512820513,
+            "fallbackUsers": 3,
+            "hitRateAt5": 0.09268162393162394,
+            "metricTolerance": 1e-12,
+            "ndcgAt5": 0.04968867829873733,
+            "noRelevantItemUsers": 34,
+            "precisionAt5": 0.028098290598290717,
+            "previouslySeenItemRate": 0.019454904070288687,
+            "previouslySeenItemRows": 651,
+            "recallAt5": 0.04904481234725775,
+            "shortListCount": 0,
+            "shortListRate": 0.0,
+            "uniqueRecommendedItems": 5889,
+            "unknownItemRate": 0.024445639830255213,
+            "unknownItemRows": 818,
+            "validUsers": 3744
+          },
+          "weights": [
+            0.0,
+            0.75,
+            0.25
+          ]
+        },
+        {
+          "metrics": {
+            "candidateDirectorySize": 25005,
+            "coverage": 0.03167366526694661,
+            "diversity": 0.005422008547008547,
+            "diversityComputableUsers": 3744,
+            "fallbackComponents": {},
+            "fallbackRate": 0.0,
+            "fallbackUsers": 0,
+            "hitRateAt5": 0.036057692307692304,
+            "metricTolerance": 1e-12,
+            "ndcgAt5": 0.01644538210824099,
+            "noRelevantItemUsers": 34,
+            "precisionAt5": 0.010202991452991444,
+            "previouslySeenItemRate": 0.019454904070288687,
+            "previouslySeenItemRows": 651,
+            "recallAt5": 0.01742628221226898,
+            "shortListCount": 0,
+            "shortListRate": 0.0,
+            "uniqueRecommendedItems": 792,
+            "unknownItemRate": 0.024445639830255213,
+            "unknownItemRows": 818,
+            "validUsers": 3744
+          },
+          "weights": [
+            0.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "metrics": {
+            "candidateDirectorySize": 25005,
+            "coverage": 0.18608278344331133,
+            "diversity": 0.34602029914530125,
+            "diversityComputableUsers": 3744,
+            "fallbackComponents": {
+              "cf": 3
+            },
+            "fallbackRate": 0.0008012820512820513,
+            "fallbackUsers": 3,
+            "hitRateAt5": 0.11030982905982906,
+            "metricTolerance": 1e-12,
+            "ndcgAt5": 0.05426170781546445,
+            "noRelevantItemUsers": 34,
+            "precisionAt5": 0.03162393162393179,
+            "previouslySeenItemRate": 0.019454904070288687,
+            "previouslySeenItemRows": 651,
+            "recallAt5": 0.05061518450498644,
+            "shortListCount": 0,
+            "shortListRate": 0.0,
+            "uniqueRecommendedItems": 4653,
+            "unknownItemRate": 0.024445639830255213,
+            "unknownItemRows": 818,
+            "validUsers": 3744
+          },
+          "weights": [
+            0.25,
+            0.0,
+            0.75
+          ]
+        },
+        {
+          "metrics": {
+            "candidateDirectorySize": 25005,
+            "coverage": 0.18200359928014398,
+            "diversity": 0.11712072649572625,
+            "diversityComputableUsers": 3744,
+            "fallbackComponents": {
+              "cf": 3
+            },
+            "fallbackRate": 0.0008012820512820513,
+            "fallbackUsers": 3,
+            "hitRateAt5": 0.09321581196581197,
+            "metricTolerance": 1e-12,
+            "ndcgAt5": 0.049166315747502465,
+            "noRelevantItemUsers": 34,
+            "precisionAt5": 0.026068376068376187,
+            "previouslySeenItemRate": 0.019454904070288687,
+            "previouslySeenItemRows": 651,
+            "recallAt5": 0.05149913123506808,
+            "shortListCount": 0,
+            "shortListRate": 0.0,
+            "uniqueRecommendedItems": 4551,
+            "unknownItemRate": 0.024445639830255213,
+            "unknownItemRows": 818,
+            "validUsers": 3744
+          },
+          "weights": [
+            0.25,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "metrics": {
+            "candidateDirectorySize": 25005,
+            "coverage": 0.15884823035392923,
+            "diversity": 0.03047542735042733,
+            "diversityComputableUsers": 3744,
+            "fallbackComponents": {
+              "cf": 3
+            },
+            "fallbackRate": 0.0008012820512820513,
+            "fallbackUsers": 3,
+            "hitRateAt5": 0.07772435897435898,
+            "metricTolerance": 1e-12,
+            "ndcgAt5": 0.040388920652721344,
+            "noRelevantItemUsers": 34,
+            "precisionAt5": 0.02190170940170948,
+            "previouslySeenItemRate": 0.019454904070288687,
+            "previouslySeenItemRows": 651,
+            "recallAt5": 0.042708322170597335,
+            "shortListCount": 0,
+            "shortListRate": 0.0,
+            "uniqueRecommendedItems": 3972,
+            "unknownItemRate": 0.024445639830255213,
+            "unknownItemRows": 818,
+            "validUsers": 3744
+          },
+          "weights": [
+            0.25,
+            0.5,
+            0.25
+          ]
+        },
+        {
+          "metrics": {
+            "candidateDirectorySize": 25005,
+            "coverage": 0.030313937212557488,
+            "diversity": 0.007291666666666665,
+            "diversityComputableUsers": 3744,
+            "fallbackComponents": {},
+            "fallbackRate": 0.0,
+            "fallbackUsers": 0,
+            "hitRateAt5": 0.03685897435897436,
+            "metricTolerance": 1e-12,
+            "ndcgAt5": 0.01679348658352743,
+            "noRelevantItemUsers": 34,
+            "precisionAt5": 0.010416666666666663,
+            "previouslySeenItemRate": 0.019454904070288687,
+            "previouslySeenItemRows": 651,
+            "recallAt5": 0.017637209350419836,
+            "shortListCount": 0,
+            "shortListRate": 0.0,
+            "uniqueRecommendedItems": 758,
+            "unknownItemRate": 0.024445639830255213,
+            "unknownItemRows": 818,
+            "validUsers": 3744
+          },
+          "weights": [
+            0.25,
+            0.75,
+            0.0
+          ]
+        },
+        {
+          "metrics": {
+            "candidateDirectorySize": 25005,
+            "coverage": 0.033433313337332536,
+            "diversity": 0.3133547008547001,
+            "diversityComputableUsers": 3744,
+            "fallbackComponents": {
+              "cf": 3
+            },
+            "fallbackRate": 0.0008012820512820513,
+            "fallbackUsers": 3,
+            "hitRateAt5": 0.06116452991452991,
+            "metricTolerance": 1e-12,
+            "ndcgAt5": 0.025481015114183377,
+            "noRelevantItemUsers": 34,
+            "precisionAt5": 0.01720085470085474,
+            "previouslySeenItemRate": 0.019454904070288687,
+            "previouslySeenItemRows": 651,
+            "recallAt5": 0.0264852937367397,
+            "shortListCount": 0,
+            "shortListRate": 0.0,
+            "uniqueRecommendedItems": 836,
+            "unknownItemRate": 0.024445639830255213,
+            "unknownItemRows": 818,
+            "validUsers": 3744
+          },
+          "weights": [
+            0.5,
+            0.0,
+            0.5
+          ]
+        },
+        {
+          "metrics": {
+            "candidateDirectorySize": 25005,
+            "coverage": 0.039232153569286145,
+            "diversity": 0.17684294871794767,
+            "diversityComputableUsers": 3744,
+            "fallbackComponents": {
+              "cf": 3
+            },
+            "fallbackRate": 0.0008012820512820513,
+            "fallbackUsers": 3,
+            "hitRateAt5": 0.062232905982905984,
+            "metricTolerance": 1e-12,
+            "ndcgAt5": 0.02734696675939199,
+            "noRelevantItemUsers": 34,
+            "precisionAt5": 0.01725427350427355,
+            "previouslySeenItemRate": 0.019454904070288687,
+            "previouslySeenItemRows": 651,
+            "recallAt5": 0.029177064204369083,
+            "shortListCount": 0,
+            "shortListRate": 0.0,
+            "uniqueRecommendedItems": 981,
+            "unknownItemRate": 0.024445639830255213,
+            "unknownItemRows": 818,
+            "validUsers": 3744
+          },
+          "weights": [
+            0.5,
+            0.25,
+            0.25
+          ]
+        },
+        {
+          "metrics": {
+            "candidateDirectorySize": 25005,
+            "coverage": 0.027514497100579884,
+            "diversity": 0.024519230769230783,
+            "diversityComputableUsers": 3744,
+            "fallbackComponents": {},
+            "fallbackRate": 0.0,
+            "fallbackUsers": 0,
+            "hitRateAt5": 0.03952991452991453,
+            "metricTolerance": 1e-12,
+            "ndcgAt5": 0.017467720915139606,
+            "noRelevantItemUsers": 34,
+            "precisionAt5": 0.010950854700854705,
+            "previouslySeenItemRate": 0.019454904070288687,
+            "previouslySeenItemRows": 651,
+            "recallAt5": 0.017792457965767672,
+            "shortListCount": 0,
+            "shortListRate": 0.0,
+            "uniqueRecommendedItems": 688,
+            "unknownItemRate": 0.024445639830255213,
+            "unknownItemRows": 818,
+            "validUsers": 3744
+          },
+          "weights": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "metrics": {
+            "candidateDirectorySize": 25005,
+            "coverage": 0.0028394321135772845,
+            "diversity": 0.39447115384615344,
+            "diversityComputableUsers": 3744,
+            "fallbackComponents": {
+              "cf": 3
+            },
+            "fallbackRate": 0.0008012820512820513,
+            "fallbackUsers": 3,
+            "hitRateAt5": 0.029647435897435896,
+            "metricTolerance": 1e-12,
+            "ndcgAt5": 0.01016865129073535,
+            "noRelevantItemUsers": 34,
+            "precisionAt5": 0.008974358974358965,
+            "previouslySeenItemRate": 0.019454904070288687,
+            "previouslySeenItemRows": 651,
+            "recallAt5": 0.006589371916243677,
+            "shortListCount": 0,
+            "shortListRate": 0.0,
+            "uniqueRecommendedItems": 71,
+            "unknownItemRate": 0.024445639830255213,
+            "unknownItemRows": 818,
+            "validUsers": 3744
+          },
+          "weights": [
+            0.75,
+            0.0,
+            0.25
+          ]
+        },
+        {
+          "metrics": {
+            "candidateDirectorySize": 25005,
+            "coverage": 0.003719256148770246,
+            "diversity": 0.40841346153845054,
+            "diversityComputableUsers": 3744,
+            "fallbackComponents": {},
+            "fallbackRate": 0.0,
+            "fallbackUsers": 0,
+            "hitRateAt5": 0.02938034188034188,
+            "metricTolerance": 1e-12,
+            "ndcgAt5": 0.009492832224511224,
+            "noRelevantItemUsers": 34,
+            "precisionAt5": 0.008066239316239303,
+            "previouslySeenItemRate": 0.019454904070288687,
+            "previouslySeenItemRows": 651,
+            "recallAt5": 0.006536888731805611,
+            "shortListCount": 0,
+            "shortListRate": 0.0,
+            "uniqueRecommendedItems": 93,
+            "unknownItemRate": 0.024445639830255213,
+            "unknownItemRows": 818,
+            "validUsers": 3744
+          },
+          "weights": [
+            0.75,
+            0.25,
+            0.0
+          ]
+        },
+        {
+          "metrics": {
+            "candidateDirectorySize": 25005,
+            "coverage": 0.0005198960207958408,
+            "diversity": 0.6115384615384224,
+            "diversityComputableUsers": 3744,
+            "fallbackComponents": {},
+            "fallbackRate": 0.0,
+            "fallbackUsers": 0,
+            "hitRateAt5": 0.0109508547008547,
+            "metricTolerance": 1e-12,
+            "ndcgAt5": 0.0024886061019523706,
+            "noRelevantItemUsers": 34,
+            "precisionAt5": 0.0022970085470085475,
+            "previouslySeenItemRate": 0.019454904070288687,
+            "previouslySeenItemRows": 651,
+            "recallAt5": 0.0019030520906530804,
+            "shortListCount": 0,
+            "shortListRate": 0.0,
+            "uniqueRecommendedItems": 13,
+            "unknownItemRate": 0.024445639830255213,
+            "unknownItemRows": 818,
+            "validUsers": 3744
+          },
+          "weights": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "selected": {
+        "metrics": {
+          "candidateDirectorySize": 25005,
+          "coverage": 0.24039192161567685,
+          "diversity": 0.3816773504273536,
+          "diversityComputableUsers": 3744,
+          "fallbackComponents": {
+            "cf": 3
+          },
+          "fallbackRate": 0.0008012820512820513,
+          "fallbackUsers": 3,
+          "hitRateAt5": 0.1188568376068376,
+          "metricTolerance": 1e-12,
+          "ndcgAt5": 0.06231763255734428,
+          "noRelevantItemUsers": 34,
+          "precisionAt5": 0.03653846153846166,
+          "previouslySeenItemRate": 0.019454904070288687,
+          "previouslySeenItemRows": 651,
+          "recallAt5": 0.05401400261871615,
+          "shortListCount": 0,
+          "shortListRate": 0.0,
+          "uniqueRecommendedItems": 6011,
+          "unknownItemRate": 0.024445639830255213,
+          "unknownItemRows": 818,
+          "validUsers": 3744
+        },
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    "selectionRule": "NDCG, Recall, HitRate, Precision descending then weight tuple lexicographic ascending",
+    "validUsers": 3744
+  },
+  "verifiedAt": "2026-09-17T17:58:47Z",
+  "weightGrids": {
+    "HYBRID_KT": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.25,
+        0.75
+      ],
+      [
+        0.0,
+        0.0,
+        0.5,
+        0.5
+      ],
+      [
+        0.0,
+        0.0,
+        0.75,
+        0.25
+      ],
+      [
+        0.0,
+        0.25,
+        0.0,
+        0.75
+      ],
+      [
+        0.0,
+        0.25,
+        0.25,
+        0.5
+      ],
+      [
+        0.0,
+        0.25,
+        0.5,
+        0.25
+      ],
+      [
+        0.0,
+        0.5,
+        0.0,
+        0.5
+      ],
+      [
+        0.0,
+        0.5,
+        0.25,
+        0.25
+      ],
+      [
+        0.0,
+        0.75,
+        0.0,
+        0.25
+      ],
+      [
+        0.25,
+        0.0,
+        0.0,
+        0.75
+      ],
+      [
+        0.25,
+        0.0,
+        0.25,
+        0.5
+      ],
+      [
+        0.25,
+        0.0,
+        0.5,
+        0.25
+      ],
+      [
+        0.25,
+        0.25,
+        0.0,
+        0.5
+      ],
+      [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      [
+        0.25,
+        0.5,
+        0.0,
+        0.25
+      ],
+      [
+        0.5,
+        0.0,
+        0.0,
+        0.5
+      ],
+      [
+        0.5,
+        0.0,
+        0.25,
+        0.25
+      ],
+      [
+        0.5,
+        0.25,
+        0.0,
+        0.25
+      ],
+      [
+        0.75,
+        0.0,
+        0.0,
+        0.25
+      ]
+    ],
+    "HYBRID_NO_KT": [
+      [
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.25,
+        0.75
+      ],
+      [
+        0.0,
+        0.5,
+        0.5
+      ],
+      [
+        0.0,
+        0.75,
+        0.25
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.25,
+        0.0,
+        0.75
+      ],
+      [
+        0.25,
+        0.25,
+        0.5
+      ],
+      [
+        0.25,
+        0.5,
+        0.25
+      ],
+      [
+        0.25,
+        0.75,
+        0.0
+      ],
+      [
+        0.5,
+        0.0,
+        0.5
+      ],
+      [
+        0.5,
+        0.25,
+        0.25
+      ],
+      [
+        0.5,
+        0.5,
+        0.0
+      ],
+      [
+        0.75,
+        0.0,
+        0.25
+      ],
+      [
+        0.75,
+        0.25,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ]
+  }
+}
