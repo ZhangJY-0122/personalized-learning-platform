@@ -1,0 +1,51 @@
+{
+  "stage": "G5-00",
+  "passed": true,
+  "verifiedAt": "2026-09-14T14:49:00+08:00",
+  "branch": "codex/g5-experiments",
+  "gitCommit": "156df90490065b56298b42ee2428473119066264",
+  "g4ImplementationCommit": "0e4b46acb1ec2e169a07495472b30dcc64fdf80e",
+  "g4FreezeCommit": "156df90490065b56298b42ee2428473119066264",
+  "environment": {
+    "java": "17.0.20.1",
+    "maven": "3.9.9",
+    "node": "v26.5.1",
+    "npm": "11.17.0",
+    "python": "3.13.14",
+    "docker": "29.7.2"
+  },
+  "g4Evidence": {
+    "apiArtifact": "artifacts/g4-acceptance.json",
+    "apiPassed": true,
+    "apiScenarios": 38,
+    "uiArtifact": "artifacts/g4-ui.json",
+    "uiPassed": true,
+    "uiGitCommit": "0e4b46acb1ec2e169a07495472b30dcc64fdf80e"
+  },
+  "emptyVolumeSmoke": {
+    "composeProject": "f21-g5-baseline-7c4e1a",
+    "volume": "f21-g5-baseline-7c4e1a_f21-data",
+    "serverPort": 18190,
+    "webPort": 15290,
+    "health": {
+      "status": "UP",
+      "database": "UP",
+      "stage": "G4_PATHS",
+      "catalogRows": 2
+    },
+    "containersAndNetworkRemoved": true,
+    "volumeRetained": true
+  },
+  "v1ToV6Unchanged": true,
+  "mainWorktreeUntouched": true,
+  "g5Policy": {
+    "publicDataDownloadStarted": false,
+    "modelTrainingStarted": false,
+    "g4ContractModified": false,
+    "g5_01Allowed": false
+  },
+  "blockingItems": [
+    "负责人审阅 G5-01 数据来源与许可证方案",
+    "冻结正式实验预算、指标、切分和随机种子"
+  ]
+}
