@@ -1,0 +1,766 @@
+{
+  "passed": true,
+  "verifiedAt": "2026-09-14T06:43:29Z",
+  "gitCommit": "0e4b46acb1ec2e169a07495472b30dcc64fdf80e",
+  "dirtyAtStart": true,
+  "composeProject": "multiple-isolated-projects",
+  "volumeRetained": true,
+  "migrationVersions": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+  ],
+  "httpChecks": 59,
+  "databaseAssertions": 33,
+  "faultInjectionChecks": 0,
+  "concurrencyChecks": 1,
+  "restartChecks": 1,
+  "isolatedScenarios": {
+    "G4-PATH-09": {
+      "composeProject": "f21-g4-path09-069579f5",
+      "port": 18405,
+      "status": "ACTIVE",
+      "rounds": 3
+    },
+    "G4-PATH-10": {
+      "composeProject": "f21-g4-path10-82c4fe10",
+      "port": 18392,
+      "status": "BLOCKED",
+      "rounds": 5
+    },
+    "G4-PATH-11": {
+      "composeProject": "f21-g4-path11-249157bf",
+      "port": 18385,
+      "status": "COMPLETED",
+      "rounds": 3
+    },
+    "G4-PATH-12": {
+      "composeProject": "f21-g4-path12-678971af",
+      "port": 18456,
+      "status": "ACTIVE",
+      "trigger": "NON_PATH_ACTIVITY"
+    },
+    "G4-PATH-13": {
+      "composeProject": "f21-g4-path13-8bb99df4",
+      "port": 18535,
+      "status": "ACTIVE",
+      "carriedNodes": 1,
+      "eventDelta": 0
+    },
+    "G4-CATALOG-02": {
+      "composeProject": "f21-g4-catalog02-a95cdc68",
+      "port": 18509,
+      "activate": {
+        "jobId": "17400e4f-555a-450b-8844-5b768e126908",
+        "publishMode": "ACTIVATE",
+        "status": "SUCCEEDED",
+        "rebuildUsers": 1,
+        "catalogVersion": "catalog02-2d031bf0"
+      },
+      "idempotent": {
+        "status": "SUCCEEDED",
+        "jobId": "17400e4f-555a-450b-8844-5b768e126908"
+      },
+      "conflict": {
+        "errorCode": "CONFLICT",
+        "message": "目录版本不可复用",
+        "jobId": "7f085b6d-f247-4a68-8bb3-ffcecad4421d",
+        "status": "VALIDATION_FAILED"
+      },
+      "archiveOnly": {
+        "publishMode": "ARCHIVE_ONLY",
+        "catalogVersion": "catalog02-archive-2860bc",
+        "jobId": "d61297b2-88b2-41d0-9b80-b69826040ed2",
+        "status": "SUCCEEDED"
+      }
+    },
+    "G4-CATALOG-03": {
+      "composeProject": "f21-g4-catalog03-8e31d10b",
+      "port": 18575,
+      "before": [
+        "java-g1-v1",
+        "2",
+        "40",
+        "0"
+      ],
+      "afterFailure": [
+        "java-g1-v1",
+        "0",
+        "40",
+        "0"
+      ],
+      "failed": {
+        "jobId": "8c9ab81d-f060-4bc9-8314-f4ef17792e24",
+        "message": "PreparedStatementCallback; uncategorized SQLException for SQL [INSERT INTO question_snapshot(question_id,course_id,catalog_version,knowledge_id,question_type,stem,options_json,answer_json,difficulty,sort_order) VALUES (?,?,?,?,?,?,?,?,?,?)]; SQL state [45000]; error code [1644]; g4 catalog failure",
+        "errorCode": "VALIDATION_FAILED",
+        "status": "VALIDATION_FAILED"
+      },
+      "retry": {
+        "rebuildUsers": 1,
+        "status": "SUCCEEDED",
+        "publishMode": "ACTIVATE",
+        "jobId": "8c9ab81d-f060-4bc9-8314-f4ef17792e24",
+        "catalogVersion": "catalog03-0faf730c"
+      }
+    },
+    "G4-MAP-01": {
+      "composeProject": "f21-g4-map01-a4ac059f",
+      "port": 18434,
+      "catalogVersion": "703ed760-d9e4-4312-b0ed-d8984a9f13ab",
+      "import": "SUCCEEDED",
+      "rebuild": {
+        "unmappedEvents": 0,
+        "catalogVersion": "703ed760-d9e4-4312-b0ed-d8984a9f13ab",
+        "status": "SUCCEEDED",
+        "processedEvents": 1,
+        "mappedEvents": 1
+      },
+      "rebuildJobs": 1
+    },
+    "G4-MAP-02": {
+      "composeProject": "f21-g4-map02-d1ae14a0",
+      "port": 18654,
+      "catalogVersion": "9c919efe-4585-4eda-8fa3-f43f06bea336",
+      "import": "SUCCEEDED",
+      "rebuild": {
+        "catalogVersion": "9c919efe-4585-4eda-8fa3-f43f06bea336",
+        "unmappedEvents": 0,
+        "mappedEvents": 1,
+        "processedEvents": 1,
+        "status": "SUCCEEDED"
+      },
+      "rebuildJobs": 1
+    },
+    "G4-MAP-03": {
+      "composeProject": "f21-g4-map03-cb918984",
+      "port": 18557,
+      "catalogVersion": "d9fabe49-aa58-47f9-ad01-04349431cace",
+      "import": "SUCCEEDED",
+      "rebuild": {
+        "unmappedEvents": 1,
+        "catalogVersion": "d9fabe49-aa58-47f9-ad01-04349431cace",
+        "status": "SUCCEEDED_WITH_WARNINGS",
+        "processedEvents": 1,
+        "mappedEvents": 0
+      },
+      "rebuildJobs": 1
+    },
+    "G4-REBUILD-01": {
+      "composeProject": "f21-g4-rebuild01-dbc4ee73",
+      "port": 18316,
+      "failedCode": "INTERNAL_ERROR",
+      "stateAfterFailure": "NEEDS_ATTENTION",
+      "retry": {
+        "status": "SUCCEEDED",
+        "catalogVersion": "rebuild01-d3ab0150",
+        "unmappedEvents": 0,
+        "mappedEvents": 1,
+        "processedEvents": 1
+      }
+    },
+    "G4-COMP-01": {
+      "composeProject": "f21-g4-comp01-d897ad22",
+      "port": 18765,
+      "unknownStatus": "PENDING_COMPENSATION",
+      "laterStatus": "PENDING",
+      "blocked": true
+    },
+    "G4-COMP-02": {
+      "composeProject": "f21-g4-comp02-8e674559",
+      "port": 18578,
+      "unknownStatus": "PENDING_COMPENSATION",
+      "laterStatus": "PENDING",
+      "archiveImport": {
+        "publishMode": "ARCHIVE_ONLY",
+        "status": "SUCCEEDED",
+        "jobId": "f9cd03b1-6cf0-4ec2-aa95-f37e7fff3fcf",
+        "catalogVersion": "history-a1b44af6"
+      },
+      "recovered": "SUCCEEDED"
+    }
+  },
+  "scenarios": [
+    {
+      "id": "G4-STATIC",
+      "name": "static contract phase",
+      "passed": true,
+      "assertions": 1,
+      "evidence": {
+        "output": "G4 static contract assertions passed\n"
+      }
+    },
+    {
+      "id": "G4-DB-01",
+      "name": "fresh V1-to-V7 migration",
+      "passed": true,
+      "assertions": 1,
+      "evidence": {
+        "migrationVersions": "1,2,3,4,5,6,7"
+      }
+    },
+    {
+      "id": "G4-DB-04",
+      "name": "restart does not duplicate migrations",
+      "passed": true,
+      "assertions": 1,
+      "evidence": {
+        "versions": [
+          "1\t1656260257",
+          "2\t1",
+          "3\t272409627",
+          "4\t-1249600296",
+          "5\t985851163",
+          "6\t-1871927384",
+          "7\t1035298262"
+        ],
+        "unchanged": true
+      }
+    },
+    {
+      "id": "G4-PATH-01",
+      "name": "GET empty path is read-only",
+      "passed": true,
+      "assertions": 1,
+      "evidence": {
+        "generated": false,
+        "pathRows": "0"
+      }
+    },
+    {
+      "id": "G4-PATH-02",
+      "name": "path authorization boundaries",
+      "passed": true,
+      "assertions": 1,
+      "evidence": {
+        "student": "allowed",
+        "outsider": "403",
+        "teacher": "403",
+        "admin": "read-only"
+      }
+    },
+    {
+      "id": "G4-PATH-03",
+      "name": "same-key concurrent generation",
+      "passed": true,
+      "assertions": 1,
+      "evidence": {
+        "requestCount": 8,
+        "pathIds": [
+          "8fa87f7b-3e80-42b4-856d-aa6f23ca7de9"
+        ],
+        "requestRows": 2,
+        "delta": 1
+      }
+    },
+    {
+      "id": "G4-PATH-04",
+      "name": "different-key generation keeps one active path",
+      "passed": true,
+      "assertions": 1,
+      "evidence": {
+        "versions": [
+          "INVALIDATED\t1",
+          "INVALIDATED\t2",
+          "INVALIDATED\t3",
+          "INVALIDATED\t4",
+          "INVALIDATED\t5",
+          "ACTIVE\t6"
+        ],
+        "concurrentRequests": 4
+      }
+    },
+    {
+      "id": "G4-PATH-05",
+      "name": "path resource VIEWED is idempotent and BKT-neutral",
+      "passed": true,
+      "assertions": 1,
+      "evidence": {
+        "nodeStatus": "IN_PROGRESS",
+        "duplicateCode": "CONFLICT"
+      }
+    },
+    {
+      "id": "G4-FAULT-02",
+      "name": "node completion rollback",
+      "passed": true,
+      "assertions": 1,
+      "evidence": {
+        "rolledBack": true,
+        "before": [
+          "1",
+          "IN_PROGRESS"
+        ],
+        "after": [
+          "1",
+          "IN_PROGRESS"
+        ]
+      }
+    },
+    {
+      "id": "G4-PATH-06",
+      "name": "path resource COMPLETED has resource evidence",
+      "passed": true,
+      "assertions": 1,
+      "evidence": {
+        "sourceEventId": "c6179369-450d-4854-a2fe-62cf54b2a772",
+        "nodeStatus": "COMPLETED"
+      }
+    },
+    {
+      "id": "G4-FAULT-01",
+      "name": "path generation rollback",
+      "passed": true,
+      "assertions": 1,
+      "evidence": {
+        "rolledBack": true,
+        "before": [
+          "6",
+          "24",
+          "6"
+        ],
+        "after": [
+          "6",
+          "24",
+          "6"
+        ]
+      }
+    },
+    {
+      "id": "G4-FAULT-03",
+      "name": "replan insert rollback",
+      "passed": true,
+      "assertions": 1,
+      "evidence": {
+        "rolledBack": true,
+        "before": [
+          "ACTIVE",
+          "0"
+        ],
+        "after": [
+          "ACTIVE",
+          "0"
+        ]
+      }
+    },
+    {
+      "id": "G4-REG-01",
+      "name": "G1 authentication and catalog regression",
+      "passed": true,
+      "assertions": 1,
+      "evidence": {
+        "courseList": true,
+        "currentUser": "student01"
+      }
+    },
+    {
+      "id": "G4-REG-02",
+      "name": "G2 practice and mastery regression",
+      "passed": true,
+      "assertions": 1,
+      "evidence": {
+        "masteryItems": 8,
+        "historyTotal": 0
+      }
+    },
+    {
+      "id": "G4-REG-03",
+      "name": "G3 recommendation regression",
+      "passed": true,
+      "assertions": 1,
+      "evidence": {
+        "generated": true,
+        "readAfterGenerate": true
+      }
+    },
+    {
+      "id": "G4-PATH-07",
+      "name": "path question transaction A/B",
+      "passed": true,
+      "assertions": 1,
+      "evidence": {
+        "submissionId": "53587029-c42c-4797-96d4-fb9193d8d930",
+        "processingStatus": "SUCCEEDED",
+        "nodeStatus": "COMPLETED"
+      }
+    },
+    {
+      "id": "G4-PATH-08",
+      "name": "invalid path attribution rejected",
+      "passed": true,
+      "assertions": 1,
+      "evidence": {
+        "wrongUser": "403",
+        "unknownNode": "404"
+      }
+    },
+    {
+      "id": "G4-IMPORT-01",
+      "name": "JSON 501 upper bound rejects before write",
+      "passed": true,
+      "assertions": 1,
+      "evidence": {
+        "before": "0",
+        "after": "0"
+      }
+    },
+    {
+      "id": "G4-IMPORT-02",
+      "name": "CSV 10001 data rows rejects before write",
+      "passed": true,
+      "assertions": 1,
+      "evidence": {
+        "rows": 10001
+      }
+    },
+    {
+      "id": "G4-IMPORT-03",
+      "name": "CSV quoted comma semantics and job type",
+      "passed": true,
+      "assertions": 1,
+      "evidence": {
+        "status": "SUCCEEDED",
+        "jobType": "EVENT_CSV"
+      }
+    },
+    {
+      "id": "G4-IMPORT-04",
+      "name": "event same-id replay and changed-content conflict",
+      "passed": true,
+      "assertions": 1,
+      "evidence": {
+        "jobId": "27ac5817-e347-48b0-987d-1d5863ec791b",
+        "replaySame": true,
+        "changedConflict": "failedEvents.CONFLICT"
+      }
+    },
+    {
+      "id": "G4-CATALOG-01",
+      "name": "invalid catalog package rejected",
+      "passed": true,
+      "assertions": 1,
+      "evidence": {
+        "invalidBodies": 3,
+        "statuses": [
+          "VALIDATION_FAILED",
+          "VALIDATION_FAILED",
+          "VALIDATION_FAILED"
+        ],
+        "jobsBefore": "0",
+        "jobsAfter": "3"
+      }
+    },
+    {
+      "id": "G4-FAULT-04",
+      "name": "pending state survives server restart",
+      "passed": true,
+      "assertions": 1,
+      "evidence": {
+        "pathId": "44882926-3dc3-4612-bf86-594f62ccea6c",
+        "stable": true
+      }
+    },
+    {
+      "id": "G4-DB-02",
+      "passed": true,
+      "composeProject": "f21-g4-db02-7f4a",
+      "serverPort": 18102,
+      "volume": "f21-g4-db02-7f4a_f21-data",
+      "baseline": {
+        "flyway": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "counts": {
+          "local_user": 5,
+          "course": 2,
+          "chapter": 3,
+          "knowledge_point": 8,
+          "resource": 13,
+          "question": 40,
+          "course_enrollment": 1,
+          "catalog_snapshot": 2,
+          "learner_course_state": 0,
+          "mastery_state": 0,
+          "recommendation_batch": 0,
+          "recommendation_item": 0,
+          "recommendation_feedback": 0,
+          "resource_activity": 0
+        }
+      },
+      "after": {
+        "flyway": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "healthStage": "G4_PATHS",
+        "countsPreserved": true
+      }
+    },
+    {
+      "id": "G4-DB-03",
+      "passed": true,
+      "composeProject": "f21-g4-db03-d831",
+      "serverPort": 18104,
+      "volume": "f21-g4-db03-d831_f21-data",
+      "baseline": {
+        "flyway": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "counts": {
+          "local_user": 5,
+          "course": 2,
+          "chapter_snapshot": 3,
+          "catalog_snapshot": 2,
+          "learning_path": 0,
+          "rebuild_job": 0
+        }
+      },
+      "after": {
+        "flyway": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "healthStage": "G4_PATHS",
+        "countsPreserved": true
+      },
+      "failureReproduced": "Historical 87339f3 V6 failed on chapter_snapshot course_id backfill; fixed baseline d71a364 was then verified before V6-to-V7 upgrade."
+    },
+    {
+      "id": "G4-PATH-09",
+      "passed": true,
+      "evidence": {
+        "composeProject": "f21-g4-path09-069579f5",
+        "port": 18405,
+        "status": "ACTIVE",
+        "rounds": 3
+      }
+    },
+    {
+      "id": "G4-PATH-10",
+      "passed": true,
+      "evidence": {
+        "composeProject": "f21-g4-path10-82c4fe10",
+        "port": 18392,
+        "status": "BLOCKED",
+        "rounds": 5
+      }
+    },
+    {
+      "id": "G4-PATH-11",
+      "passed": true,
+      "evidence": {
+        "composeProject": "f21-g4-path11-249157bf",
+        "port": 18385,
+        "status": "COMPLETED",
+        "rounds": 3
+      }
+    },
+    {
+      "id": "G4-PATH-12",
+      "passed": true,
+      "evidence": {
+        "composeProject": "f21-g4-path12-678971af",
+        "port": 18456,
+        "status": "ACTIVE",
+        "trigger": "NON_PATH_ACTIVITY"
+      }
+    },
+    {
+      "id": "G4-PATH-13",
+      "passed": true,
+      "evidence": {
+        "composeProject": "f21-g4-path13-8bb99df4",
+        "port": 18535,
+        "status": "ACTIVE",
+        "carriedNodes": 1,
+        "eventDelta": 0
+      }
+    },
+    {
+      "id": "G4-CATALOG-02",
+      "passed": true,
+      "evidence": {
+        "composeProject": "f21-g4-catalog02-a95cdc68",
+        "port": 18509,
+        "activate": {
+          "jobId": "17400e4f-555a-450b-8844-5b768e126908",
+          "publishMode": "ACTIVATE",
+          "status": "SUCCEEDED",
+          "rebuildUsers": 1,
+          "catalogVersion": "catalog02-2d031bf0"
+        },
+        "idempotent": {
+          "status": "SUCCEEDED",
+          "jobId": "17400e4f-555a-450b-8844-5b768e126908"
+        },
+        "conflict": {
+          "errorCode": "CONFLICT",
+          "message": "目录版本不可复用",
+          "jobId": "7f085b6d-f247-4a68-8bb3-ffcecad4421d",
+          "status": "VALIDATION_FAILED"
+        },
+        "archiveOnly": {
+          "publishMode": "ARCHIVE_ONLY",
+          "catalogVersion": "catalog02-archive-2860bc",
+          "jobId": "d61297b2-88b2-41d0-9b80-b69826040ed2",
+          "status": "SUCCEEDED"
+        }
+      }
+    },
+    {
+      "id": "G4-CATALOG-03",
+      "passed": true,
+      "evidence": {
+        "composeProject": "f21-g4-catalog03-8e31d10b",
+        "port": 18575,
+        "before": [
+          "java-g1-v1",
+          "2",
+          "40",
+          "0"
+        ],
+        "afterFailure": [
+          "java-g1-v1",
+          "0",
+          "40",
+          "0"
+        ],
+        "failed": {
+          "jobId": "8c9ab81d-f060-4bc9-8314-f4ef17792e24",
+          "message": "PreparedStatementCallback; uncategorized SQLException for SQL [INSERT INTO question_snapshot(question_id,course_id,catalog_version,knowledge_id,question_type,stem,options_json,answer_json,difficulty,sort_order) VALUES (?,?,?,?,?,?,?,?,?,?)]; SQL state [45000]; error code [1644]; g4 catalog failure",
+          "errorCode": "VALIDATION_FAILED",
+          "status": "VALIDATION_FAILED"
+        },
+        "retry": {
+          "rebuildUsers": 1,
+          "status": "SUCCEEDED",
+          "publishMode": "ACTIVATE",
+          "jobId": "8c9ab81d-f060-4bc9-8314-f4ef17792e24",
+          "catalogVersion": "catalog03-0faf730c"
+        }
+      }
+    },
+    {
+      "id": "G4-MAP-01",
+      "passed": true,
+      "evidence": {
+        "composeProject": "f21-g4-map01-a4ac059f",
+        "port": 18434,
+        "catalogVersion": "703ed760-d9e4-4312-b0ed-d8984a9f13ab",
+        "import": "SUCCEEDED",
+        "rebuild": {
+          "unmappedEvents": 0,
+          "catalogVersion": "703ed760-d9e4-4312-b0ed-d8984a9f13ab",
+          "status": "SUCCEEDED",
+          "processedEvents": 1,
+          "mappedEvents": 1
+        },
+        "rebuildJobs": 1
+      }
+    },
+    {
+      "id": "G4-MAP-02",
+      "passed": true,
+      "evidence": {
+        "composeProject": "f21-g4-map02-d1ae14a0",
+        "port": 18654,
+        "catalogVersion": "9c919efe-4585-4eda-8fa3-f43f06bea336",
+        "import": "SUCCEEDED",
+        "rebuild": {
+          "catalogVersion": "9c919efe-4585-4eda-8fa3-f43f06bea336",
+          "unmappedEvents": 0,
+          "mappedEvents": 1,
+          "processedEvents": 1,
+          "status": "SUCCEEDED"
+        },
+        "rebuildJobs": 1
+      }
+    },
+    {
+      "id": "G4-MAP-03",
+      "passed": true,
+      "evidence": {
+        "composeProject": "f21-g4-map03-cb918984",
+        "port": 18557,
+        "catalogVersion": "d9fabe49-aa58-47f9-ad01-04349431cace",
+        "import": "SUCCEEDED",
+        "rebuild": {
+          "unmappedEvents": 1,
+          "catalogVersion": "d9fabe49-aa58-47f9-ad01-04349431cace",
+          "status": "SUCCEEDED_WITH_WARNINGS",
+          "processedEvents": 1,
+          "mappedEvents": 0
+        },
+        "rebuildJobs": 1
+      }
+    },
+    {
+      "id": "G4-REBUILD-01",
+      "passed": true,
+      "evidence": {
+        "composeProject": "f21-g4-rebuild01-dbc4ee73",
+        "port": 18316,
+        "failedCode": "INTERNAL_ERROR",
+        "stateAfterFailure": "NEEDS_ATTENTION",
+        "retry": {
+          "status": "SUCCEEDED",
+          "catalogVersion": "rebuild01-d3ab0150",
+          "unmappedEvents": 0,
+          "mappedEvents": 1,
+          "processedEvents": 1
+        }
+      }
+    },
+    {
+      "id": "G4-COMP-01",
+      "passed": true,
+      "evidence": {
+        "composeProject": "f21-g4-comp01-d897ad22",
+        "port": 18765,
+        "unknownStatus": "PENDING_COMPENSATION",
+        "laterStatus": "PENDING",
+        "blocked": true
+      }
+    },
+    {
+      "id": "G4-COMP-02",
+      "passed": true,
+      "evidence": {
+        "composeProject": "f21-g4-comp02-8e674559",
+        "port": 18578,
+        "unknownStatus": "PENDING_COMPENSATION",
+        "laterStatus": "PENDING",
+        "archiveImport": {
+          "publishMode": "ARCHIVE_ONLY",
+          "status": "SUCCEEDED",
+          "jobId": "f9cd03b1-6cf0-4ec2-aa95-f37e7fff3fcf",
+          "catalogVersion": "history-a1b44af6"
+        },
+        "recovered": "SUCCEEDED"
+      }
+    }
+  ],
+  "errors": []
+}
