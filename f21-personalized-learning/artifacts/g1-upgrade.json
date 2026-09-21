@@ -1,0 +1,38 @@
+{
+  "checkedAt": "2026-09-10",
+  "project": "f21-preflight",
+  "legacyPrepCatalogRows": 1,
+  "migrations": [
+    {
+      "version": "0",
+      "success": true
+    },
+    {
+      "version": "1",
+      "success": true
+    },
+    {
+      "version": "2",
+      "success": true
+    },
+    {
+      "version": "3",
+      "success": true
+    }
+  ],
+  "knowledgeDifficulties": [
+    0.2,
+    0.27,
+    0.34,
+    0.41,
+    0.48,
+    0.55,
+    0.62,
+    0.69
+  ],
+  "existingVolumePreserved": true,
+  "notes": [
+    "Flyway 11.7.2 emits MySQL 8.4 compatibility warning; migration and restart tested.",
+    "Seed decimal rounding verified; applied V3 retained unchanged."
+  ]
+}
