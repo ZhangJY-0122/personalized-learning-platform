@@ -1,0 +1,44 @@
+{
+  "datasetName": "ASSISTments 2009-2010 Skill Builder",
+  "datasetVersion": "2009-2010 Skill Builder corrected version",
+  "correctedFileId": "1NNXHFRxcArrU0ZJSb9BIL56vmUt5FhlE",
+  "officialPage": "https://sites.google.com/site/assistmentsdata/home/2009-2010-assistment-data/skill-builder-data-2009-2010",
+  "termsPage": "https://sites.google.com/site/assistmentstestbed/4-analyze-data/terms-of-use-for-data",
+  "accessDates": {
+    "officialPage": "2026-09-14",
+    "termsPage": "2026-09-14"
+  },
+  "standardLicense": null,
+  "usageBasis": "OFFICIAL_RESEARCH_USE_TERMS",
+  "citationRequirements": [
+    "Cite the exact official data-page URL in any publication using the dataset.",
+    "Cite Feng, Heffernan, and Koedinger (2009), the ASSISTments system reference requested by the official data page."
+  ],
+  "restrictions": {
+    "noReidentification": true,
+    "noThirdPartyRedistribution": true,
+    "noCommercialization": true,
+    "ifIdentifyingInformationFound": "Delete the local copy and inform ASSISTments immediately."
+  },
+  "redistributionAllowed": false,
+  "commercialUseAllowed": false,
+  "reidentificationAllowed": false,
+  "rawDataDownloaded": false,
+  "multiSkillPolicy": "COMPOSITE_TOKEN_NO_SPLIT",
+  "sampleEvidence": {
+    "path": "artifacts/public-data-inspection.json",
+    "scope": "PRE_G5_FIRST_1MIB_SAMPLE_ONLY",
+    "formalExperimentEligible": false,
+    "mappingExcludedFromFormalExperiment": "split underscore / deterministic primary skill"
+  },
+  "sourceEvidence": {
+    "officialPageConfirmsCorrectedVersion": true,
+    "officialPageConfirmsOneRowPerStudentProblem": true,
+    "officialPageConfirmsCompositeSkillToken": true,
+    "officialPageRequiresExactDataPageCitation": true,
+    "termsPageConfirmsNoReidentification": true,
+    "termsPageConfirmsNoThirdPartyRedistribution": true,
+    "termsPageConfirmsNoCommercialization": true
+  },
+  "errors": []
+}
