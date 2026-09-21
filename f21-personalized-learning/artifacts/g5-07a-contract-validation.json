@@ -1,0 +1,51 @@
+{
+  "commands": {
+    "prepare": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python scripts/build_g5_dashboard_contract.py prepare",
+    "validateFrozen": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python scripts/build_g5_dashboard_contract.py validate-frozen --expected-head <CONTRACT_COMMIT>"
+  },
+  "contractCommit": "f8df4f2bd7efccb0bce39aaf264b2521802bd6f2",
+  "environment": {
+    "platform": "macOS-26.5-arm64-arm-64bit-Mach-O",
+    "python": "3.13.14"
+  },
+  "gates": {
+    "artifactReferenceSchema": true,
+    "authorization": true,
+    "fixtures": true,
+    "gitTree": true,
+    "ignoredFormalEvidence": true,
+    "operations": true,
+    "pagination": true,
+    "paths": true,
+    "protectedTracked": true,
+    "recommendationMathAndEmpty": true,
+    "registry": true,
+    "registryDeterministic": true,
+    "sensitiveFields": true,
+    "weaknessMathAndEmpty": true
+  },
+  "generator": {
+    "mode": "independent-validate-frozen",
+    "script": "scripts/build_g5_dashboard_contract.py"
+  },
+  "manifest": {
+    "artifactCount": 6,
+    "path": "data/manifests/g5-dashboard-artifact-registry.json",
+    "sha256": "ddd4311c955e73aba1ddecf37f4d5f0ac40bac324440882f39ddb77cb7908c92"
+  },
+  "passed": true,
+  "registeredArtifactSha256": {
+    "g5-04-report-validation": "5b077bea90a25a1b027f8983abb501b3a08a84844c80d36118c565dccaa372aa",
+    "g5-05-report-validation": "cb921d69c0bdef3174936dc3f4c11a06d49302fcaee641483dfcf16d6ac27a7e",
+    "g5-demo-catalog-import": "c617f680f2b51cc4ca3dcad86f89657f6b3f3f684e428b58651ab4e1579b14e1",
+    "g5-demo-catalog-validation": "5c043238cf1e54f073fdec9883825bf1321b667beedcf19b044ccc5bd172c4c6",
+    "g5-kt-comparison": "5cb49d977f897110b6a0a3f9cf0d1a74d00355d082b61259857b254de8957e70",
+    "g5-recommendation-comparison": "48c2b38d1fe88b0e2902c3fee2125b521e07bf667dc078fdb89b2958a257ab0e"
+  },
+  "requestPolicy": {
+    "infersDuringRequest": false,
+    "recomputesFormalTestDuringRequest": false,
+    "trainsDuringRequest": false
+  },
+  "schemaVersion": "g5-07a-contract-validation-v2"
+}
