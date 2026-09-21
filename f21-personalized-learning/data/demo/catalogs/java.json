@@ -1,0 +1,2469 @@
+{
+  "chapters": [
+    {
+      "chapterId": "40000000-0000-4000-8000-000000000001",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "sortOrder": 0,
+      "title": "语言基础"
+    },
+    {
+      "chapterId": "40000000-0000-4000-8000-000000000002",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "sortOrder": 1,
+      "title": "面向对象与集合"
+    },
+    {
+      "chapterId": "40000000-0000-4000-8000-000000000003",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "sortOrder": 2,
+      "title": "工程化 Java"
+    }
+  ],
+  "course": {
+    "catalogVersion": "java-g5-v1",
+    "courseId": "10000000-0000-4000-8000-000000000001",
+    "description": "G5 合成演示目录；保留 G4 Java 课程身份并通过新目录版本扩展。",
+    "title": "Java 程序设计"
+  },
+  "dataType": "SYNTHETIC_DEMO",
+  "knowledgePoints": [
+    {
+      "chapterId": "40000000-0000-4000-8000-000000000001",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "description": "理解基本类型、引用类型和赋值语义。",
+      "difficulty": 0.2,
+      "knowledgeId": "2f9afc51-8dd0-5986-bc3d-9abf3e746db2",
+      "name": "变量与类型",
+      "sortOrder": 0
+    },
+    {
+      "chapterId": "40000000-0000-4000-8000-000000000001",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "description": "使用 if、else 和布尔表达式表达分支。",
+      "difficulty": 0.24,
+      "knowledgeId": "fe57c1a2-66ba-5fb2-9bbe-fa56db643388",
+      "name": "条件判断",
+      "sortOrder": 1
+    },
+    {
+      "chapterId": "40000000-0000-4000-8000-000000000001",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "description": "使用 for、while 和边界条件完成重复计算。",
+      "difficulty": 0.28,
+      "knowledgeId": "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248",
+      "name": "循环",
+      "sortOrder": 2
+    },
+    {
+      "chapterId": "40000000-0000-4000-8000-000000000001",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "description": "掌握算术、比较、逻辑运算及优先级。",
+      "difficulty": 0.32,
+      "knowledgeId": "30000000-0000-4000-8000-000000000004",
+      "name": "运算符",
+      "sortOrder": 3
+    },
+    {
+      "chapterId": "40000000-0000-4000-8000-000000000001",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "description": "使用零基下标、长度和遍历操作数组。",
+      "difficulty": 0.36,
+      "knowledgeId": "30000000-0000-4000-8000-000000000005",
+      "name": "数组",
+      "sortOrder": 4
+    },
+    {
+      "chapterId": "40000000-0000-4000-8000-000000000002",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "description": "通过参数、返回值和局部作用域组织行为。",
+      "difficulty": 0.4,
+      "knowledgeId": "30000000-0000-4000-8000-000000000006",
+      "name": "方法",
+      "sortOrder": 5
+    },
+    {
+      "chapterId": "40000000-0000-4000-8000-000000000002",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "description": "理解类、对象、字段、构造器和封装。",
+      "difficulty": 0.44,
+      "knowledgeId": "30000000-0000-4000-8000-000000000007",
+      "name": "对象基础",
+      "sortOrder": 6
+    },
+    {
+      "chapterId": "40000000-0000-4000-8000-000000000002",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "description": "区分可恢复异常并正确使用 try/catch。",
+      "difficulty": 0.48,
+      "knowledgeId": "30000000-0000-4000-8000-000000000008",
+      "name": "异常处理",
+      "sortOrder": 7
+    },
+    {
+      "chapterId": "40000000-0000-4000-8000-000000000002",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "description": "用类型参数表达可复用且类型安全的抽象。",
+      "difficulty": 0.52,
+      "knowledgeId": "2e6e2691-60d5-5a38-93d1-a5f8208ab3bd",
+      "name": "泛型",
+      "sortOrder": 8
+    },
+    {
+      "chapterId": "40000000-0000-4000-8000-000000000002",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "description": "根据顺序、唯一性和查找需求选择集合。",
+      "difficulty": 0.56,
+      "knowledgeId": "63cb51df-69c5-5845-8a15-4e8cbc768d79",
+      "name": "集合框架",
+      "sortOrder": 9
+    },
+    {
+      "chapterId": "40000000-0000-4000-8000-000000000003",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "description": "比较 is-a 继承与 has-a 组合。",
+      "difficulty": 0.6,
+      "knowledgeId": "99e0693a-39a3-52b1-8a40-adaca710f8bb",
+      "name": "继承与组合",
+      "sortOrder": 10
+    },
+    {
+      "chapterId": "40000000-0000-4000-8000-000000000003",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "description": "通过接口契约替换具体实现。",
+      "difficulty": 0.64,
+      "knowledgeId": "4e524263-23a8-5beb-accc-2b120ea7ba69",
+      "name": "接口与多态",
+      "sortOrder": 11
+    },
+    {
+      "chapterId": "40000000-0000-4000-8000-000000000003",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "description": "使用映射、过滤和归约处理数据流。",
+      "difficulty": 0.68,
+      "knowledgeId": "9496a883-038c-51ac-8d2b-eb579bc2973d",
+      "name": "Stream",
+      "sortOrder": 12
+    },
+    {
+      "chapterId": "40000000-0000-4000-8000-000000000003",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "description": "理解线程安全、同步和竞态条件。",
+      "difficulty": 0.72,
+      "knowledgeId": "d779952b-bfe9-56e3-826f-6f752a066eb6",
+      "name": "并发基础",
+      "sortOrder": 13
+    },
+    {
+      "chapterId": "40000000-0000-4000-8000-000000000003",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "description": "用可重复测试和最小复现定位缺陷。",
+      "difficulty": 0.76,
+      "knowledgeId": "8ed0a025-405f-5fbe-ab83-566be5678875",
+      "name": "测试与调试",
+      "sortOrder": 14
+    }
+  ],
+  "prerequisites": [
+    {
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "sourceKnowledgeId": "2f9afc51-8dd0-5986-bc3d-9abf3e746db2",
+      "targetKnowledgeId": "fe57c1a2-66ba-5fb2-9bbe-fa56db643388"
+    },
+    {
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "sourceKnowledgeId": "fe57c1a2-66ba-5fb2-9bbe-fa56db643388",
+      "targetKnowledgeId": "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248"
+    },
+    {
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "sourceKnowledgeId": "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248",
+      "targetKnowledgeId": "30000000-0000-4000-8000-000000000004"
+    },
+    {
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "sourceKnowledgeId": "30000000-0000-4000-8000-000000000004",
+      "targetKnowledgeId": "30000000-0000-4000-8000-000000000005"
+    },
+    {
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "sourceKnowledgeId": "30000000-0000-4000-8000-000000000005",
+      "targetKnowledgeId": "30000000-0000-4000-8000-000000000006"
+    },
+    {
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "sourceKnowledgeId": "30000000-0000-4000-8000-000000000006",
+      "targetKnowledgeId": "30000000-0000-4000-8000-000000000007"
+    },
+    {
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "sourceKnowledgeId": "30000000-0000-4000-8000-000000000007",
+      "targetKnowledgeId": "30000000-0000-4000-8000-000000000008"
+    },
+    {
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "sourceKnowledgeId": "30000000-0000-4000-8000-000000000008",
+      "targetKnowledgeId": "2e6e2691-60d5-5a38-93d1-a5f8208ab3bd"
+    },
+    {
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "sourceKnowledgeId": "2e6e2691-60d5-5a38-93d1-a5f8208ab3bd",
+      "targetKnowledgeId": "63cb51df-69c5-5845-8a15-4e8cbc768d79"
+    },
+    {
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "sourceKnowledgeId": "63cb51df-69c5-5845-8a15-4e8cbc768d79",
+      "targetKnowledgeId": "99e0693a-39a3-52b1-8a40-adaca710f8bb"
+    },
+    {
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "sourceKnowledgeId": "99e0693a-39a3-52b1-8a40-adaca710f8bb",
+      "targetKnowledgeId": "4e524263-23a8-5beb-accc-2b120ea7ba69"
+    },
+    {
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "sourceKnowledgeId": "4e524263-23a8-5beb-accc-2b120ea7ba69",
+      "targetKnowledgeId": "9496a883-038c-51ac-8d2b-eb579bc2973d"
+    },
+    {
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "sourceKnowledgeId": "9496a883-038c-51ac-8d2b-eb579bc2973d",
+      "targetKnowledgeId": "d779952b-bfe9-56e3-826f-6f752a066eb6"
+    },
+    {
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "sourceKnowledgeId": "d779952b-bfe9-56e3-826f-6f752a066eb6",
+      "targetKnowledgeId": "8ed0a025-405f-5fbe-ab83-566be5678875"
+    }
+  ],
+  "publishMode": "ACTIVATE",
+  "questions": [
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.25,
+      "knowledgeId": "2f9afc51-8dd0-5986-bc3d-9abf3e746db2",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "类型决定可表示的数据与合法操作"
+        },
+        {
+          "key": "B",
+          "text": "只关注术语字面，不考虑行为约束"
+        },
+        {
+          "key": "C",
+          "text": "任何场景都可以忽略前置条件"
+        }
+      ],
+      "questionId": "8a7a82fd-4be6-5bcb-895f-28290d301f16",
+      "questionType": "SINGLE",
+      "sortOrder": 0,
+      "stem": "关于变量与类型，哪一项准确描述核心原则？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.4,
+      "knowledgeId": "2f9afc51-8dd0-5986-bc3d-9abf3e746db2",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "先确认适用条件，再依据“类型决定可表示的数据与合法操作”执行"
+        },
+        {
+          "key": "B",
+          "text": "直接套用结论且不检查输入"
+        },
+        {
+          "key": "C",
+          "text": "只记答案而不验证过程"
+        }
+      ],
+      "questionId": "dbe4a9c2-5164-5307-8146-d57527032cf6",
+      "questionType": "SINGLE",
+      "sortOrder": 1,
+      "stem": "学习变量与类型时，哪种做法最符合课程要求？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.65,
+      "knowledgeId": "2f9afc51-8dd0-5986-bc3d-9abf3e746db2",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "检查是否违反“类型决定可表示的数据与合法操作”及其边界条件"
+        },
+        {
+          "key": "B",
+          "text": "先扩大数据规模掩盖异常"
+        },
+        {
+          "key": "C",
+          "text": "删除失败记录后宣告成功"
+        }
+      ],
+      "questionId": "3fc35438-7ce2-58db-89f2-b3553e770fb8",
+      "questionType": "SINGLE",
+      "sortOrder": 2,
+      "stem": "一个变量与类型方案结果异常，优先检查什么？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.8,
+      "knowledgeId": "2f9afc51-8dd0-5986-bc3d-9abf3e746db2",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "同时说明约束、代价、正确性和可复现证据"
+        },
+        {
+          "key": "B",
+          "text": "只比较一次运行的表面结果"
+        },
+        {
+          "key": "C",
+          "text": "只选择名称更熟悉的方案"
+        }
+      ],
+      "questionId": "a4e5ba67-c3d3-5799-9577-435bcc39872b",
+      "questionType": "SINGLE",
+      "sortOrder": 3,
+      "stem": "比较两个变量与类型方案时，哪项论证最可靠？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.6,
+      "knowledgeId": "2f9afc51-8dd0-5986-bc3d-9abf3e746db2",
+      "learningPhase": "RETEST",
+      "options": [
+        {
+          "key": "A",
+          "text": "类型决定可表示的数据与合法操作"
+        },
+        {
+          "key": "B",
+          "text": "结论可以脱离输入条件单独成立"
+        },
+        {
+          "key": "C",
+          "text": "出现反例时应修改数据而非结论"
+        }
+      ],
+      "questionId": "07aaec89-778d-5973-bfb5-c8fedfe06456",
+      "questionType": "SINGLE",
+      "sortOrder": 4,
+      "stem": "再次验证变量与类型掌握情况时，应选择哪项结论？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.25,
+      "knowledgeId": "fe57c1a2-66ba-5fb2-9bbe-fa56db643388",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "条件只选择满足谓词的分支"
+        },
+        {
+          "key": "B",
+          "text": "只关注术语字面，不考虑行为约束"
+        },
+        {
+          "key": "C",
+          "text": "任何场景都可以忽略前置条件"
+        }
+      ],
+      "questionId": "9763d8b9-104f-554c-8d4e-9d98dd349de2",
+      "questionType": "SINGLE",
+      "sortOrder": 5,
+      "stem": "关于条件判断，哪一项准确描述核心原则？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.4,
+      "knowledgeId": "fe57c1a2-66ba-5fb2-9bbe-fa56db643388",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "先确认适用条件，再依据“条件只选择满足谓词的分支”执行"
+        },
+        {
+          "key": "B",
+          "text": "直接套用结论且不检查输入"
+        },
+        {
+          "key": "C",
+          "text": "只记答案而不验证过程"
+        }
+      ],
+      "questionId": "a38fe1e2-3502-5234-be49-69371491d46c",
+      "questionType": "SINGLE",
+      "sortOrder": 6,
+      "stem": "学习条件判断时，哪种做法最符合课程要求？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.65,
+      "knowledgeId": "fe57c1a2-66ba-5fb2-9bbe-fa56db643388",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "检查是否违反“条件只选择满足谓词的分支”及其边界条件"
+        },
+        {
+          "key": "B",
+          "text": "先扩大数据规模掩盖异常"
+        },
+        {
+          "key": "C",
+          "text": "删除失败记录后宣告成功"
+        }
+      ],
+      "questionId": "4a4d12f7-05de-5b75-9ee2-56fe5cf718f2",
+      "questionType": "SINGLE",
+      "sortOrder": 7,
+      "stem": "一个条件判断方案结果异常，优先检查什么？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.8,
+      "knowledgeId": "fe57c1a2-66ba-5fb2-9bbe-fa56db643388",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "同时说明约束、代价、正确性和可复现证据"
+        },
+        {
+          "key": "B",
+          "text": "只比较一次运行的表面结果"
+        },
+        {
+          "key": "C",
+          "text": "只选择名称更熟悉的方案"
+        }
+      ],
+      "questionId": "a8d0513f-1d87-5fce-82cc-60f2a8b87caa",
+      "questionType": "SINGLE",
+      "sortOrder": 8,
+      "stem": "比较两个条件判断方案时，哪项论证最可靠？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.6,
+      "knowledgeId": "fe57c1a2-66ba-5fb2-9bbe-fa56db643388",
+      "learningPhase": "RETEST",
+      "options": [
+        {
+          "key": "A",
+          "text": "条件只选择满足谓词的分支"
+        },
+        {
+          "key": "B",
+          "text": "结论可以脱离输入条件单独成立"
+        },
+        {
+          "key": "C",
+          "text": "出现反例时应修改数据而非结论"
+        }
+      ],
+      "questionId": "9770f3a5-5b26-5e3b-b5d8-7047ffd1cbcc",
+      "questionType": "SINGLE",
+      "sortOrder": 9,
+      "stem": "再次验证条件判断掌握情况时，应选择哪项结论？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.25,
+      "knowledgeId": "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "循环必须维护终止条件与不变量"
+        },
+        {
+          "key": "B",
+          "text": "只关注术语字面，不考虑行为约束"
+        },
+        {
+          "key": "C",
+          "text": "任何场景都可以忽略前置条件"
+        }
+      ],
+      "questionId": "11e178a3-9345-5cc7-992f-5f755be6ef22",
+      "questionType": "SINGLE",
+      "sortOrder": 10,
+      "stem": "关于循环，哪一项准确描述核心原则？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.4,
+      "knowledgeId": "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "先确认适用条件，再依据“循环必须维护终止条件与不变量”执行"
+        },
+        {
+          "key": "B",
+          "text": "直接套用结论且不检查输入"
+        },
+        {
+          "key": "C",
+          "text": "只记答案而不验证过程"
+        }
+      ],
+      "questionId": "6b10a1d8-acd3-54b8-aab7-fd945d617b36",
+      "questionType": "SINGLE",
+      "sortOrder": 11,
+      "stem": "学习循环时，哪种做法最符合课程要求？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.65,
+      "knowledgeId": "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "检查是否违反“循环必须维护终止条件与不变量”及其边界条件"
+        },
+        {
+          "key": "B",
+          "text": "先扩大数据规模掩盖异常"
+        },
+        {
+          "key": "C",
+          "text": "删除失败记录后宣告成功"
+        }
+      ],
+      "questionId": "40d76c06-159b-5028-bddb-4d8669390771",
+      "questionType": "SINGLE",
+      "sortOrder": 12,
+      "stem": "一个循环方案结果异常，优先检查什么？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.8,
+      "knowledgeId": "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "同时说明约束、代价、正确性和可复现证据"
+        },
+        {
+          "key": "B",
+          "text": "只比较一次运行的表面结果"
+        },
+        {
+          "key": "C",
+          "text": "只选择名称更熟悉的方案"
+        }
+      ],
+      "questionId": "eb081469-f2e8-58ad-80e2-261d8364be83",
+      "questionType": "SINGLE",
+      "sortOrder": 13,
+      "stem": "比较两个循环方案时，哪项论证最可靠？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.6,
+      "knowledgeId": "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248",
+      "learningPhase": "RETEST",
+      "options": [
+        {
+          "key": "A",
+          "text": "循环必须维护终止条件与不变量"
+        },
+        {
+          "key": "B",
+          "text": "结论可以脱离输入条件单独成立"
+        },
+        {
+          "key": "C",
+          "text": "出现反例时应修改数据而非结论"
+        }
+      ],
+      "questionId": "acdc9775-d76c-54ad-b179-cd84eaa95e42",
+      "questionType": "SINGLE",
+      "sortOrder": 14,
+      "stem": "再次验证循环掌握情况时，应选择哪项结论？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.25,
+      "knowledgeId": "30000000-0000-4000-8000-000000000004",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "括号可以显式消除优先级歧义"
+        },
+        {
+          "key": "B",
+          "text": "只关注术语字面，不考虑行为约束"
+        },
+        {
+          "key": "C",
+          "text": "任何场景都可以忽略前置条件"
+        }
+      ],
+      "questionId": "76aae6ec-1a64-5d39-ad6e-661f235d9dd9",
+      "questionType": "SINGLE",
+      "sortOrder": 15,
+      "stem": "关于运算符，哪一项准确描述核心原则？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.4,
+      "knowledgeId": "30000000-0000-4000-8000-000000000004",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "先确认适用条件，再依据“括号可以显式消除优先级歧义”执行"
+        },
+        {
+          "key": "B",
+          "text": "直接套用结论且不检查输入"
+        },
+        {
+          "key": "C",
+          "text": "只记答案而不验证过程"
+        }
+      ],
+      "questionId": "a9f6d94f-9d45-5b23-83db-54dc870a97bf",
+      "questionType": "SINGLE",
+      "sortOrder": 16,
+      "stem": "学习运算符时，哪种做法最符合课程要求？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.65,
+      "knowledgeId": "30000000-0000-4000-8000-000000000004",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "检查是否违反“括号可以显式消除优先级歧义”及其边界条件"
+        },
+        {
+          "key": "B",
+          "text": "先扩大数据规模掩盖异常"
+        },
+        {
+          "key": "C",
+          "text": "删除失败记录后宣告成功"
+        }
+      ],
+      "questionId": "98b3180e-3023-5bb7-8272-c5aa25966997",
+      "questionType": "SINGLE",
+      "sortOrder": 17,
+      "stem": "一个运算符方案结果异常，优先检查什么？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.8,
+      "knowledgeId": "30000000-0000-4000-8000-000000000004",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "同时说明约束、代价、正确性和可复现证据"
+        },
+        {
+          "key": "B",
+          "text": "只比较一次运行的表面结果"
+        },
+        {
+          "key": "C",
+          "text": "只选择名称更熟悉的方案"
+        }
+      ],
+      "questionId": "7eaed15a-9a8f-55b9-a1f3-4b8ab1817832",
+      "questionType": "SINGLE",
+      "sortOrder": 18,
+      "stem": "比较两个运算符方案时，哪项论证最可靠？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.6,
+      "knowledgeId": "30000000-0000-4000-8000-000000000004",
+      "learningPhase": "RETEST",
+      "options": [
+        {
+          "key": "A",
+          "text": "括号可以显式消除优先级歧义"
+        },
+        {
+          "key": "B",
+          "text": "结论可以脱离输入条件单独成立"
+        },
+        {
+          "key": "C",
+          "text": "出现反例时应修改数据而非结论"
+        }
+      ],
+      "questionId": "92ce0a80-973b-55e3-b60a-1b5113ade039",
+      "questionType": "SINGLE",
+      "sortOrder": 19,
+      "stem": "再次验证运算符掌握情况时，应选择哪项结论？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.25,
+      "knowledgeId": "30000000-0000-4000-8000-000000000005",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "合法下标范围是零到长度减一"
+        },
+        {
+          "key": "B",
+          "text": "只关注术语字面，不考虑行为约束"
+        },
+        {
+          "key": "C",
+          "text": "任何场景都可以忽略前置条件"
+        }
+      ],
+      "questionId": "f7cb2fc0-d7ea-512f-b0a1-d73e5bc8289c",
+      "questionType": "SINGLE",
+      "sortOrder": 20,
+      "stem": "关于数组，哪一项准确描述核心原则？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.4,
+      "knowledgeId": "30000000-0000-4000-8000-000000000005",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "先确认适用条件，再依据“合法下标范围是零到长度减一”执行"
+        },
+        {
+          "key": "B",
+          "text": "直接套用结论且不检查输入"
+        },
+        {
+          "key": "C",
+          "text": "只记答案而不验证过程"
+        }
+      ],
+      "questionId": "3027b0a0-8bd1-5647-9ca7-252cb6661c56",
+      "questionType": "SINGLE",
+      "sortOrder": 21,
+      "stem": "学习数组时，哪种做法最符合课程要求？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.65,
+      "knowledgeId": "30000000-0000-4000-8000-000000000005",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "检查是否违反“合法下标范围是零到长度减一”及其边界条件"
+        },
+        {
+          "key": "B",
+          "text": "先扩大数据规模掩盖异常"
+        },
+        {
+          "key": "C",
+          "text": "删除失败记录后宣告成功"
+        }
+      ],
+      "questionId": "8b844560-a654-51d9-91ed-e603c612f46b",
+      "questionType": "SINGLE",
+      "sortOrder": 22,
+      "stem": "一个数组方案结果异常，优先检查什么？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.8,
+      "knowledgeId": "30000000-0000-4000-8000-000000000005",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "同时说明约束、代价、正确性和可复现证据"
+        },
+        {
+          "key": "B",
+          "text": "只比较一次运行的表面结果"
+        },
+        {
+          "key": "C",
+          "text": "只选择名称更熟悉的方案"
+        }
+      ],
+      "questionId": "965a38d9-0d9a-58e5-81d6-6866b26e5c53",
+      "questionType": "SINGLE",
+      "sortOrder": 23,
+      "stem": "比较两个数组方案时，哪项论证最可靠？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.6,
+      "knowledgeId": "30000000-0000-4000-8000-000000000005",
+      "learningPhase": "RETEST",
+      "options": [
+        {
+          "key": "A",
+          "text": "合法下标范围是零到长度减一"
+        },
+        {
+          "key": "B",
+          "text": "结论可以脱离输入条件单独成立"
+        },
+        {
+          "key": "C",
+          "text": "出现反例时应修改数据而非结论"
+        }
+      ],
+      "questionId": "20554a9f-2466-5d7d-88f6-4c87d66ef0b9",
+      "questionType": "SINGLE",
+      "sortOrder": 24,
+      "stem": "再次验证数组掌握情况时，应选择哪项结论？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.25,
+      "knowledgeId": "30000000-0000-4000-8000-000000000006",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "方法契约由输入、输出和副作用组成"
+        },
+        {
+          "key": "B",
+          "text": "只关注术语字面，不考虑行为约束"
+        },
+        {
+          "key": "C",
+          "text": "任何场景都可以忽略前置条件"
+        }
+      ],
+      "questionId": "2238b02d-ab55-524b-acbe-14293130cc28",
+      "questionType": "SINGLE",
+      "sortOrder": 25,
+      "stem": "关于方法，哪一项准确描述核心原则？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.4,
+      "knowledgeId": "30000000-0000-4000-8000-000000000006",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "先确认适用条件，再依据“方法契约由输入、输出和副作用组成”执行"
+        },
+        {
+          "key": "B",
+          "text": "直接套用结论且不检查输入"
+        },
+        {
+          "key": "C",
+          "text": "只记答案而不验证过程"
+        }
+      ],
+      "questionId": "9a096ddf-5757-5898-90b8-ab401b65e2f9",
+      "questionType": "SINGLE",
+      "sortOrder": 26,
+      "stem": "学习方法时，哪种做法最符合课程要求？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.65,
+      "knowledgeId": "30000000-0000-4000-8000-000000000006",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "检查是否违反“方法契约由输入、输出和副作用组成”及其边界条件"
+        },
+        {
+          "key": "B",
+          "text": "先扩大数据规模掩盖异常"
+        },
+        {
+          "key": "C",
+          "text": "删除失败记录后宣告成功"
+        }
+      ],
+      "questionId": "f329772b-20f7-5434-acb9-5f528120a98c",
+      "questionType": "SINGLE",
+      "sortOrder": 27,
+      "stem": "一个方法方案结果异常，优先检查什么？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.8,
+      "knowledgeId": "30000000-0000-4000-8000-000000000006",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "同时说明约束、代价、正确性和可复现证据"
+        },
+        {
+          "key": "B",
+          "text": "只比较一次运行的表面结果"
+        },
+        {
+          "key": "C",
+          "text": "只选择名称更熟悉的方案"
+        }
+      ],
+      "questionId": "91b1edbd-dfd6-599f-a702-5b4197711ab1",
+      "questionType": "SINGLE",
+      "sortOrder": 28,
+      "stem": "比较两个方法方案时，哪项论证最可靠？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.6,
+      "knowledgeId": "30000000-0000-4000-8000-000000000006",
+      "learningPhase": "RETEST",
+      "options": [
+        {
+          "key": "A",
+          "text": "方法契约由输入、输出和副作用组成"
+        },
+        {
+          "key": "B",
+          "text": "结论可以脱离输入条件单独成立"
+        },
+        {
+          "key": "C",
+          "text": "出现反例时应修改数据而非结论"
+        }
+      ],
+      "questionId": "c7a710f3-5de8-5cac-b976-cf6d18806ec1",
+      "questionType": "SINGLE",
+      "sortOrder": 29,
+      "stem": "再次验证方法掌握情况时，应选择哪项结论？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.25,
+      "knowledgeId": "30000000-0000-4000-8000-000000000007",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "对象封装状态并通过方法暴露行为"
+        },
+        {
+          "key": "B",
+          "text": "只关注术语字面，不考虑行为约束"
+        },
+        {
+          "key": "C",
+          "text": "任何场景都可以忽略前置条件"
+        }
+      ],
+      "questionId": "d9e69b89-fe38-5e46-b9c8-35af0f3bfb4f",
+      "questionType": "SINGLE",
+      "sortOrder": 30,
+      "stem": "关于对象基础，哪一项准确描述核心原则？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.4,
+      "knowledgeId": "30000000-0000-4000-8000-000000000007",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "先确认适用条件，再依据“对象封装状态并通过方法暴露行为”执行"
+        },
+        {
+          "key": "B",
+          "text": "直接套用结论且不检查输入"
+        },
+        {
+          "key": "C",
+          "text": "只记答案而不验证过程"
+        }
+      ],
+      "questionId": "ce59bab5-3322-5ff1-9153-ed4afeeb368e",
+      "questionType": "SINGLE",
+      "sortOrder": 31,
+      "stem": "学习对象基础时，哪种做法最符合课程要求？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.65,
+      "knowledgeId": "30000000-0000-4000-8000-000000000007",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "检查是否违反“对象封装状态并通过方法暴露行为”及其边界条件"
+        },
+        {
+          "key": "B",
+          "text": "先扩大数据规模掩盖异常"
+        },
+        {
+          "key": "C",
+          "text": "删除失败记录后宣告成功"
+        }
+      ],
+      "questionId": "72f28d82-5416-51a7-871b-144853fa65c1",
+      "questionType": "SINGLE",
+      "sortOrder": 32,
+      "stem": "一个对象基础方案结果异常，优先检查什么？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.8,
+      "knowledgeId": "30000000-0000-4000-8000-000000000007",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "同时说明约束、代价、正确性和可复现证据"
+        },
+        {
+          "key": "B",
+          "text": "只比较一次运行的表面结果"
+        },
+        {
+          "key": "C",
+          "text": "只选择名称更熟悉的方案"
+        }
+      ],
+      "questionId": "25d38af8-4538-5203-9187-a6e15b9d3500",
+      "questionType": "SINGLE",
+      "sortOrder": 33,
+      "stem": "比较两个对象基础方案时，哪项论证最可靠？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.6,
+      "knowledgeId": "30000000-0000-4000-8000-000000000007",
+      "learningPhase": "RETEST",
+      "options": [
+        {
+          "key": "A",
+          "text": "对象封装状态并通过方法暴露行为"
+        },
+        {
+          "key": "B",
+          "text": "结论可以脱离输入条件单独成立"
+        },
+        {
+          "key": "C",
+          "text": "出现反例时应修改数据而非结论"
+        }
+      ],
+      "questionId": "2120ffb0-23c4-58fd-ab57-21efbe96e9c9",
+      "questionType": "SINGLE",
+      "sortOrder": 34,
+      "stem": "再次验证对象基础掌握情况时，应选择哪项结论？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.25,
+      "knowledgeId": "30000000-0000-4000-8000-000000000008",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "异常处理不能静默吞掉失败"
+        },
+        {
+          "key": "B",
+          "text": "只关注术语字面，不考虑行为约束"
+        },
+        {
+          "key": "C",
+          "text": "任何场景都可以忽略前置条件"
+        }
+      ],
+      "questionId": "3d8d470e-4d0f-5bf3-bb79-e320d2261edf",
+      "questionType": "SINGLE",
+      "sortOrder": 35,
+      "stem": "关于异常处理，哪一项准确描述核心原则？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.4,
+      "knowledgeId": "30000000-0000-4000-8000-000000000008",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "先确认适用条件，再依据“异常处理不能静默吞掉失败”执行"
+        },
+        {
+          "key": "B",
+          "text": "直接套用结论且不检查输入"
+        },
+        {
+          "key": "C",
+          "text": "只记答案而不验证过程"
+        }
+      ],
+      "questionId": "eaea036d-1092-5f25-90f9-b0f97ebada67",
+      "questionType": "SINGLE",
+      "sortOrder": 36,
+      "stem": "学习异常处理时，哪种做法最符合课程要求？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.65,
+      "knowledgeId": "30000000-0000-4000-8000-000000000008",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "检查是否违反“异常处理不能静默吞掉失败”及其边界条件"
+        },
+        {
+          "key": "B",
+          "text": "先扩大数据规模掩盖异常"
+        },
+        {
+          "key": "C",
+          "text": "删除失败记录后宣告成功"
+        }
+      ],
+      "questionId": "99045d1c-872c-5804-b9b5-3ae2d5570b36",
+      "questionType": "SINGLE",
+      "sortOrder": 37,
+      "stem": "一个异常处理方案结果异常，优先检查什么？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.8,
+      "knowledgeId": "30000000-0000-4000-8000-000000000008",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "同时说明约束、代价、正确性和可复现证据"
+        },
+        {
+          "key": "B",
+          "text": "只比较一次运行的表面结果"
+        },
+        {
+          "key": "C",
+          "text": "只选择名称更熟悉的方案"
+        }
+      ],
+      "questionId": "625a15eb-c917-596c-b308-276ae7dc8895",
+      "questionType": "SINGLE",
+      "sortOrder": 38,
+      "stem": "比较两个异常处理方案时，哪项论证最可靠？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.6,
+      "knowledgeId": "30000000-0000-4000-8000-000000000008",
+      "learningPhase": "RETEST",
+      "options": [
+        {
+          "key": "A",
+          "text": "异常处理不能静默吞掉失败"
+        },
+        {
+          "key": "B",
+          "text": "结论可以脱离输入条件单独成立"
+        },
+        {
+          "key": "C",
+          "text": "出现反例时应修改数据而非结论"
+        }
+      ],
+      "questionId": "f2cf40d1-7343-5e42-a73b-c8a9698c9c9b",
+      "questionType": "SINGLE",
+      "sortOrder": 39,
+      "stem": "再次验证异常处理掌握情况时，应选择哪项结论？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.25,
+      "knowledgeId": "2e6e2691-60d5-5a38-93d1-a5f8208ab3bd",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "泛型在编译期约束容器元素类型"
+        },
+        {
+          "key": "B",
+          "text": "只关注术语字面，不考虑行为约束"
+        },
+        {
+          "key": "C",
+          "text": "任何场景都可以忽略前置条件"
+        }
+      ],
+      "questionId": "9e328e63-5e06-5cfe-9325-5ccc844c88c1",
+      "questionType": "SINGLE",
+      "sortOrder": 40,
+      "stem": "关于泛型，哪一项准确描述核心原则？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.4,
+      "knowledgeId": "2e6e2691-60d5-5a38-93d1-a5f8208ab3bd",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "先确认适用条件，再依据“泛型在编译期约束容器元素类型”执行"
+        },
+        {
+          "key": "B",
+          "text": "直接套用结论且不检查输入"
+        },
+        {
+          "key": "C",
+          "text": "只记答案而不验证过程"
+        }
+      ],
+      "questionId": "1a2853f4-60d5-5737-9791-e0cd4f70d69d",
+      "questionType": "SINGLE",
+      "sortOrder": 41,
+      "stem": "学习泛型时，哪种做法最符合课程要求？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.65,
+      "knowledgeId": "2e6e2691-60d5-5a38-93d1-a5f8208ab3bd",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "检查是否违反“泛型在编译期约束容器元素类型”及其边界条件"
+        },
+        {
+          "key": "B",
+          "text": "先扩大数据规模掩盖异常"
+        },
+        {
+          "key": "C",
+          "text": "删除失败记录后宣告成功"
+        }
+      ],
+      "questionId": "3bc6ee59-ead9-57a9-987a-a43a538deec8",
+      "questionType": "SINGLE",
+      "sortOrder": 42,
+      "stem": "一个泛型方案结果异常，优先检查什么？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.8,
+      "knowledgeId": "2e6e2691-60d5-5a38-93d1-a5f8208ab3bd",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "同时说明约束、代价、正确性和可复现证据"
+        },
+        {
+          "key": "B",
+          "text": "只比较一次运行的表面结果"
+        },
+        {
+          "key": "C",
+          "text": "只选择名称更熟悉的方案"
+        }
+      ],
+      "questionId": "ba729d2f-d23e-5861-8479-3045d94de0de",
+      "questionType": "SINGLE",
+      "sortOrder": 43,
+      "stem": "比较两个泛型方案时，哪项论证最可靠？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.6,
+      "knowledgeId": "2e6e2691-60d5-5a38-93d1-a5f8208ab3bd",
+      "learningPhase": "RETEST",
+      "options": [
+        {
+          "key": "A",
+          "text": "泛型在编译期约束容器元素类型"
+        },
+        {
+          "key": "B",
+          "text": "结论可以脱离输入条件单独成立"
+        },
+        {
+          "key": "C",
+          "text": "出现反例时应修改数据而非结论"
+        }
+      ],
+      "questionId": "591ad151-5bd5-52a0-98e6-08749ac3e09f",
+      "questionType": "SINGLE",
+      "sortOrder": 44,
+      "stem": "再次验证泛型掌握情况时，应选择哪项结论？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.25,
+      "knowledgeId": "63cb51df-69c5-5845-8a15-4e8cbc768d79",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "List、Set 与 Map 对应不同数据约束"
+        },
+        {
+          "key": "B",
+          "text": "只关注术语字面，不考虑行为约束"
+        },
+        {
+          "key": "C",
+          "text": "任何场景都可以忽略前置条件"
+        }
+      ],
+      "questionId": "ebf279de-56af-51f0-99d1-2b863d1735f1",
+      "questionType": "SINGLE",
+      "sortOrder": 45,
+      "stem": "关于集合框架，哪一项准确描述核心原则？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.4,
+      "knowledgeId": "63cb51df-69c5-5845-8a15-4e8cbc768d79",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "先确认适用条件，再依据“List、Set 与 Map 对应不同数据约束”执行"
+        },
+        {
+          "key": "B",
+          "text": "直接套用结论且不检查输入"
+        },
+        {
+          "key": "C",
+          "text": "只记答案而不验证过程"
+        }
+      ],
+      "questionId": "9f53338d-1293-55f4-a551-01015e12b8b6",
+      "questionType": "SINGLE",
+      "sortOrder": 46,
+      "stem": "学习集合框架时，哪种做法最符合课程要求？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.65,
+      "knowledgeId": "63cb51df-69c5-5845-8a15-4e8cbc768d79",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "检查是否违反“List、Set 与 Map 对应不同数据约束”及其边界条件"
+        },
+        {
+          "key": "B",
+          "text": "先扩大数据规模掩盖异常"
+        },
+        {
+          "key": "C",
+          "text": "删除失败记录后宣告成功"
+        }
+      ],
+      "questionId": "63bdd923-c978-5508-a1d3-6d80cd6ac8a6",
+      "questionType": "SINGLE",
+      "sortOrder": 47,
+      "stem": "一个集合框架方案结果异常，优先检查什么？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.8,
+      "knowledgeId": "63cb51df-69c5-5845-8a15-4e8cbc768d79",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "同时说明约束、代价、正确性和可复现证据"
+        },
+        {
+          "key": "B",
+          "text": "只比较一次运行的表面结果"
+        },
+        {
+          "key": "C",
+          "text": "只选择名称更熟悉的方案"
+        }
+      ],
+      "questionId": "39c35612-ff2d-59af-aa82-eb4054957144",
+      "questionType": "SINGLE",
+      "sortOrder": 48,
+      "stem": "比较两个集合框架方案时，哪项论证最可靠？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.6,
+      "knowledgeId": "63cb51df-69c5-5845-8a15-4e8cbc768d79",
+      "learningPhase": "RETEST",
+      "options": [
+        {
+          "key": "A",
+          "text": "List、Set 与 Map 对应不同数据约束"
+        },
+        {
+          "key": "B",
+          "text": "结论可以脱离输入条件单独成立"
+        },
+        {
+          "key": "C",
+          "text": "出现反例时应修改数据而非结论"
+        }
+      ],
+      "questionId": "6e87fe6f-8606-57a8-8f61-46de224f3aa2",
+      "questionType": "SINGLE",
+      "sortOrder": 49,
+      "stem": "再次验证集合框架掌握情况时，应选择哪项结论？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.25,
+      "knowledgeId": "99e0693a-39a3-52b1-8a40-adaca710f8bb",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "优先用组合降低不必要的耦合"
+        },
+        {
+          "key": "B",
+          "text": "只关注术语字面，不考虑行为约束"
+        },
+        {
+          "key": "C",
+          "text": "任何场景都可以忽略前置条件"
+        }
+      ],
+      "questionId": "de8c2b10-476f-5b7d-a3ab-3ccd3c0975ad",
+      "questionType": "SINGLE",
+      "sortOrder": 50,
+      "stem": "关于继承与组合，哪一项准确描述核心原则？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.4,
+      "knowledgeId": "99e0693a-39a3-52b1-8a40-adaca710f8bb",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "先确认适用条件，再依据“优先用组合降低不必要的耦合”执行"
+        },
+        {
+          "key": "B",
+          "text": "直接套用结论且不检查输入"
+        },
+        {
+          "key": "C",
+          "text": "只记答案而不验证过程"
+        }
+      ],
+      "questionId": "fd2d9c01-dd04-5c3a-b3d7-848e75ce8582",
+      "questionType": "SINGLE",
+      "sortOrder": 51,
+      "stem": "学习继承与组合时，哪种做法最符合课程要求？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.65,
+      "knowledgeId": "99e0693a-39a3-52b1-8a40-adaca710f8bb",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "检查是否违反“优先用组合降低不必要的耦合”及其边界条件"
+        },
+        {
+          "key": "B",
+          "text": "先扩大数据规模掩盖异常"
+        },
+        {
+          "key": "C",
+          "text": "删除失败记录后宣告成功"
+        }
+      ],
+      "questionId": "90bbef04-555f-5e05-999f-08ff64aa009f",
+      "questionType": "SINGLE",
+      "sortOrder": 52,
+      "stem": "一个继承与组合方案结果异常，优先检查什么？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.8,
+      "knowledgeId": "99e0693a-39a3-52b1-8a40-adaca710f8bb",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "同时说明约束、代价、正确性和可复现证据"
+        },
+        {
+          "key": "B",
+          "text": "只比较一次运行的表面结果"
+        },
+        {
+          "key": "C",
+          "text": "只选择名称更熟悉的方案"
+        }
+      ],
+      "questionId": "145594c0-b9d3-51ba-9cc9-da22ba8f1394",
+      "questionType": "SINGLE",
+      "sortOrder": 53,
+      "stem": "比较两个继承与组合方案时，哪项论证最可靠？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.6,
+      "knowledgeId": "99e0693a-39a3-52b1-8a40-adaca710f8bb",
+      "learningPhase": "RETEST",
+      "options": [
+        {
+          "key": "A",
+          "text": "优先用组合降低不必要的耦合"
+        },
+        {
+          "key": "B",
+          "text": "结论可以脱离输入条件单独成立"
+        },
+        {
+          "key": "C",
+          "text": "出现反例时应修改数据而非结论"
+        }
+      ],
+      "questionId": "2a6a309a-e167-5581-a2fc-0d52a3cb48ee",
+      "questionType": "SINGLE",
+      "sortOrder": 54,
+      "stem": "再次验证继承与组合掌握情况时，应选择哪项结论？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.25,
+      "knowledgeId": "4e524263-23a8-5beb-accc-2b120ea7ba69",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "调用方依赖接口而非实现细节"
+        },
+        {
+          "key": "B",
+          "text": "只关注术语字面，不考虑行为约束"
+        },
+        {
+          "key": "C",
+          "text": "任何场景都可以忽略前置条件"
+        }
+      ],
+      "questionId": "c4058ae5-931d-542c-a0d4-085a44d61488",
+      "questionType": "SINGLE",
+      "sortOrder": 55,
+      "stem": "关于接口与多态，哪一项准确描述核心原则？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.4,
+      "knowledgeId": "4e524263-23a8-5beb-accc-2b120ea7ba69",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "先确认适用条件，再依据“调用方依赖接口而非实现细节”执行"
+        },
+        {
+          "key": "B",
+          "text": "直接套用结论且不检查输入"
+        },
+        {
+          "key": "C",
+          "text": "只记答案而不验证过程"
+        }
+      ],
+      "questionId": "ac3e8bef-fe50-5247-aed4-15cc9afc7b36",
+      "questionType": "SINGLE",
+      "sortOrder": 56,
+      "stem": "学习接口与多态时，哪种做法最符合课程要求？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.65,
+      "knowledgeId": "4e524263-23a8-5beb-accc-2b120ea7ba69",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "检查是否违反“调用方依赖接口而非实现细节”及其边界条件"
+        },
+        {
+          "key": "B",
+          "text": "先扩大数据规模掩盖异常"
+        },
+        {
+          "key": "C",
+          "text": "删除失败记录后宣告成功"
+        }
+      ],
+      "questionId": "fd6e441b-3b49-5193-9fc7-090384b16a55",
+      "questionType": "SINGLE",
+      "sortOrder": 57,
+      "stem": "一个接口与多态方案结果异常，优先检查什么？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.8,
+      "knowledgeId": "4e524263-23a8-5beb-accc-2b120ea7ba69",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "同时说明约束、代价、正确性和可复现证据"
+        },
+        {
+          "key": "B",
+          "text": "只比较一次运行的表面结果"
+        },
+        {
+          "key": "C",
+          "text": "只选择名称更熟悉的方案"
+        }
+      ],
+      "questionId": "0d280bbd-7069-5a6e-a278-4e10a78adc99",
+      "questionType": "SINGLE",
+      "sortOrder": 58,
+      "stem": "比较两个接口与多态方案时，哪项论证最可靠？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.6,
+      "knowledgeId": "4e524263-23a8-5beb-accc-2b120ea7ba69",
+      "learningPhase": "RETEST",
+      "options": [
+        {
+          "key": "A",
+          "text": "调用方依赖接口而非实现细节"
+        },
+        {
+          "key": "B",
+          "text": "结论可以脱离输入条件单独成立"
+        },
+        {
+          "key": "C",
+          "text": "出现反例时应修改数据而非结论"
+        }
+      ],
+      "questionId": "012bdafb-dcad-5706-bc50-b247c54766ed",
+      "questionType": "SINGLE",
+      "sortOrder": 59,
+      "stem": "再次验证接口与多态掌握情况时，应选择哪项结论？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.25,
+      "knowledgeId": "9496a883-038c-51ac-8d2b-eb579bc2973d",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "Stream 管道应避免依赖可变共享状态"
+        },
+        {
+          "key": "B",
+          "text": "只关注术语字面，不考虑行为约束"
+        },
+        {
+          "key": "C",
+          "text": "任何场景都可以忽略前置条件"
+        }
+      ],
+      "questionId": "019bd5a9-84eb-5da0-b4eb-99eb2fdcfc9c",
+      "questionType": "SINGLE",
+      "sortOrder": 60,
+      "stem": "关于Stream，哪一项准确描述核心原则？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.4,
+      "knowledgeId": "9496a883-038c-51ac-8d2b-eb579bc2973d",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "先确认适用条件，再依据“Stream 管道应避免依赖可变共享状态”执行"
+        },
+        {
+          "key": "B",
+          "text": "直接套用结论且不检查输入"
+        },
+        {
+          "key": "C",
+          "text": "只记答案而不验证过程"
+        }
+      ],
+      "questionId": "a104e53e-e641-5021-bfb9-6e612f662dc3",
+      "questionType": "SINGLE",
+      "sortOrder": 61,
+      "stem": "学习Stream时，哪种做法最符合课程要求？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.65,
+      "knowledgeId": "9496a883-038c-51ac-8d2b-eb579bc2973d",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "检查是否违反“Stream 管道应避免依赖可变共享状态”及其边界条件"
+        },
+        {
+          "key": "B",
+          "text": "先扩大数据规模掩盖异常"
+        },
+        {
+          "key": "C",
+          "text": "删除失败记录后宣告成功"
+        }
+      ],
+      "questionId": "d8aab807-858a-542e-9f0d-08e70317702d",
+      "questionType": "SINGLE",
+      "sortOrder": 62,
+      "stem": "一个Stream方案结果异常，优先检查什么？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.8,
+      "knowledgeId": "9496a883-038c-51ac-8d2b-eb579bc2973d",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "同时说明约束、代价、正确性和可复现证据"
+        },
+        {
+          "key": "B",
+          "text": "只比较一次运行的表面结果"
+        },
+        {
+          "key": "C",
+          "text": "只选择名称更熟悉的方案"
+        }
+      ],
+      "questionId": "a0f2a8b8-f53f-5dfa-b94c-ce89606c22d5",
+      "questionType": "SINGLE",
+      "sortOrder": 63,
+      "stem": "比较两个Stream方案时，哪项论证最可靠？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.6,
+      "knowledgeId": "9496a883-038c-51ac-8d2b-eb579bc2973d",
+      "learningPhase": "RETEST",
+      "options": [
+        {
+          "key": "A",
+          "text": "Stream 管道应避免依赖可变共享状态"
+        },
+        {
+          "key": "B",
+          "text": "结论可以脱离输入条件单独成立"
+        },
+        {
+          "key": "C",
+          "text": "出现反例时应修改数据而非结论"
+        }
+      ],
+      "questionId": "d5bba5ce-371e-5a43-b4d7-0291952e7da9",
+      "questionType": "SINGLE",
+      "sortOrder": 64,
+      "stem": "再次验证Stream掌握情况时，应选择哪项结论？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.25,
+      "knowledgeId": "d779952b-bfe9-56e3-826f-6f752a066eb6",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "共享可变状态需要明确的同步策略"
+        },
+        {
+          "key": "B",
+          "text": "只关注术语字面，不考虑行为约束"
+        },
+        {
+          "key": "C",
+          "text": "任何场景都可以忽略前置条件"
+        }
+      ],
+      "questionId": "90fd5808-54fa-5f26-8175-4394f68eec83",
+      "questionType": "SINGLE",
+      "sortOrder": 65,
+      "stem": "关于并发基础，哪一项准确描述核心原则？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.4,
+      "knowledgeId": "d779952b-bfe9-56e3-826f-6f752a066eb6",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "先确认适用条件，再依据“共享可变状态需要明确的同步策略”执行"
+        },
+        {
+          "key": "B",
+          "text": "直接套用结论且不检查输入"
+        },
+        {
+          "key": "C",
+          "text": "只记答案而不验证过程"
+        }
+      ],
+      "questionId": "e266aa8a-e4fc-545c-a786-b2245483ea6c",
+      "questionType": "SINGLE",
+      "sortOrder": 66,
+      "stem": "学习并发基础时，哪种做法最符合课程要求？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.65,
+      "knowledgeId": "d779952b-bfe9-56e3-826f-6f752a066eb6",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "检查是否违反“共享可变状态需要明确的同步策略”及其边界条件"
+        },
+        {
+          "key": "B",
+          "text": "先扩大数据规模掩盖异常"
+        },
+        {
+          "key": "C",
+          "text": "删除失败记录后宣告成功"
+        }
+      ],
+      "questionId": "db015f6a-c9ec-5cde-82d3-9bf161042573",
+      "questionType": "SINGLE",
+      "sortOrder": 67,
+      "stem": "一个并发基础方案结果异常，优先检查什么？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.8,
+      "knowledgeId": "d779952b-bfe9-56e3-826f-6f752a066eb6",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "同时说明约束、代价、正确性和可复现证据"
+        },
+        {
+          "key": "B",
+          "text": "只比较一次运行的表面结果"
+        },
+        {
+          "key": "C",
+          "text": "只选择名称更熟悉的方案"
+        }
+      ],
+      "questionId": "6e7af2fd-9033-549f-bf67-3b76c7bfa032",
+      "questionType": "SINGLE",
+      "sortOrder": 68,
+      "stem": "比较两个并发基础方案时，哪项论证最可靠？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.6,
+      "knowledgeId": "d779952b-bfe9-56e3-826f-6f752a066eb6",
+      "learningPhase": "RETEST",
+      "options": [
+        {
+          "key": "A",
+          "text": "共享可变状态需要明确的同步策略"
+        },
+        {
+          "key": "B",
+          "text": "结论可以脱离输入条件单独成立"
+        },
+        {
+          "key": "C",
+          "text": "出现反例时应修改数据而非结论"
+        }
+      ],
+      "questionId": "eb7dfd1b-a7c6-5c60-b8d7-aebdd02fb91f",
+      "questionType": "SINGLE",
+      "sortOrder": 69,
+      "stem": "再次验证并发基础掌握情况时，应选择哪项结论？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.25,
+      "knowledgeId": "8ed0a025-405f-5fbe-ab83-566be5678875",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "测试应断言可观察行为而非实现细节"
+        },
+        {
+          "key": "B",
+          "text": "只关注术语字面，不考虑行为约束"
+        },
+        {
+          "key": "C",
+          "text": "任何场景都可以忽略前置条件"
+        }
+      ],
+      "questionId": "e32cf166-37bb-5e51-b589-52099aca19a0",
+      "questionType": "SINGLE",
+      "sortOrder": 70,
+      "stem": "关于测试与调试，哪一项准确描述核心原则？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.4,
+      "knowledgeId": "8ed0a025-405f-5fbe-ab83-566be5678875",
+      "learningPhase": "BASIC_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "先确认适用条件，再依据“测试应断言可观察行为而非实现细节”执行"
+        },
+        {
+          "key": "B",
+          "text": "直接套用结论且不检查输入"
+        },
+        {
+          "key": "C",
+          "text": "只记答案而不验证过程"
+        }
+      ],
+      "questionId": "2a0b3c59-e8af-5a38-a90f-371e86945440",
+      "questionType": "SINGLE",
+      "sortOrder": 71,
+      "stem": "学习测试与调试时，哪种做法最符合课程要求？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.65,
+      "knowledgeId": "8ed0a025-405f-5fbe-ab83-566be5678875",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "检查是否违反“测试应断言可观察行为而非实现细节”及其边界条件"
+        },
+        {
+          "key": "B",
+          "text": "先扩大数据规模掩盖异常"
+        },
+        {
+          "key": "C",
+          "text": "删除失败记录后宣告成功"
+        }
+      ],
+      "questionId": "41a93bf4-c6da-530e-9e23-f10b0bcf65f7",
+      "questionType": "SINGLE",
+      "sortOrder": 72,
+      "stem": "一个测试与调试方案结果异常，优先检查什么？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.8,
+      "knowledgeId": "8ed0a025-405f-5fbe-ab83-566be5678875",
+      "learningPhase": "ADVANCED_PRACTICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "同时说明约束、代价、正确性和可复现证据"
+        },
+        {
+          "key": "B",
+          "text": "只比较一次运行的表面结果"
+        },
+        {
+          "key": "C",
+          "text": "只选择名称更熟悉的方案"
+        }
+      ],
+      "questionId": "606acfd4-bf76-56c5-8192-ad3b1b380168",
+      "questionType": "SINGLE",
+      "sortOrder": 73,
+      "stem": "比较两个测试与调试方案时，哪项论证最可靠？"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.6,
+      "knowledgeId": "8ed0a025-405f-5fbe-ab83-566be5678875",
+      "learningPhase": "RETEST",
+      "options": [
+        {
+          "key": "A",
+          "text": "测试应断言可观察行为而非实现细节"
+        },
+        {
+          "key": "B",
+          "text": "结论可以脱离输入条件单独成立"
+        },
+        {
+          "key": "C",
+          "text": "出现反例时应修改数据而非结论"
+        }
+      ],
+      "questionId": "d1cf1ef6-0dea-50bf-8704-3c315a439dab",
+      "questionType": "SINGLE",
+      "sortOrder": 74,
+      "stem": "再次验证测试与调试掌握情况时，应选择哪项结论？"
+    }
+  ],
+  "resources": [
+    {
+      "content": "理解基本类型、引用类型和赋值语义。类型决定可表示的数据与合法操作。阅读后请用自己的话说明适用条件，并完成基础、进阶与复测练习。",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.2,
+      "knowledgeId": "2f9afc51-8dd0-5986-bc3d-9abf3e746db2",
+      "resourceId": "226dde3f-e311-557b-8393-592f802cb036",
+      "resourceType": "ARTICLE",
+      "sortOrder": 0,
+      "title": "变量与类型核心讲解"
+    },
+    {
+      "content": "围绕“类型决定可表示的数据与合法操作”分析一个正例和一个反例，明确输入、关键步骤、输出及常见误区。",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.35,
+      "knowledgeId": "2f9afc51-8dd0-5986-bc3d-9abf3e746db2",
+      "resourceId": "4b604cee-69fd-504a-8b80-b67fa5ec96e8",
+      "resourceType": "EXAMPLE",
+      "sortOrder": 1,
+      "title": "变量与类型例题拆解"
+    },
+    {
+      "content": "使用 if、else 和布尔表达式表达分支。条件只选择满足谓词的分支。阅读后请用自己的话说明适用条件，并完成基础、进阶与复测练习。",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.23,
+      "knowledgeId": "fe57c1a2-66ba-5fb2-9bbe-fa56db643388",
+      "resourceId": "c66f47f0-eedd-5d62-8a94-b8ee59f7f458",
+      "resourceType": "ARTICLE",
+      "sortOrder": 2,
+      "title": "条件判断核心讲解"
+    },
+    {
+      "content": "围绕“条件只选择满足谓词的分支”分析一个正例和一个反例，明确输入、关键步骤、输出及常见误区。",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.39,
+      "knowledgeId": "fe57c1a2-66ba-5fb2-9bbe-fa56db643388",
+      "resourceId": "4ebac687-ec5e-5c64-83f7-a0a2b121b4a5",
+      "resourceType": "EXAMPLE",
+      "sortOrder": 3,
+      "title": "条件判断例题拆解"
+    },
+    {
+      "content": "使用 for、while 和边界条件完成重复计算。循环必须维护终止条件与不变量。阅读后请用自己的话说明适用条件，并完成基础、进阶与复测练习。",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.26,
+      "knowledgeId": "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248",
+      "resourceId": "da91cbc1-111a-58ae-ba2e-e9f15bd026ee",
+      "resourceType": "ARTICLE",
+      "sortOrder": 4,
+      "title": "循环核心讲解"
+    },
+    {
+      "content": "围绕“循环必须维护终止条件与不变量”分析一个正例和一个反例，明确输入、关键步骤、输出及常见误区。",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.43,
+      "knowledgeId": "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248",
+      "resourceId": "53281b45-7327-5822-88bc-499185c3a157",
+      "resourceType": "EXAMPLE",
+      "sortOrder": 5,
+      "title": "循环例题拆解"
+    },
+    {
+      "content": "掌握算术、比较、逻辑运算及优先级。括号可以显式消除优先级歧义。阅读后请用自己的话说明适用条件，并完成基础、进阶与复测练习。",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.29,
+      "knowledgeId": "30000000-0000-4000-8000-000000000004",
+      "resourceId": "d03cbe0f-245e-5cc0-aa48-82899b9c1f0b",
+      "resourceType": "ARTICLE",
+      "sortOrder": 6,
+      "title": "运算符核心讲解"
+    },
+    {
+      "content": "围绕“括号可以显式消除优先级歧义”分析一个正例和一个反例，明确输入、关键步骤、输出及常见误区。",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.47,
+      "knowledgeId": "30000000-0000-4000-8000-000000000004",
+      "resourceId": "846700c3-5d95-5857-aa78-a3ad8733affa",
+      "resourceType": "EXAMPLE",
+      "sortOrder": 7,
+      "title": "运算符例题拆解"
+    },
+    {
+      "content": "使用零基下标、长度和遍历操作数组。合法下标范围是零到长度减一。阅读后请用自己的话说明适用条件，并完成基础、进阶与复测练习。",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.32,
+      "knowledgeId": "30000000-0000-4000-8000-000000000005",
+      "resourceId": "b7c00489-572d-5d30-8d98-bba3dcfc2c33",
+      "resourceType": "ARTICLE",
+      "sortOrder": 8,
+      "title": "数组核心讲解"
+    },
+    {
+      "content": "围绕“合法下标范围是零到长度减一”分析一个正例和一个反例，明确输入、关键步骤、输出及常见误区。",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.51,
+      "knowledgeId": "30000000-0000-4000-8000-000000000005",
+      "resourceId": "4c26bfe1-8e49-5c45-a4e3-f0b710e7c478",
+      "resourceType": "EXAMPLE",
+      "sortOrder": 9,
+      "title": "数组例题拆解"
+    },
+    {
+      "content": "通过参数、返回值和局部作用域组织行为。方法契约由输入、输出和副作用组成。阅读后请用自己的话说明适用条件，并完成基础、进阶与复测练习。",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.35,
+      "knowledgeId": "30000000-0000-4000-8000-000000000006",
+      "resourceId": "5e48dcb6-3694-5862-aa02-1b098de61be0",
+      "resourceType": "ARTICLE",
+      "sortOrder": 10,
+      "title": "方法核心讲解"
+    },
+    {
+      "content": "理解类、对象、字段、构造器和封装。对象封装状态并通过方法暴露行为。阅读后请用自己的话说明适用条件，并完成基础、进阶与复测练习。",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.38,
+      "knowledgeId": "30000000-0000-4000-8000-000000000007",
+      "resourceId": "b3c9eca2-0da5-5bc5-ad10-7605e1a207b9",
+      "resourceType": "ARTICLE",
+      "sortOrder": 12,
+      "title": "对象基础核心讲解"
+    },
+    {
+      "content": "区分可恢复异常并正确使用 try/catch。异常处理不能静默吞掉失败。阅读后请用自己的话说明适用条件，并完成基础、进阶与复测练习。",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.41,
+      "knowledgeId": "30000000-0000-4000-8000-000000000008",
+      "resourceId": "7e56a759-2d7d-571c-ba37-2fedec62ca81",
+      "resourceType": "ARTICLE",
+      "sortOrder": 14,
+      "title": "异常处理核心讲解"
+    },
+    {
+      "content": "用类型参数表达可复用且类型安全的抽象。泛型在编译期约束容器元素类型。阅读后请用自己的话说明适用条件，并完成基础、进阶与复测练习。",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.44,
+      "knowledgeId": "2e6e2691-60d5-5a38-93d1-a5f8208ab3bd",
+      "resourceId": "82b3ccb6-3027-51d6-b020-23ff9043d4c8",
+      "resourceType": "ARTICLE",
+      "sortOrder": 16,
+      "title": "泛型核心讲解"
+    },
+    {
+      "content": "根据顺序、唯一性和查找需求选择集合。List、Set 与 Map 对应不同数据约束。阅读后请用自己的话说明适用条件，并完成基础、进阶与复测练习。",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.47,
+      "knowledgeId": "63cb51df-69c5-5845-8a15-4e8cbc768d79",
+      "resourceId": "9b436ec3-26cb-5e14-950d-147daf48f08c",
+      "resourceType": "ARTICLE",
+      "sortOrder": 18,
+      "title": "集合框架核心讲解"
+    },
+    {
+      "content": "比较 is-a 继承与 has-a 组合。优先用组合降低不必要的耦合。阅读后请用自己的话说明适用条件，并完成基础、进阶与复测练习。",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.5,
+      "knowledgeId": "99e0693a-39a3-52b1-8a40-adaca710f8bb",
+      "resourceId": "5e727165-cc01-55f6-9675-609be04416ca",
+      "resourceType": "ARTICLE",
+      "sortOrder": 20,
+      "title": "继承与组合核心讲解"
+    },
+    {
+      "content": "通过接口契约替换具体实现。调用方依赖接口而非实现细节。阅读后请用自己的话说明适用条件，并完成基础、进阶与复测练习。",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.53,
+      "knowledgeId": "4e524263-23a8-5beb-accc-2b120ea7ba69",
+      "resourceId": "1aff7e23-0b4b-5e97-9b3b-b3a8e78e22d3",
+      "resourceType": "ARTICLE",
+      "sortOrder": 22,
+      "title": "接口与多态核心讲解"
+    },
+    {
+      "content": "使用映射、过滤和归约处理数据流。Stream 管道应避免依赖可变共享状态。阅读后请用自己的话说明适用条件，并完成基础、进阶与复测练习。",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.56,
+      "knowledgeId": "9496a883-038c-51ac-8d2b-eb579bc2973d",
+      "resourceId": "9c70d951-29be-5dfb-b9cd-e996ae03b0d2",
+      "resourceType": "ARTICLE",
+      "sortOrder": 24,
+      "title": "Stream核心讲解"
+    },
+    {
+      "content": "理解线程安全、同步和竞态条件。共享可变状态需要明确的同步策略。阅读后请用自己的话说明适用条件，并完成基础、进阶与复测练习。",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.59,
+      "knowledgeId": "d779952b-bfe9-56e3-826f-6f752a066eb6",
+      "resourceId": "ed50a16e-3118-551c-bef5-b972bc9c0b14",
+      "resourceType": "ARTICLE",
+      "sortOrder": 26,
+      "title": "并发基础核心讲解"
+    },
+    {
+      "content": "用可重复测试和最小复现定位缺陷。测试应断言可观察行为而非实现细节。阅读后请用自己的话说明适用条件，并完成基础、进阶与复测练习。",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "difficulty": 0.62,
+      "knowledgeId": "8ed0a025-405f-5fbe-ab83-566be5678875",
+      "resourceId": "8a450d0d-72e2-5c45-8999-e16c57dae400",
+      "resourceType": "ARTICLE",
+      "sortOrder": 28,
+      "title": "测试与调试核心讲解"
+    }
+  ],
+  "schemaVersion": 1
+}
