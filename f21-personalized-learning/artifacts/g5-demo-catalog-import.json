@@ -1,0 +1,80 @@
+{
+  "catalogCommit": "0de4cef985a6118cdb8285bd06c993c7323d61b3",
+  "checks": {
+    "computer-networksSnapshotCountsMatch": true,
+    "conflictDidNotOverwriteSnapshot": true,
+    "data-structuresSnapshotCountsMatch": true,
+    "identicalPayloadIsIdempotent": true,
+    "javaHasTwoCatalogVersions": true,
+    "javaSnapshotCountsMatch": true,
+    "legacyJavaSnapshotRetained": true,
+    "sameVersionDifferentContentRejected": true,
+    "threeCoursesActiveAtExpectedVersions": true
+  },
+  "dataType": "SYNTHETIC_DEMO",
+  "databaseSnapshotCounts": {
+    "computer-networks": {
+      "chapters": 3,
+      "knowledgePoints": 15,
+      "prerequisites": 14,
+      "questions": 75,
+      "resources": 20
+    },
+    "data-structures": {
+      "chapters": 3,
+      "knowledgePoints": 15,
+      "prerequisites": 14,
+      "questions": 75,
+      "resources": 20
+    },
+    "java": {
+      "chapters": 3,
+      "knowledgePoints": 15,
+      "prerequisites": 14,
+      "questions": 75,
+      "resources": 20
+    }
+  },
+  "gapReport": [],
+  "imports": [
+    {
+      "catalogVersion": "java-g5-v1",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "jobId": "a57c3d62-f009-4796-bf87-1a9e813cb7f3",
+      "packageSha256": "d9f01ddea974dc3d99124001756e3f8d7e8d978ad90ded2967fcd9870d73044b",
+      "publishMode": "ACTIVATE",
+      "slug": "java",
+      "status": "SUCCEEDED"
+    },
+    {
+      "catalogVersion": "data-structures-g5-v1",
+      "courseId": "6bae72c8-2097-51bd-9272-6a8bbca2ac76",
+      "jobId": "9ee69666-4fab-4b12-af23-709c037ada05",
+      "packageSha256": "1a9a8b75199f0bfebc71c2a0f12725b006a905d918fa14ce12d6ce3905353686",
+      "publishMode": "ACTIVATE",
+      "slug": "data-structures",
+      "status": "SUCCEEDED"
+    },
+    {
+      "catalogVersion": "computer-networks-g5-v1",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "jobId": "beae5333-b376-499c-a4d0-07ed3bcf2ac5",
+      "packageSha256": "9c760ee7191b1350fc42167924d3968e7cabd9918ab664983fdbbb51b8f28ed5",
+      "publishMode": "ACTIVATE",
+      "slug": "computer-networks",
+      "status": "SUCCEEDED"
+    }
+  ],
+  "isolation": {
+    "composeProject": "f21-g5-catalog-176f5dc0",
+    "freshVolume": true,
+    "serverPort": 61079,
+    "volume": "f21-g5-catalog-176f5dc0_f21-data"
+  },
+  "limitations": [
+    "The isolated Compose containers and network are removed after validation; the named audit volume is retained."
+  ],
+  "passed": true,
+  "schemaVersion": "g5-demo-catalog-import-v1",
+  "verifiedAt": "2026-09-17T18:30:50Z"
+}
