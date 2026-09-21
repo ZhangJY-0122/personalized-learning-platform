@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "schemaVersion": "g5-04-report-validation-v1",
+  "generator": "training/g5_04r_correction.py",
+  "verifiedAt": "2026-09-17T08:48:51Z",
+  "reportSha256": "5cb49d977f897110b6a0a3f9cf0d1a74d00355d082b61259857b254de8957e70",
+  "predictionSha256": {
+    "RULE": "92172df9cdc0d4d066be11afee5fc0f196ba8fa99e5ec9b1d9215a6c169f55e5",
+    "BKT": "ad500d540e9ef5135456b8448dbcf8544896a21b31382d302b2efa2901f20dfe",
+    "DKT-11": "a4adf72a92dacffcc51feb45ce3b6f2239f4a30aa01c6483c94c4a3987604e7f",
+    "DKT-22": "8b776131763a944244091f514fc7b1e25e10954abc421aa7a7c95cb1e65cfb83",
+    "DKT-33": "313c937f02b5f93c6e57e72723e694bc924fd682fa4943fe03187d66ae42ab27"
+  },
+  "ledgerSha256": "383b1551b9a743fde110824f0310fdfb5f1c89b041aba263dfb95bc256c2f784",
+  "consumptionMarkerSha256": "45a9f4f581a2ec410b7f9dd00089f5e3429ba676a62a85bf543c58da68c5551d",
+  "gates": {
+    "requiredFields": true,
+    "expectedTargets": true,
+    "expectedSourceRowsUnique": true,
+    "predictionHashes": true,
+    "predictionCoverage": true,
+    "labelsAndProbabilities": true,
+    "targetHashes": true,
+    "metricsRecomputed": true,
+    "ledgerAndMarker": true
+  },
+  "errors": []
+}
