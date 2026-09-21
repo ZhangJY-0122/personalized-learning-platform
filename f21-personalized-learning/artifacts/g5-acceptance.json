@@ -1,0 +1,76 @@
+{
+  "checks": {
+    "allChecksPassed": true,
+    "allCourseLearningLoopsSucceeded": true,
+    "healthDatabaseUp": true,
+    "legacyJavaSnapshotRetained": true,
+    "studentCanSeeThreeImportedCourses": true,
+    "studentDashboardAccessDenied": true,
+    "teacherAndAdminDashboardsReadable": true,
+    "teacherCanSeeThreeCourses": true
+  },
+  "courses": [
+    {
+      "catalogSha256": "d9f01ddea974dc3d99124001756e3f8d7e8d978ad90ded2967fcd9870d73044b",
+      "catalogVersion": "java-g5-v1",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "importStatus": "SUCCEEDED",
+      "masteryItems": 15,
+      "pathId": "977ed40e-3583-4360-8029-4576b298c5fb",
+      "pathStatusAfterOneQuestion": "ACTIVE",
+      "recommendationItems": 5,
+      "slug": "java",
+      "submissionSucceeded": true
+    },
+    {
+      "catalogSha256": "1a9a8b75199f0bfebc71c2a0f12725b006a905d918fa14ce12d6ce3905353686",
+      "catalogVersion": "data-structures-g5-v1",
+      "courseId": "6bae72c8-2097-51bd-9272-6a8bbca2ac76",
+      "importStatus": "SUCCEEDED",
+      "masteryItems": 15,
+      "pathId": "577c618f-ec78-406b-8dce-c13723f237f8",
+      "pathStatusAfterOneQuestion": "ACTIVE",
+      "recommendationItems": 5,
+      "slug": "data-structures",
+      "submissionSucceeded": true
+    },
+    {
+      "catalogSha256": "9c760ee7191b1350fc42167924d3968e7cabd9918ab664983fdbbb51b8f28ed5",
+      "catalogVersion": "computer-networks-g5-v1",
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "importStatus": "SUCCEEDED",
+      "masteryItems": 15,
+      "pathId": "c4494298-ba79-4bcc-ae04-63b378d391d0",
+      "pathStatusAfterOneQuestion": "ACTIVE",
+      "recommendationItems": 5,
+      "slug": "computer-networks",
+      "submissionSucceeded": true
+    }
+  ],
+  "dataType": "SYNTHETIC_DEMO",
+  "gitCommit": "7191b1bba1e09e118f4f65888db5d52f931f7b7f",
+  "httpChecks": 70,
+  "isolation": {
+    "composeProject": "f21-g5-acceptance-b961fd47",
+    "containersRemoved": true,
+    "freshVolume": true,
+    "serverPort": 49544,
+    "volume": "f21-g5-acceptance-b961fd47_f21-data",
+    "volumeRetained": "f21-g5-acceptance-b961fd47_f21-data",
+    "webPort": 49545
+  },
+  "limitations": [
+    "This is a lightweight G5-08 happy-path acceptance, not a replacement for the preserved G1-G4 fault-injection suites.",
+    "Teacher scope and student enrollment for newly imported courses are isolated test-fixture setup because no enrollment-management API is in the G5 scope."
+  ],
+  "passed": true,
+  "schemaVersion": "g5-acceptance-v1",
+  "scope": "Fresh-volume happy-path acceptance for three demo courses, dashboards and role boundary.",
+  "security": {
+    "answersRecorded": false,
+    "credentialsRecorded": false,
+    "studentIdentifiersRecorded": false,
+    "tokensRecorded": false
+  },
+  "verifiedAt": "2026-09-20T07:04:21Z"
+}
