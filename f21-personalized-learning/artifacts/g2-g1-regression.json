@@ -1,0 +1,338 @@
+{
+  "stage": "G1",
+  "baseUrl": "http://127.0.0.1:18083/api/v1",
+  "passed": true,
+  "checks": 66,
+  "results": [
+    {
+      "path": "/health",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/courses",
+      "status": 401,
+      "passed": true
+    },
+    {
+      "path": "/auth/login",
+      "status": 401,
+      "passed": true
+    },
+    {
+      "path": "/auth/login",
+      "status": 401,
+      "passed": true
+    },
+    {
+      "path": "/auth/login",
+      "status": 400,
+      "passed": true
+    },
+    {
+      "path": "/auth/login",
+      "status": 400,
+      "passed": true
+    },
+    {
+      "path": "/auth/login",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/auth/login",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/auth/login",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/auth/login",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/auth/login",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/users/me",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/courses",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/courses/10000000-0000-4000-8000-000000000001/structure",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/courses/10000000-0000-4000-8000-000000000001/resources",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/courses/10000000-0000-4000-8000-000000000001/questions",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/resources/15ed9295-11ee-552e-8153-f797788d0edf",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/questions/fd921ceb-bb08-5062-a3b7-9f91e80aa589",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/users/me",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/courses",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/courses/10000000-0000-4000-8000-000000000001/structure",
+      "status": 403,
+      "passed": true
+    },
+    {
+      "path": "/courses/10000000-0000-4000-8000-000000000001/resources",
+      "status": 403,
+      "passed": true
+    },
+    {
+      "path": "/courses/10000000-0000-4000-8000-000000000001/questions",
+      "status": 403,
+      "passed": true
+    },
+    {
+      "path": "/resources/15ed9295-11ee-552e-8153-f797788d0edf",
+      "status": 403,
+      "passed": true
+    },
+    {
+      "path": "/questions/fd921ceb-bb08-5062-a3b7-9f91e80aa589",
+      "status": 403,
+      "passed": true
+    },
+    {
+      "path": "/users/me",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/courses",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/courses/10000000-0000-4000-8000-000000000001/structure",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/courses/10000000-0000-4000-8000-000000000001/resources",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/courses/10000000-0000-4000-8000-000000000001/questions",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/resources/15ed9295-11ee-552e-8153-f797788d0edf",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/questions/fd921ceb-bb08-5062-a3b7-9f91e80aa589",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/users/me",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/courses",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/courses/10000000-0000-4000-8000-000000000001/structure",
+      "status": 403,
+      "passed": true
+    },
+    {
+      "path": "/courses/10000000-0000-4000-8000-000000000001/resources",
+      "status": 403,
+      "passed": true
+    },
+    {
+      "path": "/courses/10000000-0000-4000-8000-000000000001/questions",
+      "status": 403,
+      "passed": true
+    },
+    {
+      "path": "/resources/15ed9295-11ee-552e-8153-f797788d0edf",
+      "status": 403,
+      "passed": true
+    },
+    {
+      "path": "/questions/fd921ceb-bb08-5062-a3b7-9f91e80aa589",
+      "status": 403,
+      "passed": true
+    },
+    {
+      "path": "/users/me",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/courses",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/courses/10000000-0000-4000-8000-000000000001/structure",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/courses/10000000-0000-4000-8000-000000000001/resources",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/courses/10000000-0000-4000-8000-000000000001/questions",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/resources/15ed9295-11ee-552e-8153-f797788d0edf",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/questions/fd921ceb-bb08-5062-a3b7-9f91e80aa589",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/courses/10000000-0000-4000-8000-000000000002/structure",
+      "status": 403,
+      "passed": true
+    },
+    {
+      "path": "/courses/10000000-0000-4000-8000-000000000002/structure",
+      "status": 403,
+      "passed": true
+    },
+    {
+      "path": "/resources/50000000-0000-4000-8000-000000000099",
+      "status": 404,
+      "passed": true
+    },
+    {
+      "path": "/questions/not-a-uuid",
+      "status": 400,
+      "passed": true
+    },
+    {
+      "path": "/courses?pageSize=101",
+      "status": 400,
+      "passed": true
+    },
+    {
+      "path": "/courses?page=0",
+      "status": 400,
+      "passed": true
+    },
+    {
+      "path": "/courses?page=2",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/enrollments",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/enrollments",
+      "status": 403,
+      "passed": true
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/enrollments",
+      "status": 403,
+      "passed": true
+    },
+    {
+      "path": "/students/3d7a8826-cee4-525a-98d7-8cdb937e677e/enrollments",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/users/me",
+      "status": 401,
+      "passed": true
+    },
+    {
+      "path": "/users/me",
+      "status": 401,
+      "passed": true
+    },
+    {
+      "path": "/users/me",
+      "status": 401,
+      "passed": true
+    },
+    {
+      "path": "/users/me",
+      "status": 401,
+      "passed": true
+    },
+    {
+      "path": "/users/me",
+      "status": 401,
+      "passed": true
+    },
+    {
+      "path": "/users/me",
+      "status": 401,
+      "passed": true
+    },
+    {
+      "path": "/users/me",
+      "status": 401,
+      "passed": true
+    },
+    {
+      "path": "/auth/logout",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/users/me",
+      "status": 401,
+      "passed": true
+    }
+  ]
+}
