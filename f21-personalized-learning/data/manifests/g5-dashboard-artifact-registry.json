@@ -1,0 +1,77 @@
+{
+  "artifacts": [
+    {
+      "artifactId": "g5-kt-comparison",
+      "artifactType": "KT_COMPARISON",
+      "dataType": "PUBLIC_DATASET",
+      "displayOrder": 10,
+      "publishStatus": "VERIFIED",
+      "relativePath": "artifacts/g5-kt-comparison.json",
+      "schemaVersion": "g5-kt-comparison-v2",
+      "sha256": "5cb49d977f897110b6a0a3f9cf0d1a74d00355d082b61259857b254de8957e70",
+      "validationArtifactId": "g5-04-report-validation"
+    },
+    {
+      "artifactId": "g5-04-report-validation",
+      "artifactType": "KT_VALIDATION",
+      "dataType": "PUBLIC_DATASET",
+      "displayOrder": 20,
+      "publishStatus": "VERIFIED",
+      "relativePath": "artifacts/g5-04-report-validation.json",
+      "schemaVersion": "g5-04-report-validation-v1",
+      "sha256": "5b077bea90a25a1b027f8983abb501b3a08a84844c80d36118c565dccaa372aa",
+      "validationArtifactId": null
+    },
+    {
+      "artifactId": "g5-recommendation-comparison",
+      "artifactType": "RECOMMENDATION_COMPARISON",
+      "dataType": "PUBLIC_DATASET",
+      "displayOrder": 30,
+      "publishStatus": "VERIFIED",
+      "relativePath": "artifacts/g5-recommendation-comparison.json",
+      "schemaVersion": "g5-recommendation-comparison-v1",
+      "sha256": "48c2b38d1fe88b0e2902c3fee2125b521e07bf667dc078fdb89b2958a257ab0e",
+      "validationArtifactId": "g5-05-report-validation"
+    },
+    {
+      "artifactId": "g5-05-report-validation",
+      "artifactType": "RECOMMENDATION_VALIDATION",
+      "dataType": "PUBLIC_DATASET",
+      "displayOrder": 40,
+      "publishStatus": "VERIFIED",
+      "relativePath": "artifacts/g5-05-report-validation.json",
+      "schemaVersion": "g5-05-report-validation-v1",
+      "sha256": "cb921d69c0bdef3174936dc3f4c11a06d49302fcaee641483dfcf16d6ac27a7e",
+      "validationArtifactId": null
+    },
+    {
+      "artifactId": "g5-demo-catalog-validation",
+      "artifactType": "DEMO_CATALOG_VALIDATION",
+      "dataType": "SYNTHETIC_DEMO",
+      "displayOrder": 50,
+      "publishStatus": "VERIFIED",
+      "relativePath": "artifacts/g5-demo-catalog-validation.json",
+      "schemaVersion": "g5-demo-catalog-validation-v1",
+      "sha256": "5c043238cf1e54f073fdec9883825bf1321b667beedcf19b044ccc5bd172c4c6",
+      "validationArtifactId": null
+    },
+    {
+      "artifactId": "g5-demo-catalog-import",
+      "artifactType": "DEMO_CATALOG_IMPORT",
+      "dataType": "SYNTHETIC_DEMO",
+      "displayOrder": 60,
+      "publishStatus": "VERIFIED",
+      "relativePath": "artifacts/g5-demo-catalog-import.json",
+      "schemaVersion": "g5-demo-catalog-import-v1",
+      "sha256": "c617f680f2b51cc4ca3dcad86f89657f6b3f3f684e428b58651ab4e1579b14e1",
+      "validationArtifactId": "g5-demo-catalog-validation"
+    }
+  ],
+  "generator": "scripts/build_g5_dashboard_contract.py",
+  "requestPolicy": {
+    "infersDuringRequest": false,
+    "recomputesFormalTestDuringRequest": false,
+    "trainsDuringRequest": false
+  },
+  "schemaVersion": "g5-dashboard-artifact-registry-v1"
+}
