@@ -1,0 +1,118 @@
+{
+  "catalogCommit": "0de4cef985a6118cdb8285bd06c993c7323d61b3",
+  "courses": [
+    {
+      "canonicalContentSha256": "3196cc61065e133105f7c4168283e0afecd6c6b738cee26d99ee790ad44655dd",
+      "catalogVersion": "java-g5-v1",
+      "counts": {
+        "chapters": 3,
+        "knowledgePoints": 15,
+        "prerequisites": 14,
+        "questions": 75,
+        "resources": 20
+      },
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "coverage": {
+        "knowledgeWithBasicAdvancedRetest": 15,
+        "knowledgeWithFiveQuestions": 15,
+        "knowledgeWithResource": 15
+      },
+      "dag": true,
+      "fileSha256": "d9f01ddea974dc3d99124001756e3f8d7e8d978ad90ded2967fcd9870d73044b",
+      "gaps": [],
+      "manifestBinding": true,
+      "passed": true,
+      "path": "data/demo/catalogs/java.json",
+      "slug": "java"
+    },
+    {
+      "canonicalContentSha256": "d0b58083eaa269239e3dfcb61b594bfc37882335725955b0b89b37eeb0e2cbe8",
+      "catalogVersion": "data-structures-g5-v1",
+      "counts": {
+        "chapters": 3,
+        "knowledgePoints": 15,
+        "prerequisites": 14,
+        "questions": 75,
+        "resources": 20
+      },
+      "courseId": "6bae72c8-2097-51bd-9272-6a8bbca2ac76",
+      "coverage": {
+        "knowledgeWithBasicAdvancedRetest": 15,
+        "knowledgeWithFiveQuestions": 15,
+        "knowledgeWithResource": 15
+      },
+      "dag": true,
+      "fileSha256": "1a9a8b75199f0bfebc71c2a0f12725b006a905d918fa14ce12d6ce3905353686",
+      "gaps": [],
+      "manifestBinding": true,
+      "passed": true,
+      "path": "data/demo/catalogs/data-structures.json",
+      "slug": "data-structures"
+    },
+    {
+      "canonicalContentSha256": "42c8bced8580b829a1b2034ef128f28a16fe55ef1adbc9e0a39a859b15d49661",
+      "catalogVersion": "computer-networks-g5-v1",
+      "counts": {
+        "chapters": 3,
+        "knowledgePoints": 15,
+        "prerequisites": 14,
+        "questions": 75,
+        "resources": 20
+      },
+      "courseId": "666c0270-bd10-5bed-842b-5af1360b9c06",
+      "coverage": {
+        "knowledgeWithBasicAdvancedRetest": 15,
+        "knowledgeWithFiveQuestions": 15,
+        "knowledgeWithResource": 15
+      },
+      "dag": true,
+      "fileSha256": "9c760ee7191b1350fc42167924d3968e7cabd9918ab664983fdbbb51b8f28ed5",
+      "gaps": [],
+      "manifestBinding": true,
+      "passed": true,
+      "path": "data/demo/catalogs/computer-networks.json",
+      "slug": "computer-networks"
+    }
+  ],
+  "dataType": "SYNTHETIC_DEMO",
+  "fixedUuidGlobalUniqueness": true,
+  "gapReport": [],
+  "generator": "scripts/build_g5_demo_catalogs.py",
+  "javaPreservation": {
+    "legacyMigrationUnchanged": true,
+    "legacySnapshotRetainedByVersionedImport": true,
+    "newCatalogVersion": true,
+    "preservedKnowledgeIds": true,
+    "sameCourseId": true
+  },
+  "limitations": [
+    "All three catalogs are synthetic demonstration content, not public-dataset recommendation evidence.",
+    "Catalog packages contain no learner identities, behavior events, or claimed learning outcomes.",
+    "The Java G4 snapshot remains immutable; G5 expansion uses the same courseId and a new catalogVersion."
+  ],
+  "manifest": {
+    "path": "data/demo/catalogs/manifest.json",
+    "schemaVersion": "g5-demo-catalog-manifest-v1",
+    "sha256": "6119dc2af769c2eaccf3632f1483b9704560f54d39d6dc7ce8d40fbb161c4ce7"
+  },
+  "passed": true,
+  "reproduceCommands": [
+    "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python scripts/build_g5_demo_catalogs.py build",
+    "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python scripts/build_g5_demo_catalogs.py validate --expected-head 0de4cef985a6118cdb8285bd06c993c7323d61b3"
+  ],
+  "schemaVersion": "g5-demo-catalog-validation-v1",
+  "totals": {
+    "chapters": 9,
+    "courses": 3,
+    "knowledgePoints": 45,
+    "questions": 225,
+    "resources": 60
+  },
+  "upstreamArtifactSha256": {
+    "artifacts/g5-04-report-validation.json": "5b077bea90a25a1b027f8983abb501b3a08a84844c80d36118c565dccaa372aa",
+    "artifacts/g5-05-report-validation.json": "cb921d69c0bdef3174936dc3f4c11a06d49302fcaee641483dfcf16d6ac27a7e",
+    "artifacts/g5-kt-comparison.json": "5cb49d977f897110b6a0a3f9cf0d1a74d00355d082b61259857b254de8957e70",
+    "artifacts/g5-recommendation-comparison.json": "48c2b38d1fe88b0e2902c3fee2125b521e07bf667dc078fdb89b2958a257ab0e"
+  },
+  "verifiedAt": "2026-09-17T18:27:34Z"
+}
