@@ -1,0 +1,365 @@
+{
+  "dataType": "SYNTHETIC_DEMO",
+  "seed": 20260909,
+  "courseId": "10000000-0000-4000-8000-000000000001",
+  "studentId": "3d7a8826-cee4-525a-98d7-8cdb937e677e",
+  "catalogVersion": "java-prep-v1",
+  "knowledge": [
+    {
+      "knowledgeId": "2f9afc51-8dd0-5986-bc3d-9abf3e746db2",
+      "name": "变量",
+      "order": 0
+    },
+    {
+      "knowledgeId": "fe57c1a2-66ba-5fb2-9bbe-fa56db643388",
+      "name": "条件判断",
+      "order": 1
+    },
+    {
+      "knowledgeId": "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248",
+      "name": "循环",
+      "order": 2
+    }
+  ],
+  "edges": [
+    [
+      "2f9afc51-8dd0-5986-bc3d-9abf3e746db2",
+      "fe57c1a2-66ba-5fb2-9bbe-fa56db643388"
+    ],
+    [
+      "fe57c1a2-66ba-5fb2-9bbe-fa56db643388",
+      "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248"
+    ]
+  ],
+  "resources": [
+    {
+      "resourceId": "15ed9295-11ee-552e-8153-f797788d0edf",
+      "knowledgeId": "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248",
+      "title": "循环入门",
+      "difficulty": 0.2,
+      "content": "for循环由初始化、条件和更新组成。练习：计算0到2的累加结果。"
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "fd921ceb-bb08-5062-a3b7-9f91e80aa589",
+      "knowledgeId": "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248",
+      "stem": "从0累加到2的结果是？",
+      "options": [
+        "3",
+        "-1"
+      ],
+      "answer": "A",
+      "difficulty": 0.2
+    },
+    {
+      "questionId": "7f8bef05-c4bb-5c0e-b20c-a20a49642637",
+      "knowledgeId": "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248",
+      "stem": "从0累加到3的结果是？",
+      "options": [
+        "6",
+        "-1"
+      ],
+      "answer": "A",
+      "difficulty": 0.25
+    },
+    {
+      "questionId": "21c4ec8c-6eda-5382-aa0a-f6e05862f67c",
+      "knowledgeId": "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248",
+      "stem": "从0累加到4的结果是？",
+      "options": [
+        "10",
+        "-1"
+      ],
+      "answer": "A",
+      "difficulty": 0.30000000000000004
+    },
+    {
+      "questionId": "b323e06f-802f-5e4b-b50a-8b48159627fb",
+      "knowledgeId": "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248",
+      "stem": "从0累加到5的结果是？",
+      "options": [
+        "15",
+        "-1"
+      ],
+      "answer": "A",
+      "difficulty": 0.35000000000000003
+    },
+    {
+      "questionId": "a64cf1e9-5df2-5f16-8eec-c4f48b27d14a",
+      "knowledgeId": "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248",
+      "stem": "从0累加到6的结果是？",
+      "options": [
+        "21",
+        "-1"
+      ],
+      "answer": "A",
+      "difficulty": 0.4
+    },
+    {
+      "questionId": "0347a806-61c2-5acc-9111-622206bb7e7f",
+      "knowledgeId": "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248",
+      "stem": "从0累加到7的结果是？",
+      "options": [
+        "28",
+        "-1"
+      ],
+      "answer": "A",
+      "difficulty": 0.45
+    },
+    {
+      "questionId": "1da18890-81da-5962-951b-f41a193428f7",
+      "knowledgeId": "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248",
+      "stem": "从0累加到8的结果是？",
+      "options": [
+        "36",
+        "-1"
+      ],
+      "answer": "A",
+      "difficulty": 0.5
+    },
+    {
+      "questionId": "98f3a1c1-45b1-51a0-bf27-3e8370671c8e",
+      "knowledgeId": "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248",
+      "stem": "从0累加到9的结果是？",
+      "options": [
+        "45",
+        "-1"
+      ],
+      "answer": "A",
+      "difficulty": 0.55
+    },
+    {
+      "questionId": "ed04bbda-8f50-56fc-929e-d8efaa90a7df",
+      "knowledgeId": "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248",
+      "stem": "从0累加到10的结果是？",
+      "options": [
+        "55",
+        "-1"
+      ],
+      "answer": "A",
+      "difficulty": 0.6000000000000001
+    }
+  ],
+  "events": [
+    {
+      "schemaVersion": 1,
+      "eventId": "b7a73193-ccfd-5f58-83c6-fd6a0d79236f",
+      "eventSeq": 1,
+      "eventType": "QUESTION_ANSWERED",
+      "userId": "3d7a8826-cee4-525a-98d7-8cdb937e677e",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "objectType": "QUESTION",
+      "objectId": "fd921ceb-bb08-5062-a3b7-9f91e80aa589",
+      "occurredAt": "2026-09-09T09:00:00+08:00",
+      "correct": false,
+      "knowledgeItems": [
+        {
+          "knowledgeId": "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248",
+          "weight": 1.0
+        }
+      ],
+      "catalogVersion": "java-prep-v1",
+      "sourceService": "local-practice",
+      "traceId": "2fc33dfb-dbd2-53e5-b6b3-2bbb1581f406"
+    },
+    {
+      "schemaVersion": 1,
+      "eventId": "042bcc3d-3439-5b50-99f1-f3998d5e3875",
+      "eventSeq": 2,
+      "eventType": "QUESTION_ANSWERED",
+      "userId": "3d7a8826-cee4-525a-98d7-8cdb937e677e",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "objectType": "QUESTION",
+      "objectId": "7f8bef05-c4bb-5c0e-b20c-a20a49642637",
+      "occurredAt": "2026-09-09T09:01:00+08:00",
+      "correct": false,
+      "knowledgeItems": [
+        {
+          "knowledgeId": "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248",
+          "weight": 1.0
+        }
+      ],
+      "catalogVersion": "java-prep-v1",
+      "sourceService": "local-practice",
+      "traceId": "bb733f39-c856-59aa-8cec-30087b1fb3bb"
+    },
+    {
+      "schemaVersion": 1,
+      "eventId": "52644df4-15ab-513b-ab45-44522761138d",
+      "eventSeq": 3,
+      "eventType": "QUESTION_ANSWERED",
+      "userId": "3d7a8826-cee4-525a-98d7-8cdb937e677e",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "objectType": "QUESTION",
+      "objectId": "21c4ec8c-6eda-5382-aa0a-f6e05862f67c",
+      "occurredAt": "2026-09-09T09:02:00+08:00",
+      "correct": false,
+      "knowledgeItems": [
+        {
+          "knowledgeId": "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248",
+          "weight": 1.0
+        }
+      ],
+      "catalogVersion": "java-prep-v1",
+      "sourceService": "local-practice",
+      "traceId": "dc542eb7-78df-523d-ac24-fb31a9b2656b"
+    },
+    {
+      "schemaVersion": 1,
+      "eventId": "eb239246-7085-5741-b84e-45a6e324bd62",
+      "eventSeq": 4,
+      "eventType": "QUESTION_ANSWERED",
+      "userId": "3d7a8826-cee4-525a-98d7-8cdb937e677e",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "objectType": "QUESTION",
+      "objectId": "b323e06f-802f-5e4b-b50a-8b48159627fb",
+      "occurredAt": "2026-09-09T09:03:00+08:00",
+      "correct": true,
+      "knowledgeItems": [
+        {
+          "knowledgeId": "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248",
+          "weight": 1.0
+        }
+      ],
+      "catalogVersion": "java-prep-v1",
+      "sourceService": "local-practice",
+      "traceId": "736aa508-90a9-5a4d-9acc-af3c10675d1a"
+    },
+    {
+      "schemaVersion": 1,
+      "eventId": "89e0dd47-48fb-56d5-a751-78f6bd5d0982",
+      "eventSeq": 5,
+      "eventType": "QUESTION_ANSWERED",
+      "userId": "3d7a8826-cee4-525a-98d7-8cdb937e677e",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "objectType": "QUESTION",
+      "objectId": "a64cf1e9-5df2-5f16-8eec-c4f48b27d14a",
+      "occurredAt": "2026-09-09T09:04:00+08:00",
+      "correct": true,
+      "knowledgeItems": [
+        {
+          "knowledgeId": "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248",
+          "weight": 1.0
+        }
+      ],
+      "catalogVersion": "java-prep-v1",
+      "sourceService": "local-practice",
+      "traceId": "a7a4666d-edf8-52c1-b5bc-30dced639428"
+    },
+    {
+      "schemaVersion": 1,
+      "eventId": "446521a0-4fe6-590b-88d8-fa8d4220c25f",
+      "eventSeq": 6,
+      "eventType": "QUESTION_ANSWERED",
+      "userId": "3d7a8826-cee4-525a-98d7-8cdb937e677e",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "objectType": "QUESTION",
+      "objectId": "0347a806-61c2-5acc-9111-622206bb7e7f",
+      "occurredAt": "2026-09-09T09:05:00+08:00",
+      "correct": true,
+      "knowledgeItems": [
+        {
+          "knowledgeId": "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248",
+          "weight": 1.0
+        }
+      ],
+      "catalogVersion": "java-prep-v1",
+      "sourceService": "local-practice",
+      "traceId": "7e51d213-d242-5a96-8b31-3af0ea084ef6"
+    },
+    {
+      "schemaVersion": 1,
+      "eventId": "28166208-8687-5b63-b37e-a9c6ae3f6c14",
+      "eventSeq": 7,
+      "eventType": "QUESTION_ANSWERED",
+      "userId": "3d7a8826-cee4-525a-98d7-8cdb937e677e",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "objectType": "QUESTION",
+      "objectId": "1da18890-81da-5962-951b-f41a193428f7",
+      "occurredAt": "2026-09-09T09:06:00+08:00",
+      "correct": true,
+      "knowledgeItems": [
+        {
+          "knowledgeId": "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248",
+          "weight": 1.0
+        }
+      ],
+      "catalogVersion": "java-prep-v1",
+      "sourceService": "local-practice",
+      "traceId": "cc2594d8-b090-58ab-bc7d-002fd6f14cc5"
+    },
+    {
+      "schemaVersion": 1,
+      "eventId": "405da809-0a46-5bde-b838-10d299c8d51c",
+      "eventSeq": 8,
+      "eventType": "QUESTION_ANSWERED",
+      "userId": "3d7a8826-cee4-525a-98d7-8cdb937e677e",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "objectType": "QUESTION",
+      "objectId": "98f3a1c1-45b1-51a0-bf27-3e8370671c8e",
+      "occurredAt": "2026-09-09T09:07:00+08:00",
+      "correct": true,
+      "knowledgeItems": [
+        {
+          "knowledgeId": "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248",
+          "weight": 1.0
+        }
+      ],
+      "catalogVersion": "java-prep-v1",
+      "sourceService": "local-practice",
+      "traceId": "904753ce-e054-57c4-9033-762e721809d5"
+    },
+    {
+      "schemaVersion": 1,
+      "eventId": "67da8aa1-0197-5935-9143-21c1e6e85a6a",
+      "eventSeq": 9,
+      "eventType": "QUESTION_ANSWERED",
+      "userId": "3d7a8826-cee4-525a-98d7-8cdb937e677e",
+      "courseId": "10000000-0000-4000-8000-000000000001",
+      "objectType": "QUESTION",
+      "objectId": "ed04bbda-8f50-56fc-929e-d8efaa90a7df",
+      "occurredAt": "2026-09-09T09:08:00+08:00",
+      "correct": true,
+      "knowledgeItems": [
+        {
+          "knowledgeId": "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248",
+          "weight": 1.0
+        }
+      ],
+      "catalogVersion": "java-prep-v1",
+      "sourceService": "local-practice",
+      "traceId": "b7d7d2cf-8ede-5e77-91d8-784793f1b237"
+    }
+  ],
+  "preconditions": [
+    {
+      "knowledgeId": "2f9afc51-8dd0-5986-bc3d-9abf3e746db2",
+      "correctSequence": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "mastery": 0.9997696515980421,
+      "evidenceCount": 6,
+      "evidenceWeight": 6
+    },
+    {
+      "knowledgeId": "fe57c1a2-66ba-5fb2-9bbe-fa56db643388",
+      "correctSequence": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "mastery": 0.9997696515980421,
+      "evidenceCount": 6,
+      "evidenceWeight": 6
+    }
+  ]
+}
