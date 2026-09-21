@@ -1,0 +1,20 @@
+{
+  "stage": "G2",
+  "checkedAt": "2026-09-10",
+  "project": "f21-preflight",
+  "tables": 23,
+  "migrations": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "legacyPrepCatalogRows": 1,
+  "questions": 40,
+  "questionSnapshots": 40,
+  "submissionsAtUpgradeCheck": 0,
+  "masteryRowsAtUpgradeCheck": 0,
+  "existingVolumePreserved": true,
+  "testLearningDataIsolated": true
+}
