@@ -1,0 +1,12 @@
+{
+  "reviewDate": "2026-09-10",
+  "scope": "PREDEVELOPMENT_CLOSEOUT_NOT_M0",
+  "containers": {"mysql": "running/healthy", "server": "running", "web": "running"},
+  "directHealth": {"database": "UP", "catalogRows": 1},
+  "proxyHealth": {"database": "UP", "catalogRows": 1},
+  "pythonTests": {"passed": 7, "failed": 0},
+  "openapi": {"valid": true, "responseExamplesPassed": 28, "requestExamplesValid": true},
+  "browser": {"evidence": "ui-smoke.json", "originalRunDate": "2026-09-09", "rerunOnCloseout": false},
+  "trainingRerunOnCloseout": false,
+  "nextGate": "G1: local login, course schema, permissions and offline resources"
+}
