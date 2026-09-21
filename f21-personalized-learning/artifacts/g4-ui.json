@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "verifiedAt": "2026-09-14T06:39:41.225Z",
+  "gitCommit": "0e4b46acb1ec2e169a07495472b30dcc64fdf80e",
+  "project": "f21-g4-ui-ecbef991",
+  "volume": "f21-g4-ui-ecbef991_f21-data",
+  "serverPort": 18097,
+  "webPort": 15197,
+  "browser": "Chrome",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "student": {
+    "login": true,
+    "course": true,
+    "emptyPathNoWrite": true,
+    "generate": true,
+    "resourceViewed": true,
+    "submissionRecovery": true,
+    "pathRounds": true,
+    "historicalReadOnly": true
+  },
+  "admin": {
+    "login": true,
+    "eventsList": true,
+    "statusFilter": true,
+    "catalogActivate": true,
+    "catalogValidationErrors": true,
+    "eventJson": true,
+    "eventCsv": true,
+    "csvRowErrors": true,
+    "compensation": "PENDING_COMPENSATION visible through event status filter",
+    "archiveOnly": true,
+    "rebuildPathJobQuery": true
+  },
+  "pageErrors": [],
+  "consoleErrors": [],
+  "networkErrors": [],
+  "unhandledRejections": [],
+  "quality": {
+    "noBrowserErrors": true,
+    "noSecrets": true,
+    "noHorizontalScroll": true
+  }
+}
