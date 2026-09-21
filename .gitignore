@@ -1,0 +1,12 @@
+tmp/
+output/
+.DS_Store
+**/.venv/
+**/node_modules/
+**/target/
+**/dist/
+**/__pycache__/
+**/.env
+**/artifacts/*.pt
+**/data/raw/
+**/data/processed/
