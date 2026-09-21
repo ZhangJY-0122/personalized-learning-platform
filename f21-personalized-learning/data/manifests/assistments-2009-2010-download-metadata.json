@@ -1,0 +1,15 @@
+{
+  "correctedFileId": "1NNXHFRxcArrU0ZJSb9BIL56vmUt5FhlE",
+  "finalHost": "drive.usercontent.google.com",
+  "contentType": "application/octet-stream",
+  "contentLength": 64412812,
+  "contentDisposition": "attachment; filename=\"skill_builder_data_corrected_collapsed.csv\"",
+  "fileName": "skill_builder_data_corrected_collapsed.csv",
+  "lastModified": "Fri, 15 Nov 2019 15:37:08 GMT",
+  "checkedAt": "2026-09-16T16:12:40Z",
+  "curlVersion": "curl 8.7.1 (x86_64-apple-darwin25.0) libcurl/8.7.1 SecureTransport LibreSSL/3.3.6 zlib/1.2.12 nghttp2/1.68.1",
+  "downloadTool": "curl -L --fail",
+  "rawDataDownloaded": true,
+  "metadataSource": "HEAD response; redirect query parameters and transient headers omitted",
+  "errors": []
+}
