@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "verifiedAt": "2026-09-13T07:35:04.706Z",
+  "desktopViewport": "1440x1000",
+  "lostGenerateResponseSameKey": true,
+  "lostFeedbackResponseSameKey": true,
+  "lostResourceViewSameKey": true,
+  "lostResourceCompletionSameKey": true,
+  "clickRecordedDespiteLostView": true,
+  "questionTrustedAttribution": true,
+  "staleVisible": true,
+  "pageErrors": [],
+  "externalRequests": []
+}
