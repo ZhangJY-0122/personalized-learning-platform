@@ -1,0 +1,182 @@
+{
+  "dataBoundary": {
+    "demoCourseActivityDataType": "SYNTHETIC_DEMO",
+    "formalExperimentsAreOfflineOnly": true,
+    "publicDatasetRedistributed": false,
+    "rawOrReversibleStudentIdentifiersIncluded": false
+  },
+  "evidence": [
+    {
+      "bytes": 19539,
+      "path": "artifacts/g4-acceptance.json",
+      "purpose": "G4 API and recovery regression",
+      "schemaVersion": null,
+      "sha256": "38ff156fe37b35ce0c597217f6954117c82b4cdab776598aa72e83705665026f"
+    },
+    {
+      "bytes": 1112,
+      "path": "artifacts/g4-ui.json",
+      "purpose": "G4 desktop browser regression",
+      "schemaVersion": null,
+      "sha256": "b88a91d78211f40d7fb189838a89aeee5c01239fad49fa1e05fc1b327a2ca222"
+    },
+    {
+      "bytes": 2008,
+      "path": "artifacts/g5-data-license.json",
+      "purpose": "public-data terms and provenance",
+      "schemaVersion": null,
+      "sha256": "d148396e013da54f7e19e4f7c2edcebb568cabdaba97ca6b8b3dcc55579f609c"
+    },
+    {
+      "bytes": 4954,
+      "path": "artifacts/g5-data-profile.json",
+      "purpose": "public-data integrity profile",
+      "schemaVersion": null,
+      "sha256": "41432d5aba86af5eaf6b35374441bc7c4c900de900eb33a7f13763f45b24f865"
+    },
+    {
+      "bytes": 4335,
+      "path": "artifacts/g5-cleaning-report.json",
+      "purpose": "cleaning and anonymization",
+      "schemaVersion": "g5-interaction-v1",
+      "sha256": "f4768f794c747b36e133a0797b03a7a3673e080e52a57cba640b8bb69bb37760"
+    },
+    {
+      "bytes": 4105,
+      "path": "artifacts/g5-split-report.json",
+      "purpose": "leakage-safe ordered split",
+      "schemaVersion": "g5-interaction-v1",
+      "sha256": "d5c20b1ad5c7a9f4f06ee6857a44156e8dc411ba6cb3e3e3028e015635602327"
+    },
+    {
+      "bytes": 6014,
+      "path": "artifacts/g5-bkt-fit.json",
+      "purpose": "BKT parameter fitting",
+      "schemaVersion": "g5-bkt-fit-v1",
+      "sha256": "315473b2dd4c2084d302a5d7cbbebe28ef1568473c729eab4534d482251604d6"
+    },
+    {
+      "bytes": 1172,
+      "path": "artifacts/g5-04-report-validation.json",
+      "purpose": "Rule/BKT/DKT report validation",
+      "schemaVersion": "g5-04-report-validation-v1",
+      "sha256": "5b077bea90a25a1b027f8983abb501b3a08a84844c80d36118c565dccaa372aa"
+    },
+    {
+      "bytes": 19248,
+      "path": "artifacts/g5-kt-comparison.json",
+      "purpose": "Rule/BKT/DKT comparison",
+      "schemaVersion": "g5-kt-comparison-v2",
+      "sha256": "5cb49d977f897110b6a0a3f9cf0d1a74d00355d082b61259857b254de8957e70"
+    },
+    {
+      "bytes": 11495,
+      "path": "artifacts/g5-05-report-validation.json",
+      "purpose": "recommendation report validation",
+      "schemaVersion": "g5-05-report-validation-v1",
+      "sha256": "cb921d69c0bdef3174936dc3f4c11a06d49302fcaee641483dfcf16d6ac27a7e"
+    },
+    {
+      "bytes": 308611,
+      "path": "artifacts/g5-recommendation-comparison.json",
+      "purpose": "five recommendation baselines",
+      "schemaVersion": "g5-recommendation-comparison-v1",
+      "sha256": "48c2b38d1fe88b0e2902c3fee2125b521e07bf667dc078fdb89b2958a257ab0e"
+    },
+    {
+      "bytes": 4347,
+      "path": "artifacts/g5-demo-catalog-validation.json",
+      "purpose": "three-course catalog validation",
+      "schemaVersion": "g5-demo-catalog-validation-v1",
+      "sha256": "5c043238cf1e54f073fdec9883825bf1321b667beedcf19b044ccc5bd172c4c6"
+    },
+    {
+      "bytes": 2519,
+      "path": "artifacts/g5-demo-catalog-import.json",
+      "purpose": "three-course live import",
+      "schemaVersion": "g5-demo-catalog-import-v1",
+      "sha256": "c617f680f2b51cc4ca3dcad86f89657f6b3f3f684e428b58651ab4e1579b14e1"
+    },
+    {
+      "bytes": 2022,
+      "path": "artifacts/g5-07a-contract-validation.json",
+      "purpose": "dashboard contract validation",
+      "schemaVersion": "g5-07a-contract-validation-v2",
+      "sha256": "212f57a53cf4f8e5795f79d67daba2e6a8df673478eb580b0ea9bcdeb4dc8070"
+    },
+    {
+      "bytes": 3002,
+      "path": "artifacts/g5-07b-api-validation.json",
+      "purpose": "dashboard API validation",
+      "schemaVersion": "g5-07b-api-validation-v1",
+      "sha256": "d494d69e49d98e92e85c302d0649e1ae47a9bfd83f45844815d117857de92d1a"
+    },
+    {
+      "bytes": 1525,
+      "path": "artifacts/g5-07c-ui-validation.json",
+      "purpose": "dashboard browser validation",
+      "schemaVersion": "g5-07c-ui-validation-v1",
+      "sha256": "23d45021ad2f07833d6b57f07c6652995666b5aee542313c06c3b7e1de48c756"
+    },
+    {
+      "bytes": 2822,
+      "path": "artifacts/g5-acceptance.json",
+      "purpose": "fresh-volume G5 end-to-end acceptance",
+      "schemaVersion": "g5-acceptance-v1",
+      "sha256": "050237b18770daccfbb3a1822fcbe4cf114268d155fe38d737710d4bbf90c656"
+    }
+  ],
+  "excludedOptionalScope": [
+    "online DKT serving",
+    "SAKT or Transformer models",
+    "advanced collaborative filtering",
+    "class and organization management",
+    "mobile-specific delivery",
+    "external learning-platform integration",
+    "multi-instance production deployment"
+  ],
+  "passed": true,
+  "positioning": "A locally deployable personalized learning platform prototype for three courses, with online BKT state, explainable recommendations, dynamic learning paths, teacher statistics, and an offline experiment dashboard.",
+  "releaseStatus": "READY_FOR_MAIN_MERGE",
+  "requiredScope": {
+    "courses": [
+      "Java",
+      "Data Structures",
+      "Computer Networks"
+    ],
+    "knowledgeTracing": [
+      "Rule",
+      "BKT",
+      "DKT offline comparison"
+    ],
+    "productFlow": [
+      "login",
+      "learn",
+      "answer",
+      "mastery",
+      "weakness",
+      "recommendation",
+      "learning path",
+      "teacher dashboard"
+    ],
+    "recommendationBaselines": [
+      "POPULAR",
+      "CONTENT",
+      "ITEM_CF",
+      "HYBRID_NO_KT",
+      "HYBRID_KT"
+    ]
+  },
+  "schemaVersion": "g5-final-release-manifest-v1",
+  "sourceCommit": "63081f622989993120e00c508b77d1af5e3a1cec",
+  "verification": {
+    "g4ScenariosPassed": 38,
+    "g5CoursesExercised": 3,
+    "g5FreshVolumeHttpChecks": 70,
+    "javaUnitTestsPassed": 49,
+    "openApiExamplesValidated": 44,
+    "pythonUnitTestsPassed": 116,
+    "webProductionBuildPassed": true
+  },
+  "verifiedAt": "2026-09-20T07:15:36Z"
+}
