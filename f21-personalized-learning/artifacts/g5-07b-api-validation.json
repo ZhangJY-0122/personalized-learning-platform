@@ -1,0 +1,112 @@
+{
+  "baseUrl": "http://127.0.0.1:18083/api/v1",
+  "checks": {
+    "authorizationAndInputBoundaries": true,
+    "dktSeedsAreFrozen": true,
+    "experimentArtifactsMatchRegistry": true,
+    "healthDatabaseUp": true,
+    "modelArtifactsMatchRegistry": true,
+    "paginationIsStable": true,
+    "publicAndSyntheticEvidenceSeparated": true,
+    "recommendationMetricNamesExact": true,
+    "recommendationSourceIsSyntheticProductAggregate": true,
+    "successResponsesExcludeSensitiveFields": true,
+    "successResponsesMatchOpenApi": true,
+    "threeVerifiedExperiments": true,
+    "threeVerifiedModels": true,
+    "weaknessUsesFrozenThreshold": true,
+    "weaknessWindowIsUtcAllTime": true
+  },
+  "contractCommit": "f8df4f2bd7efccb0bce39aaf264b2521802bd6f2",
+  "endpointChecks": [
+    {
+      "name": "models",
+      "schema": "ModelsResponse",
+      "status": 200
+    },
+    {
+      "name": "experiments",
+      "schema": "ExperimentsResponse",
+      "status": 200
+    },
+    {
+      "name": "weakness",
+      "schema": "WeaknessStatisticsResponse",
+      "status": 200
+    },
+    {
+      "name": "recommendations",
+      "schema": "RecommendationMetricsResponse",
+      "status": 200
+    },
+    {
+      "code": "UNAUTHORIZED",
+      "name": "anonymous-models",
+      "status": 401
+    },
+    {
+      "code": "FORBIDDEN",
+      "name": "student-models",
+      "status": 403
+    },
+    {
+      "code": "FORBIDDEN",
+      "name": "student-experiments",
+      "status": 403
+    },
+    {
+      "code": "FORBIDDEN",
+      "name": "unscoped-teacher-weakness",
+      "status": 403
+    },
+    {
+      "code": "FORBIDDEN",
+      "name": "unscoped-teacher-recommendations",
+      "status": 403
+    },
+    {
+      "code": "NOT_FOUND",
+      "name": "admin-missing-course",
+      "status": 404
+    },
+    {
+      "code": "INVALID_ARGUMENT",
+      "name": "invalid-page",
+      "status": 400
+    },
+    {
+      "code": "INVALID_ARGUMENT",
+      "name": "oversized-page",
+      "status": 400
+    }
+  ],
+  "failures": [],
+  "implementationCommit": "b1c5b987d0a75afb2cbb2003c84f53f90fa6bd46",
+  "limitations": [
+    "This validation covers the backend API and authorization boundary; browser UI acceptance is deferred to G5-07C/G5-08.",
+    "The local development database can legitimately return documented empty aggregate states."
+  ],
+  "passed": true,
+  "registry": {
+    "artifactCount": 6,
+    "checksumsVerified": true,
+    "relativePath": "data/manifests/g5-dashboard-artifact-registry.json",
+    "sha256": "ddd4311c955e73aba1ddecf37f4d5f0ac40bac324440882f39ddb77cb7908c92"
+  },
+  "requestPolicy": {
+    "infersDuringRequest": false,
+    "recomputesFormalTestDuringRequest": false,
+    "trainsDuringRequest": false
+  },
+  "schemaVersion": "g5-07b-api-validation-v1",
+  "security": {
+    "credentialsRecorded": false,
+    "rawPayloadsRecorded": false,
+    "tokensRecorded": false
+  },
+  "testCounts": {
+    "boundaryResponses": 8,
+    "successfulContractResponses": 4
+  },
+  "verifiedAt": "2026-09-18T01:29:37Z"
+}
