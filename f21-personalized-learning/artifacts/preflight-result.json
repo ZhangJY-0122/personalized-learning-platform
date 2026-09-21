@@ -1,0 +1,84 @@
+{
+  "stage": "ALGORITHM_SPIKE_NOT_APPLICATION",
+  "dataType": "SYNTHETIC_DEMO",
+  "sha256": "2b21b11dc7971bff1bc3eb5c42e713935c48b61e31ea40fe29601217797a84e7",
+  "afterThreeWrong": 0.11453989039925985,
+  "evidenceCount": 3,
+  "weak": true,
+  "finalMastery": 0.999592865872349,
+  "afterRecoveryAdequate": true,
+  "history": [
+    {
+      "eventId": "b7a73193-ccfd-5f58-83c6-fd6a0d79236f",
+      "before": 0.2,
+      "after": 0.1272727272727273
+    },
+    {
+      "eventId": "042bcc3d-3439-5b50-99f1-f3998d5e3875",
+      "before": 0.1272727272727273,
+      "after": 0.11611253196930947
+    },
+    {
+      "eventId": "52644df4-15ab-513b-ab45-44522761138d",
+      "before": 0.11611253196930947,
+      "after": 0.11453989039925985
+    },
+    {
+      "eventId": "eb239246-7085-5741-b84e-45a6e324bd62",
+      "before": 0.11453989039925985,
+      "after": 0.4311371222166339
+    },
+    {
+      "eventId": "89e0dd47-48fb-56d5-a751-78f6bd5d0982",
+      "before": 0.4311371222166339,
+      "after": 0.795942333240393
+    },
+    {
+      "eventId": "446521a0-4fe6-590b-88d8-fa8d4220c25f",
+      "before": 0.795942333240393,
+      "after": 0.9514892521961547
+    },
+    {
+      "eventId": "28166208-8687-5b63-b37e-a9c6ae3f6c14",
+      "before": 0.9514892521961547,
+      "after": 0.9899174291778332
+    },
+    {
+      "eventId": "405da809-0a46-5bde-b838-10d299c8d51c",
+      "before": 0.9899174291778332,
+      "after": 0.9979675473427874
+    },
+    {
+      "eventId": "67da8aa1-0197-5935-9143-21c1e6e85a6a",
+      "before": 0.9979675473427874,
+      "after": 0.999592865872349
+    }
+  ],
+  "recommendation": {
+    "resourceId": "15ed9295-11ee-552e-8153-f797788d0edf",
+    "score": 0.8668991135466831,
+    "components": {
+      "weaknessMatch": 0.7812760657604441,
+      "difficultyMatch": 0.9145398903992599,
+      "contentMatch": 1
+    },
+    "disabledComponents": [
+      "preference: no evidence"
+    ],
+    "reasons": [
+      "循环相关3次作答错误，BKT估计为0.1145",
+      "资源关联循环知识点，标注难度0.2"
+    ]
+  },
+  "topologicalPath": [
+    "2f9afc51-8dd0-5986-bc3d-9abf3e746db2",
+    "fe57c1a2-66ba-5fb2-9bbe-fa56db643388",
+    "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248"
+  ],
+  "activeTargetPath": [
+    "2d5ea4ba-665d-5f13-a3f8-7feeb2a58248"
+  ],
+  "prerequisitesSatisfied": true,
+  "duplicateInvariant": true,
+  "orderInvariant": true
+}
